@@ -217,12 +217,25 @@ document.addEventListener('DOMContentLoaded', ()=>{
       }
     }catch(e){ /* pago en línea no disponible: se sigue por el respaldo */ }
     checkoutBtn.disabled = false;
+    // 1b) Pedido por el backend (Worker): lo guarda y lo envía por correo a
+    // Welux. Si el backend no está configurado (503) o no responde, se sigue
+    // por el respaldo mailto de siempre: ningún pedido se pierde.
+    let pedidoBackend = null;
+    try{
+      const pr = await fetch('./api/pedido', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({items: carrito.map(i=>({id:i.id, cantidad:i.cantidad})), nombre: (usuario && usuario.nombre) || null, telefono: (usuario && usuario.telefono) || null})});
+      if(pr.ok){ pedidoBackend = await pr.json(); }
+    }catch(e){ /* backend no disponible: se sigue por el respaldo */ }
     // 2) Respaldo: el pedido llega a Welux por WhatsApp (si está configurado)
     //    o por correo a info@weluxhub.com, con el resumen y el total.
-    pedidos.unshift({numero, fecha:new Date().toLocaleDateString('es-ES'), items:resumen}); save('welux-orders', pedidos);
+    const numeroFinal = (pedidoBackend && pedidoBackend.numero) || numero;
+    pedidos.unshift({numero: numeroFinal, fecha:new Date().toLocaleDateString('es-ES'), items:resumen}); save('welux-orders', pedidos);
     if(modo==='cliente' && usuario){ usuario.puntos = (usuario.puntos||0) + carrito.reduce((a,i)=>a+i.cantidad,0); save('welux-user', usuario); }
     carrito=[]; save('welux-cart', carrito); render(); renderCarrito();
-    enviarRespaldo(numero);
+    if(pedidoBackend && pedidoBackend.numero){
+      alert('Pedido ' + pedidoBackend.numero + ' registrado. Te confirmamos el precio por correo antes de cobrar nada.');
+    } else {
+      enviarRespaldo(numero);
+    }
   };
   document.getElementById('closeAccount').onclick = ()=>document.getElementById('accountDrawer').classList.remove('open');
   document.getElementById('saveUser').onclick = ()=>{

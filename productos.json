@@ -782,6 +782,141 @@
    "nombre": "Filtro de agua / cartucho para cafetera y horno mixto",
    "precio_minorista": null,
    "unidad": "1 unidad"
+  },
+  {
+   "id": "lampara-escritorio-usb-bigbuy-home",
+   "nombre": "Lámpara de escritorio con puerto USB y carga inalámbrica (BigBuy Home)",
+   "categoria": "iluminacion-horeca",
+   "unidad": "1 unidad",
+   "descripcion": "Lámpara de escritorio moderna con puerto USB integrado y base de carga inalámbrica. Luz cálida regulable para trabajar o estudiar. Plug-and-play. Incluye asesoría de iluminación y guía. Precio a confirmar.",
+   "precio_minorista": null,
+   "imagen": "./img/lampara-escritorio-usb-bigbuy-home.png"
+  },
+  {
+   "id": "lampara-mesa-led-recargable-securit",
+   "nombre": "Lámpara de mesa LED recargable Securit (HORECA)",
+   "categoria": "iluminacion-horeca",
+   "unidad": "1 unidad",
+   "descripcion": "Lámpara de mesa LED recargable sin cable, para restaurantes y terrazas. Marca Securit, habitual en hostelería. Luz cálida, autonomía para el servicio completo. Incluye asesoría y guía de carga. Precio a confirmar.",
+   "precio_minorista": null,
+   "imagen": "./img/lampara-mesa-led-recargable-securit.png"
+  },
+  {
+   "id": "lampara-mesa-tactil-usb-vtac",
+   "nombre": "Lámpara de mesa táctil con USB V-TAC",
+   "categoria": "iluminacion-horeca",
+   "unidad": "1 unidad",
+   "descripcion": "Lámpara de mesa LED moderna con control táctil y puerto USB de carga. Intensidad regulable al tacto. Para mesa de trabajo, recepción o dormitorio. Incluye asesoría y guía. Precio a confirmar.",
+   "precio_minorista": null,
+   "imagen": "./img/lampara-mesa-tactil-usb-vtac.png"
+  },
+  {
+   "id": "monitor-oficina-led-24-bigbuy",
+   "nombre": "Monitor LED de oficina 24\" (BigBuy)",
+   "categoria": "red-oficina",
+   "unidad": "1 unidad",
+   "descripcion": "Monitor LED de 24\" para oficina y teletrabajo. Panel Full HD, marco fino, conexión HDMI. Solo electrónica de oficina, sin muebles. Incluye asesoría de compatibilidad y guía. Precio a confirmar.",
+   "precio_minorista": null,
+   "imagen": "./img/monitor-oficina-led-24-bigbuy.png"
+  },
+  {
+   "id": "soporte-proyector-gembird-cm-b-01",
+   "nombre": "Soporte de techo para proyector Gembird CM-B-01 (hasta 13 kg)",
+   "categoria": "pantallas-av",
+   "unidad": "1 unidad",
+   "descripcion": "Soporte de techo para proyector, brazo telescópico 380–580 mm, hasta 13 kg. Ajuste de inclinación y giro. Incluye asesoría de montaje y guía. Precio a confirmar.",
+   "precio_minorista": null,
+   "imagen": "./img/soporte-proyector-gembird-cm-b-01.png"
+  },
+  {
+   "id": "soporte-proyector-aisens-cp02tsre-051",
+   "nombre": "Soporte de techo para proyector Aisens CP02TSRE-051 (hasta 20 kg)",
+   "categoria": "pantallas-av",
+   "unidad": "1 unidad",
+   "descripcion": "Soporte de techo para proyector, brazo telescópico 575–825 mm, hasta 20 kg. Para proyectores grandes de sala y aula. Incluye asesoría de montaje y guía. Precio a confirmar.",
+   "precio_minorista": null,
+   "imagen": "./img/soporte-proyector-aisens-cp02tsre-051.png"
+  },
+  {
+   "id": "soporte-proyector-maclean-mc-945",
+   "nombre": "Soporte de pared para proyector MacLean MC-945 (hasta 15 kg)",
+   "categoria": "pantallas-av",
+   "unidad": "1 unidad",
+   "descripcion": "Soporte de pared para proyector, brazo articulado, hasta 15 kg. Para salas pequeñas y oficinas. Incluye asesoría de montaje y guía. Precio a confirmar.",
+   "precio_minorista": null,
+   "imagen": "./img/soporte-proyector-maclean-mc-945.png"
+  },
+  {
+   "id": "proyector-wanbo-full-hd",
+   "nombre": "Proyector Wanbo Full HD",
+   "categoria": "pantallas-av",
+   "unidad": "1 unidad",
+   "descripcion": "Proyector compacto Full HD para casa, oficina y eventos pequeños. Imagen nítida hasta 100\". Plug-and-play. Incluye asesoría y guía de uso. Precio a confirmar.",
+   "precio_minorista": null,
+   "imagen": "./img/proyector-wanbo-full-hd.png"
+  },
+  {
+   "id": "pantalla-proyeccion-vidaxl-enrollable-16-9",
+   "nombre": "Pantalla de proyección enrollable vidaXL 16:9",
+   "categoria": "pantallas-av",
+   "unidad": "1 unidad",
+   "descripcion": "Pantalla de proyección enrollable 16:9, carcasa metálica blanca para pared o techo. Superficie mate antirreflejos. Incluye asesoría y guía de montaje. Precio a confirmar.",
+   "precio_minorista": null,
+   "imagen": "./img/pantalla-proyeccion-vidaxl-enrollable-16-9.png"
+  },
+  {
+   "id": "pantalla-proyeccion-tripode-vidaxl-81",
+   "nombre": "Pantalla de proyección con trípode vidaXL 81\" 1:1",
+   "categoria": "pantallas-av",
+   "unidad": "1 unidad",
+   "descripcion": "Pantalla de proyección con trípode, formato 1:1 de 81\". Plegable y transportable, para presentaciones y eventos. Incluye asesoría y guía. Precio a confirmar.",
+   "precio_minorista": null,
+   "imagen": "./img/pantalla-proyeccion-tripode-vidaxl-81.png"
+  },
+  {
+   "id": "simulador-golf-celexon-fairway",
+   "nombre": "Simulador de golf celexon FAIRWAY Professional",
+   "categoria": "pantallas-av",
+   "unidad": "1 unidad",
+   "descripcion": "Simulador de golf profesional: estructura con pantalla de impacto multicapa 4K e ignífuga B1, 2,6×2,5×1,5 m. Producto de nicho por distribuidor especializado (no dropshipping general); el proyector y el software se venden aparte. Incluye asesoría completa. Precio a confirmar.",
+   "precio_minorista": null,
+   "imagen": "./img/simulador-golf-celexon-fairway.png"
+  },
+  {
+   "id": "menu-board-led-convex",
+   "nombre": "Menú board LED «Convex» VKF Renzel",
+   "categoria": "menu-boards",
+   "unidad": "1 unidad",
+   "descripcion": "Caja de luz LED para menú de restaurante, marco de aluminio, panel iluminado uniforme. Para interior. Incluye asesoría y guía de montaje. Precio a confirmar.",
+   "precio_minorista": null,
+   "imagen": "./img/menu-board-led-convex.png"
+  },
+  {
+   "id": "menu-board-led-simple",
+   "nombre": "Marco LED doble cara «Simple» VKF Renzel",
+   "categoria": "menu-boards",
+   "unidad": "1 unidad",
+   "descripcion": "Marco LED doble cara para menú, marco de aluminio, dos caras iluminadas. Para interior y escaparate. Incluye asesoría y guía de montaje. Precio a confirmar.",
+   "precio_minorista": null,
+   "imagen": "./img/menu-board-led-simple.png"
+  },
+  {
+   "id": "menu-board-led-box",
+   "nombre": "Muro LED «LED BOX™» VKF Renzel",
+   "categoria": "menu-boards",
+   "unidad": "1 unidad",
+   "descripcion": "Muro LED de gran formato para menú y señalización, panel iluminado uniforme, perfil fino. Para interior. Incluye asesoría y guía de montaje. Precio a confirmar.",
+   "precio_minorista": null,
+   "imagen": "./img/menu-board-led-box.png"
+  },
+  {
+   "id": "menu-board-plegable-pano",
+   "nombre": "Pared plegable LED «Pano» VKF Renzel",
+   "categoria": "menu-boards",
+   "unidad": "1 unidad",
+   "descripcion": "Pared plegable LED para menú y señalización, paneles articulados que se abren tipo menú. Para interior y escaparate. Incluye asesoría y guía. Precio a confirmar.",
+   "precio_minorista": null,
+   "imagen": "./img/menu-board-plegable-pano.png"
   }
  ]
 }
