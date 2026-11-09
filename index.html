@@ -114,6 +114,21 @@
   <p data-i18n="footer_p1">Welux Store · Welux Digital Services SARL-S · Luxembourg</p>
   <p><span data-i18n="footer_p2">Contact: </span><a href="mailto:info@weluxhub.com">info@weluxhub.com</a></p>
 </footer>
+<div id="orderModal" class="orderModal" role="dialog" aria-modal="true" aria-labelledby="orderTitle" style="display:none">
+  <div class="orderCard">
+    <h2 id="orderTitle" data-i18n="order_title">Your order</h2>
+    <p id="orderProductLine"></p>
+    <form id="orderForm">
+      <label><span data-i18n="order_name">Your name</span><br><input id="orderName" type="text" required autocomplete="name"></label>
+      <label><span data-i18n="order_email">Your email</span><br><input id="orderEmail" type="email" required autocomplete="email"></label>
+      <label><span data-i18n="order_qty">Quantity</span><br><input id="orderQty" type="number" min="1" value="1" required></label>
+      <label><span data-i18n="order_message">Message (optional)</span><br><textarea id="orderMsg" rows="3"></textarea></label>
+      <p style="font-size:13px;color:#565959" data-i18n="order_note">Your email app will open with the order ready to send to Welux. We confirm the price and delivery before charging anything.</p>
+      <button type="submit" class="add" data-i18n="order_send">Send order</button>
+      <button type="button" class="add" id="orderCancel" style="background:#fff" data-i18n="order_cancel">Cancel</button>
+    </form>
+  </div>
+</div>
 <script src="app.js"></script>
 </body>
 </html>

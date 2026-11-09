@@ -20,6 +20,11 @@ let I18N = null;
 let LANG = 'en';
 const LANGS = ['en', 'fr', 'es', 'pt'];
 const LOCALES = { en: 'en-GB', fr: 'fr-FR', es: 'es-ES', pt: 'pt-PT' };
+// Productos BigBuy pedibles con formulario de contacto (decisión del dueño
+// 09/11/2026): se quedan con precio de mercado Y se pueden pedir; Welux los
+// gestiona a mano con el proveedor. Solo estos 5 llevan botón de pedir.
+const BIGBUY_ORDERABLE = ['soporte-proyector-gembird-cm-b-01', 'soporte-proyector-aisens-cp02tsre-051', 'soporte-proyector-maclean-mc-945', 'proyector-wanbo-full-hd', 'lampara-escritorio-usb-bigbuy-home'];
+let pedidoProducto = null; // id del producto del formulario de pedido abierto
 let categoria = 'todos';
 let busqueda = '';
 let sortMode = 'relevancia';
@@ -111,6 +116,7 @@ function render(){
         <span style="cursor:pointer" onclick="valorar('${c.id}',1)">★</span><span style="cursor:pointer" onclick="valorar('${c.id}',2)">★</span><span style="cursor:pointer" onclick="valorar('${c.id}',3)">★</span><span style="cursor:pointer" onclick="valorar('${c.id}',4)">★</span><span style="cursor:pointer" onclick="valorar('${c.id}',5)">★</span>
       </div>
       <button class="add" onclick="agregar('${c.id}')">${esc(t('add_to_cart'))}</button>
+      ${BIGBUY_ORDERABLE.includes(c.id) ? `<button class="add orderBtn" onclick="abrirPedido('${c.id}')">${esc(t('order_button'))}</button>` : ''}
       <button class="add" style="background:#fff" onclick="toggleFav('${c.id}')">${esc(favoritos.includes(c.id) ? t('in_fav_remove') : t('save_fav'))}</button>
     </article>`).join('') || '<p>' + esc(t('no_results')) + '</p>';
   renderCarrito(); renderWish(); renderAccount();
@@ -128,6 +134,42 @@ function enviarRespaldo(numero){
   } else {
     location.href = 'mailto:' + CONTACTO_EMAIL + '?subject=' + encodeURIComponent(t('order_subject', {num: numero})) + '&body=' + encodeURIComponent(texto);
   }
+}
+// --- Formulario de pedido (solo productos BigBuy) ---
+function lineaPedido(){
+  if(!pedidoProducto) return;
+  const c = PRODUCTOS.find(x=>x.id===pedidoProducto); if(!c) return;
+  const precio = c.precio_minorista==null ? t('price_to_confirm') : fmtEUR(c.precio_minorista);
+  const el = document.getElementById('orderProductLine');
+  if(el) el.innerHTML = '<strong>' + esc(t('order_product')) + ':</strong> ' + esc(prodNombre(c)) + ' — ' + esc(precio);
+}
+function abrirPedido(id){
+  const c = PRODUCTOS.find(x=>x.id===id); if(!c) return;
+  pedidoProducto = id;
+  const n = document.getElementById('orderName'); if(n && usuario && usuario.nombre) n.value = usuario.nombre;
+  const q = document.getElementById('orderQty'); if(q) q.value = 1;
+  const m = document.getElementById('orderMsg'); if(m) m.value = '';
+  lineaPedido();
+  const modal = document.getElementById('orderModal'); if(modal) modal.style.display = 'flex';
+}
+function cerrarPedido(){
+  pedidoProducto = null;
+  const modal = document.getElementById('orderModal'); if(modal) modal.style.display = 'none';
+}
+function enviarPedido(e){
+  e.preventDefault();
+  const c = PRODUCTOS.find(x=>x.id===pedidoProducto); if(!c) return;
+  const nombre = document.getElementById('orderName').value.trim();
+  const correo = document.getElementById('orderEmail').value.trim();
+  const cantidad = Math.max(1, parseInt(document.getElementById('orderQty').value, 10) || 1);
+  const mensaje = document.getElementById('orderMsg').value.trim();
+  if(!nombre) return alert(t('order_alert_name'));
+  if(!correo || !correo.includes('@')) return alert(t('order_alert_email'));
+  const precio = c.precio_minorista==null ? t('price_to_confirm') : fmtEUR(c.precio_minorista);
+  const asunto = t('order_form_subject', {product: prodNombre(c)});
+  const cuerpo = t('order_mail_body', {product: prodNombre(c), price: precio, qty: String(cantidad), name: nombre, email: correo, message: mensaje || '—'});
+  cerrarPedido();
+  location.href = 'mailto:' + CONTACTO_EMAIL + '?subject=' + encodeURIComponent(asunto) + '&body=' + encodeURIComponent(cuerpo);
 }
 function renderCarrito(){
   const el = document.getElementById('cartItems'); if(!el) return;
@@ -207,6 +249,7 @@ function applyLanguage(){
   const lbl = document.getElementById('langBtnLabel'); if(lbl) lbl.textContent = LANG.toUpperCase();
   const sel = document.getElementById('langSel'); if(sel) sel.value = LANG;
   document.querySelectorAll('#langMenu button[data-lang]').forEach(b=>b.classList.toggle('active', b.dataset.lang===LANG));
+  if(pedidoProducto) lineaPedido(); // el producto del formulario, en el idioma nuevo
 }
 function setLang(lang){
   if(!LANGS.includes(lang)) return;
@@ -320,6 +363,14 @@ document.addEventListener('DOMContentLoaded', ()=>{
   document.getElementById('logoutUser').onclick = ()=>{ modo='visitante'; save('welux-mode', modo); renderAccount(); document.getElementById('accountDrawer').classList.remove('open'); };
   document.getElementById('visitorBtn').onclick = ()=>{ modo='visitante'; save('welux-mode', modo); renderAccount(); alert(t('alert_visitor')); };
   document.getElementById('closeWish').onclick = ()=>document.getElementById('wishDrawer').classList.remove('open');
+  // Formulario de pedido (productos BigBuy): modal + envío por correo.
+  const orderForm = document.getElementById('orderForm');
+  if(orderForm) orderForm.addEventListener('submit', enviarPedido);
+  const orderCancel = document.getElementById('orderCancel');
+  if(orderCancel) orderCancel.onclick = cerrarPedido;
+  const orderModal = document.getElementById('orderModal');
+  if(orderModal) orderModal.addEventListener('click', e=>{ if(e.target===orderModal) cerrarPedido(); });
+  document.addEventListener('keydown', e=>{ if(e.key==='Escape') cerrarPedido(); });
   document.getElementById('themeSel').onchange = aplicarAjustes;
   document.getElementById('textSel').onchange = aplicarAjustes;
   document.getElementById('sortSel').onchange = e=>{ sortMode=e.target.value; render(); };

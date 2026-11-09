@@ -722,6 +722,90 @@
         "1 pack (2 unidades)": "1 pack (2 unidades)",
         "1 junta": "1 junta"
       }
+    },
+    "order_button": {
+      "en": "Order this product",
+      "fr": "Commander ce produit",
+      "es": "Pedir este producto",
+      "pt": "Encomendar este produto"
+    },
+    "order_title": {
+      "en": "Your order",
+      "fr": "Votre commande",
+      "es": "Tu pedido",
+      "pt": "A sua encomenda"
+    },
+    "order_product": {
+      "en": "Product",
+      "fr": "Produit",
+      "es": "Producto",
+      "pt": "Produto"
+    },
+    "order_name": {
+      "en": "Your name",
+      "fr": "Votre nom",
+      "es": "Tu nombre",
+      "pt": "O seu nome"
+    },
+    "order_email": {
+      "en": "Your email",
+      "fr": "Votre e-mail",
+      "es": "Tu correo",
+      "pt": "O seu e-mail"
+    },
+    "order_qty": {
+      "en": "Quantity",
+      "fr": "Quantité",
+      "es": "Cantidad",
+      "pt": "Quantidade"
+    },
+    "order_message": {
+      "en": "Message (optional)",
+      "fr": "Message (facultatif)",
+      "es": "Mensaje (opcional)",
+      "pt": "Mensagem (opcional)"
+    },
+    "order_send": {
+      "en": "Send order",
+      "fr": "Envoyer la commande",
+      "es": "Enviar pedido",
+      "pt": "Enviar encomenda"
+    },
+    "order_cancel": {
+      "en": "Cancel",
+      "fr": "Annuler",
+      "es": "Cancelar",
+      "pt": "Cancelar"
+    },
+    "order_note": {
+      "en": "Your email app will open with the order ready to send to Welux. We confirm the price and delivery before charging anything.",
+      "fr": "Votre application e-mail s'ouvrira avec la commande prête à envoyer à Welux. Nous confirmons le prix et la livraison avant tout paiement.",
+      "es": "Se abrirá tu aplicación de correo con el pedido listo para enviar a Welux. Confirmamos el precio y la entrega antes de cobrar nada.",
+      "pt": "A sua aplicação de e-mail abrirá com a encomenda pronta a enviar à Welux. Confirmamos o preço e a entrega antes de cobrar seja o que for."
+    },
+    "order_form_subject": {
+      "en": "Order — {product}",
+      "fr": "Commande — {product}",
+      "es": "Pedido — {product}",
+      "pt": "Encomenda — {product}"
+    },
+    "order_mail_body": {
+      "en": "Hello Welux,\n\nI would like to order:\n\nProduct: {product}\nPrice: {price}\nQuantity: {qty}\n\nName: {name}\nEmail: {email}\n\nMessage:\n{message}\n\nPlease confirm the price and delivery. Thank you!",
+      "fr": "Bonjour Welux,\n\nJe souhaite commander :\n\nProduit : {product}\nPrix : {price}\nQuantité : {qty}\n\nNom : {name}\nE-mail : {email}\n\nMessage :\n{message}\n\nMerci de confirmer le prix et la livraison. Merci !",
+      "es": "Hola Welux,\n\nQuiero pedir:\n\nProducto: {product}\nPrecio: {price}\nCantidad: {qty}\n\nNombre: {name}\nCorreo: {email}\n\nMensaje:\n{message}\n\nPor favor, confirmen el precio y la entrega. ¡Gracias!",
+      "pt": "Olá Welux,\n\nQuero encomendar:\n\nProduto: {product}\nPreço: {price}\nQuantidade: {qty}\n\nNome: {name}\nE-mail: {email}\n\nMensagem:\n{message}\n\nPor favor confirmem o preço e a entrega. Obrigado!"
+    },
+    "order_alert_name": {
+      "en": "Please write your name.",
+      "fr": "Veuillez écrire votre nom.",
+      "es": "Escribe tu nombre, por favor.",
+      "pt": "Escreva o seu nome, por favor."
+    },
+    "order_alert_email": {
+      "en": "Please write a valid email address.",
+      "fr": "Veuillez écrire une adresse e-mail valide.",
+      "es": "Escribe un correo válido, por favor.",
+      "pt": "Escreva um endereço de e-mail válido, por favor."
     }
   },
   "products": {

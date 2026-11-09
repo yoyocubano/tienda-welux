@@ -83,3 +83,14 @@ nav button:hover{transform:translateY(-1px);box-shadow:0 3px 8px rgba(19,26,34,.
   .card,.card img,.add,nav button,#waFloat,.menuBtn{transition:none}
   .card:hover,.add:hover,nav button:hover,#waFloat:hover,.menuBtn:hover{transform:none}
 }
+
+/* ===== Formulario de pedido (productos BigBuy) ===== */
+.orderBtn{background:var(--accent);border-color:var(--accent)}
+.orderModal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;align-items:flex-start;justify-content:center;z-index:70;padding:20px;overflow:auto}
+.orderCard{background:#fff;border-radius:12px;padding:22px;max-width:480px;width:100%;margin:auto;box-shadow:0 12px 40px rgba(0,0,0,.3)}
+.orderCard h2{margin:0 0 10px;font-size:20px}
+.orderCard label{display:block;font-size:14px;color:var(--muted);margin-bottom:12px}
+.orderCard input,.orderCard textarea{width:100%;padding:10px;margin-top:5px;border:1px solid rgba(19,26,34,.18);border-radius:8px;font:inherit;color:inherit;background:#fff}
+.orderCard .add{display:block;width:100%;margin-bottom:9px;text-align:center}
+body.dark .orderCard{background:#1e2a36;color:#eee}
+body.dark .orderCard input,body.dark .orderCard textarea{background:#131a22;color:#eee}
