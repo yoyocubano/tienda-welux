@@ -1,0 +1,75 @@
+/* Tienda Welux — estilo limpio tipo weluxhub.com (clon de La Mesita, 09/11/2026).
+   Nada de naranjas de Amazon: barra azul marino, fondo claro, tarjetas
+   blancas con sombra suave, botones redondeados. */
+:root{--nav:#14213d;--nav2:#1f3350;--accent:#0e7c6b;--accent2:#ffcf3f;--bg:#f7f7f7;--card:#fff;--text:#1a1a1a;--muted:#565959;--price:#14213d;--green:#067d62}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text)}
+a{color:#0e7c6b;text-decoration:none}a:hover{text-decoration:underline}
+header{background:var(--nav);color:#fff;padding:12px 16px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.logo{font-weight:800;font-size:20px;line-height:1.1}.logo small{display:block;font-weight:400;font-size:12px;color:#c8d0dc}
+.search{flex:1;display:flex;min-width:260px}.search input{flex:1;padding:11px 14px;border:0;border-radius:24px 0 0 24px;font-size:15px}.search button{background:var(--accent2);border:0;padding:0 18px;border-radius:0 24px 24px 0;font-size:16px;cursor:pointer;color:#14213d;font-weight:700}
+.cart{background:var(--accent2);color:#14213d;border:0;border-radius:20px;padding:9px 16px;font-weight:700;cursor:pointer}
+nav{background:var(--nav2);color:#fff;padding:8px 16px;display:flex;gap:18px;flex-wrap:wrap;font-size:14px}nav button{background:none;border:0;color:#fff;cursor:pointer;font-size:14px}nav button.active{font-weight:800;text-decoration:underline}
+main{max-width:1200px;margin:0 auto;padding:16px}
+.hero{display:grid;grid-template-columns:1fr;gap:16px;margin-bottom:16px}
+.hero-text{background:#fff;padding:28px;border-radius:12px}.hero-text h1{margin:0 0 8px;font-size:32px;line-height:1.15}.hero-text p{color:var(--muted);line-height:1.5}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.card{background:var(--card);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:8px}.card img{width:100%;aspect-ratio:1/1;object-fit:contain;background:#f2f4f6;border-radius:8px;padding:8px}
+.card h3{margin:0;font-size:16px}.card p{margin:0;color:var(--muted);font-size:14px;line-height:1.4}
+.price{font-size:22px;font-weight:800;color:var(--price)}.old{color:var(--muted);text-decoration:line-through;font-size:14px}.badge{background:#cc0c39;color:#fff;padding:2px 7px;border-radius:3px;font-size:12px;font-weight:700}
+.stock{color:var(--green);font-size:14px}.stock.out{color:#b12704}
+.add{background:var(--nav);color:#fff;border:1px solid var(--nav);border-radius:24px;padding:11px;cursor:pointer;font-weight:700;box-shadow:0 1px 2px rgba(0,0,0,.15)}.add:disabled{opacity:.5;cursor:not-allowed}
+.drawer{position:fixed;right:0;top:0;bottom:0;width:340px;max-width:90vw;background:#fff;box-shadow:-4px 0 20px rgba(0,0,0,.25);padding:18px;overflow:auto;transform:translateX(105%);transition:.2s}.drawer.open{transform:none}
+section.info{background:#fff;border-radius:12px;padding:20px;margin-top:16px;line-height:1.6}footer{background:var(--nav);color:#ddd;text-align:center;padding:20px;margin-top:24px;font-size:14px}footer h2{color:#fff;margin-top:0}footer p{max-width:640px;margin:12px auto;line-height:1.5}footer a{color:#ffcf3f}
+.notice{background:#fff8e1;border:1px solid #ffe08a;border-radius:12px;padding:12px 16px;margin-bottom:16px}
+.settingsbar{background:#fff;padding:10px 16px;display:flex;gap:14px;flex-wrap:wrap;align-items:center;font-size:14px;border-bottom:1px solid #ddd}
+.settingsbar select,.settingsbar button{padding:6px;border-radius:6px;border:1px solid #ccc;background:#fff;cursor:pointer}
+body.dark{background:#131a22;color:#eee}body.dark .card,body.dark .hero-text,body.dark section.info,body.dark .settingsbar{background:#1e2a36;color:#eee}body.dark .card p{color:#ccc}body.dark .drawer{background:#1e2a36;color:#eee}
+body.bigtext{font-size:18px}body.bigtext .card p{font-size:16px}
+
+#waFloat{position:fixed;right:18px;bottom:18px;background:var(--accent);color:#fff;padding:14px 20px;border-radius:30px;font-weight:800;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.3);z-index:50}
+
+.menuBtn{background:#fff;color:#14213d;border:0;border-radius:8px;padding:12px 14px;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:10px;min-height:48px;touch-action:manipulation}
+.hamburger{display:flex;flex-direction:column;gap:5px}
+.hamburger span{display:block;width:22px;height:3px;background:#14213d;border-radius:2px}
+.backdrop{position:fixed;inset:0;background:rgba(0,0,0,.4);display:none;z-index:40}
+.backdrop.show{display:block}
+.drawer{z-index:50}
+#menuDrawer button,#menuDrawer a{min-height:48px;padding:12px}
+#menuDrawer button,#menuDrawer a{margin-bottom:10px;width:100%}
+#menuDrawer select{width:100%;padding:8px;margin-top:4px}
+
+#menuDrawer{touch-action:pan-y}
+
+/* ===== Capa de efectos: elevacion, hover y menu refinado ===== */
+:root{--sombra-suave:0 1px 3px rgba(19,26,34,.08),0 4px 14px rgba(19,26,34,.07);
+      --sombra-hover:0 6px 12px rgba(19,26,34,.12),0 16px 34px rgba(19,26,34,.16)}
+.card{border:1px solid rgba(19,26,34,.07);box-shadow:var(--sombra-suave);
+  transition:transform .25s ease,box-shadow .25s ease}
+.card:hover{transform:translateY(-4px);box-shadow:var(--sombra-hover)}
+.card img{transition:transform .35s ease}
+.card:hover img{transform:scale(1.045)}
+.notice,section.info,.hero{box-shadow:var(--sombra-suave);border:1px solid rgba(19,26,34,.06)}
+.add{transition:transform .15s ease,box-shadow .15s ease,background .15s ease}
+.add:hover{transform:translateY(-1px);box-shadow:0 4px 10px rgba(19,26,34,.18)}
+.add:active{transform:translateY(0) scale(.98)}
+nav button{transition:all .18s ease}
+nav button:hover{transform:translateY(-1px);box-shadow:0 3px 8px rgba(19,26,34,.15)}
+#waFloat{box-shadow:0 6px 18px rgba(14,124,107,.45);transition:transform .2s ease,box-shadow .2s ease}
+#waFloat:hover{transform:translateY(-2px) scale(1.03);box-shadow:0 10px 24px rgba(14,124,107,.5)}
+/* Menu (cajones) mas profesional por dentro */
+.drawer{padding:24px 22px}
+.drawer h2{margin:0 0 14px;padding-bottom:10px;border-bottom:2px solid rgba(19,26,34,.09);
+  font-size:19px;letter-spacing:.2px}
+.drawer h3{margin:20px 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:1.2px;color:var(--muted)}
+.drawer .add{display:block;width:100%;text-align:center;margin:0 0 9px;border-radius:10px;padding:11px}
+.drawer label{font-size:14px;color:var(--muted)}
+.drawer select,.drawer input[type="text"],.drawer input:not([type="checkbox"]){
+  width:100%;padding:9px 10px;margin-top:5px;border:1px solid rgba(19,26,34,.18);
+  border-radius:8px;background:transparent;color:inherit;font:inherit}
+.drawer input[type="checkbox"]{width:auto;margin-right:6px;accent-color:var(--accent2)}
+.menuBtn{transition:all .18s ease}
+.menuBtn:hover{box-shadow:0 3px 8px rgba(19,26,34,.18);transform:translateY(-1px)}
+@media (prefers-reduced-motion: reduce){
+  .card,.card img,.add,nav button,#waFloat,.menuBtn{transition:none}
+  .card:hover,.add:hover,nav button:hover,#waFloat:hover,.menuBtn:hover{transform:none}
+}

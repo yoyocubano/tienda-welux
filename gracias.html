@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¡Gracias por tu compra! — Tienda Welux</title>
+<link rel="icon" type="image/svg+xml" href="./img/logo-welux.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main style="max-width:640px;margin:0 auto;padding:48px 20px;text-align:center">
+  <img src="./img/logo-welux.svg" alt="Welux Digital Services" style="width:180px;object-fit:contain">
+  <h1>¡Gracias por tu compra!</h1>
+  <p>Tu pago se completó en línea. Te contactaremos por el teléfono que dejaste
+     en el pago para coordinar la entrega en Luxemburgo.</p>
+  <p>Si necesitas cualquier cosa, escríbenos a
+     <a href="mailto:info@weluxhub.com">info@weluxhub.com</a>.</p>
+  <p style="margin-top:32px"><a href="./">Volver a la tienda</a></p>
+</main>
+<script>
+  // La compra ya se pagó: la cesta queda vacía para la próxima visita.
+  try { localStorage.removeItem('welux-cart'); } catch (e) {}
+</script>
+</body>
+</html>

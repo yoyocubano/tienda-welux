@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tienda Welux — Welux Digital Services</title>
+<meta name="description" content="Tienda Welux: material técnico y smart home plug-and-play en Luxemburgo. Cada producto incluye asesoría y guía. Pago en euros.">
+<link rel="icon" type="image/svg+xml" href="./img/logo-welux.svg">
+<meta property="og:title" content="Tienda Welux — Welux Digital Services">
+<meta property="og:description" content="Material técnico y smart home plug-and-play en Luxemburgo. Asesoría y guía incluidas en cada producto.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Tienda Welux — Welux Digital Services">
+<meta name="twitter:description" content="Material técnico y smart home plug-and-play en Luxemburgo. Asesoría y guía incluidas en cada producto.">
+<link rel="stylesheet" href="styles.css?v=20261109-welux">
+</head>
+<body>
+<header>
+  <div class="logo"><img src="./img/logo-welux.svg" alt="Welux Digital Services" style="height:40px;vertical-align:middle"><small>Tienda en línea · Luxemburgo</small></div>
+  <div class="search"><input id="q" placeholder="Buscar productos…" aria-label="Buscar productos"><button id="searchBtn" aria-label="Buscar">Buscar</button></div>
+  <button class="menuBtn" id="menuBtn" aria-label="Menú"><span class="hamburger" aria-hidden="true"><span></span><span></span><span></span></span> Menú</button>
+</header>
+<div id="menuBackdrop" class="backdrop" aria-hidden="true"></div>
+<aside class="drawer" id="menuDrawer" aria-label="Menú">
+  <h2>Menú</h2>
+  <button class="add" id="accountBtn"><span id="accountLabel">Cliente Welux</span></button>
+  <button class="add" id="visitorBtn" style="background:#fff">Visitante</button>
+  <button class="add" id="wishBtn" style="background:#fff">Favoritos (<span id="wishCount">0</span>)</button>
+  <button class="add" id="cartBtn">Cesta (<span id="cartCount">0</span>)</button>
+  <h3>Ajustes</h3>
+  <label>Tema <select id="themeSel"><option value="claro">Claro</option><option value="oscuro">Oscuro</option></select></label><br><br>
+  <label>Texto <select id="textSel"><option value="normal">Normal</option><option value="grande">Grande</option></select></label><br><br>
+  <label>Idioma <select id="langSel"><option value="es">Español</option></select></label><br><br>
+  <label>Ordenar <select id="sortSel"><option value="relevancia">Relevancia</option><option value="az">Nombre A-Z</option><option value="za">Nombre Z-A</option></select></label><br><br>
+  <label><input type="checkbox" id="onlyFav"> Solo favoritos</label><br><br>
+  <button class="add" id="clearDataBtn" style="background:#fff">Borrar mis datos</button>
+  <p><span id="modeLabel">Modo: Visitante</span></p>
+  <button class="add" id="closeMenu" style="background:#fff">Cerrar menú</button>
+</aside>
+<nav aria-label="Categorías">
+  <button data-cat="todos" class="active">Todos</button>
+  <button data-cat="energia">Energía</button>
+  <button data-cat="persianas-calefaccion">Persianas y calefacción</button>
+  <button data-cat="smart-home">Smart home</button>
+  <button data-cat="pantallas-av">Pantallas y AV</button>
+  <button data-cat="red-oficina">Red y oficina</button>
+  <button data-cat="jardin">Jardín</button>
+  <button data-cat="limpieza-profesional">Limpieza profesional</button>
+  <button data-cat="herramientas-tecnica">Herramientas y técnica</button>
+  <button data-cat="repuestos-horeca">Repuestos HORECA</button>
+  <button data-cat="guias">Guías PDF</button>
+</nav>
+<main>
+  <div class="notice"><strong>Tienda Welux:</strong> material técnico y smart home plug-and-play en Luxemburgo. Cada producto incluye la asesoría y la guía: tú lo instalas o lo instala un tercero. Los precios están a confirmar: pide tu pedido y te confirmamos el precio por WhatsApp o correo antes de pagar nada. Moneda: euros (EUR). Pago en línea con tarjeta cuando esté activado; mientras tanto, pedido por WhatsApp o correo.</div>
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Producto + asesoría, sin hacer el trabajo.</h1>
+      <p>Tienda Welux vende el dispositivo, el consejo y la guía. Tú lo montas con la guía, o lo monta un tercero. Sin cableado fijo, sin obra: todo plug-and-play, enchufe y app.</p>
+      <p><strong>Producto estrella:</strong> kit solar de balcón 799 W — hasta 799 W se enchufa sin declaración ni aprobación en Luxemburgo. <strong>Cuenta:</strong> cliente Welux con puntos y pedidos · <strong>Visitante:</strong> compra sin registro · <strong>Favoritos:</strong> guarda lo que te gusta con el corazón.</p>
+    </div>
+  </div>
+  <p id="count"></p>
+  <p style="font-size:13px;color:#565959;margin:4px 0 10px">Las imágenes de los productos son ilustrativas y de referencia: las fotos reales de cada producto están pendientes.</p>
+  <div class="grid" id="grid"></div>
+  <section class="info">
+    <h2>Cómo comprar aquí</h2>
+    <p>1. Busca, filtra por categoría u ordena por nombre. 2. Valora con estrellas, guarda en favoritos y añade a la cesta. 3. Confirma tu pedido: si el precio está confirmado, pagas en línea con tarjeta (Stripe); si está a confirmar, el pedido sale por WhatsApp o correo y te confirmamos el precio antes de cobrar nada. Si eres cliente Welux, cada pedido te suma puntos y queda guardado en Mis pedidos.</p>
+    <h2>Qué incluye cada producto</h2>
+    <p>El dispositivo + la asesoría (qué comprar, compatibilidad, qué potencia) + la guía paso a paso. Welux no hace la instalación: la haces tú con la guía o la hace un tercero. Nada de cableado fijo ni de tocar el cuadro eléctrico.</p>
+    <h2>Servicios digitales y plataforma Hogar</h2>
+    <p>Además de la tienda: invitaciones digitales, chatbots de WhatsApp, automatización con IA, CRM, acompañamiento digital y vídeos y fotos para bienes raíces. Y próximamente la plataforma Hogar (limpieza, cuidados domésticos, babysitting, pet sitting y compañía de adultos, sin medicina): Welux conecta cliente con prestador, no emplea ni hace el trabajo. Para todo eso, escríbenos a <a href="mailto:info@weluxhub.com">info@weluxhub.com</a>.</p>
+    <h2>Quiénes somos</h2>
+    <p>Welux Digital Services SARL-S, Luxemburgo. Venta de material técnico y audiovisual, servicios digitales y acompañamiento. Contacto: <a href="mailto:info@weluxhub.com">info@weluxhub.com</a>.</p>
+  </section>
+</main>
+<aside class="drawer" id="drawer" aria-label="Cesta">
+  <h2>Tu cesta</h2>
+  <div id="cartItems"></div>
+  <p id="cartTotal"></p>
+  <button class="add" id="checkout">Confirmar pedido</button>
+  <button class="add" id="clearCart" style="background:#fff">Vaciar cesta</button>
+  <button class="add" id="closeCart" style="background:#fff">Cerrar</button>
+  <p style="font-size:13px;color:#565959">Al confirmar, pagas en línea con tarjeta (Stripe) si el precio está confirmado, o envías el pedido por WhatsApp o correo para que te confirmemos el precio. Sin pasar por correo no deseado.</p>
+</aside>
+<aside class="drawer" id="accountDrawer" aria-label="Cuenta">
+  <h2>Acceso cliente Welux</h2>
+  <p>¿Quieres fidelizarte? Guarda tu nombre y cada pedido te suma puntos. Sin contraseña; tus datos quedan solo en tu dispositivo.</p>
+  <label>Nombre<br><input id="userName" style="width:100%;padding:9px"></label><br><br>
+  <label>Teléfono (opcional)<br><input id="userPhone" style="width:100%;padding:9px"></label><br><br>
+  <button class="add" id="saveUser">Fidelizarme / Guardar</button>
+  <button class="add" id="logoutUser" style="background:#fff">Salir / Seguir como visitante</button>
+  <p id="userInfo"></p>
+  <h3>Mis pedidos</h3>
+  <div id="ordersList"></div>
+  <button class="add" id="closeAccount" style="background:#fff">Cerrar</button>
+</aside>
+<aside class="drawer" id="wishDrawer" aria-label="Favoritos">
+  <h2>Mis favoritos</h2>
+  <div id="wishItems"></div>
+  <button class="add" id="closeWish" style="background:#fff">Cerrar</button>
+</aside>
+<a id="waFloat" href="mailto:info@weluxhub.com?subject=Consulta%20Tienda%20Welux">Contacto</a>
+<footer>
+  <p>Tienda Welux · Welux Digital Services SARL-S · Luxemburgo</p>
+  <p>Contacto: <a href="mailto:info@weluxhub.com">info@weluxhub.com</a></p>
+  <p>Las imágenes de los productos son ilustrativas y de referencia: las fotos reales de cada producto están pendientes.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
