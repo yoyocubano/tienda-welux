@@ -26,6 +26,16 @@ section.info{background:#fff;border-radius:12px;padding:20px;margin-top:16px;lin
 body.dark{background:#131a22;color:#eee}body.dark .card,body.dark .hero-text,body.dark section.info,body.dark .settingsbar{background:#1e2a36;color:#eee}body.dark .card p{color:#ccc}body.dark .drawer{background:#1e2a36;color:#eee}
 body.bigtext{font-size:18px}body.bigtext .card p{font-size:16px}
 
+/* ===== Selector de idioma (globo 🌐) ===== */
+.langWrap{position:relative}
+.langBtn{background:#fff;color:#14213d;border:0;border-radius:8px;padding:12px 14px;font-weight:700;cursor:pointer;min-height:48px}
+.langBtn:hover{box-shadow:0 3px 8px rgba(0,0,0,.25)}
+.langMenu{position:absolute;right:0;top:calc(100% + 6px);background:#fff;color:#14213d;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.25);min-width:190px;display:none;z-index:60;overflow:hidden}
+.langMenu.open{display:block}
+.langMenu button{display:block;width:100%;text-align:left;background:none;border:0;padding:12px 14px;font-size:15px;cursor:pointer;color:#14213d}
+.langMenu button:hover{background:#f2f4f6}
+.langMenu button.active{font-weight:800;background:#fff8e1}
+
 #waFloat{position:fixed;right:18px;bottom:18px;background:var(--accent);color:#fff;padding:14px 20px;border-radius:30px;font-weight:800;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.3);z-index:50}
 
 .menuBtn{background:#fff;color:#14213d;border:0;border-radius:8px;padding:12px 14px;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:10px;min-height:48px;touch-action:manipulation}

@@ -1,6 +1,8 @@
 // _worker.js — Tienda Welux (Pages, modo avanzado; clon de La Mesita, 09/11/2026)
 // Solo intercepta /api/* (ver _routes.json); el resto lo sirve Pages como
-// archivos estaticos.
+// archivos estaticos — incluidos productos.json e i18n.json (traducciones
+// EN/FR/ES/PT cargadas por app.js con fetch('./i18n.json')): no hace falta
+// ninguna ruta extra aquí; env.ASSETS.fetch(request) los sirve tal cual.
 //
 // Endpoints:
 //   POST /api/checkout  crea la sesion de Stripe Checkout con los precios

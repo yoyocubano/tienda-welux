@@ -1,0 +1,2565 @@
+{
+  "defaultLang": "en",
+  "langs": [
+    "en",
+    "fr",
+    "es",
+    "pt"
+  ],
+  "ui": {
+    "meta_title": {
+      "en": "Welux Store — Welux Digital Services",
+      "fr": "Boutique Welux — Welux Digital Services",
+      "es": "Tienda Welux — Welux Digital Services",
+      "pt": "Loja Welux — Welux Digital Services"
+    },
+    "meta_description": {
+      "en": "Welux Store: plug-and-play technical equipment and smart home in Luxembourg. Every product includes advice and a guide. Payment in euros.",
+      "fr": "Boutique Welux : matériel technique et maison connectée plug-and-play au Luxembourg. Chaque produit inclut conseils et guide. Paiement en euros.",
+      "es": "Tienda Welux: material técnico y smart home plug-and-play en Luxemburgo. Cada producto incluye asesoría y guía. Pago en euros.",
+      "pt": "Loja Welux: material técnico e casa inteligente plug-and-play no Luxemburgo. Cada produto inclui aconselhamento e guia. Pagamento em euros."
+    },
+    "logo_subtitle": {
+      "en": "Online store · Luxembourg",
+      "fr": "Boutique en ligne · Luxembourg",
+      "es": "Tienda en línea · Luxemburgo",
+      "pt": "Loja online · Luxemburgo"
+    },
+    "search_placeholder": {
+      "en": "Search products…",
+      "fr": "Rechercher des produits…",
+      "es": "Buscar productos…",
+      "pt": "Pesquisar produtos…"
+    },
+    "search_button": {
+      "en": "Search",
+      "fr": "Rechercher",
+      "es": "Buscar",
+      "pt": "Pesquisar"
+    },
+    "search_aria": {
+      "en": "Search products",
+      "fr": "Rechercher des produits",
+      "es": "Buscar productos",
+      "pt": "Pesquisar produtos"
+    },
+    "menu_button": {
+      "en": "Menu",
+      "fr": "Menu",
+      "es": "Menú",
+      "pt": "Menu"
+    },
+    "menu_title": {
+      "en": "Menu",
+      "fr": "Menu",
+      "es": "Menú",
+      "pt": "Menu"
+    },
+    "account_client": {
+      "en": "Welux customer",
+      "fr": "Client Welux",
+      "es": "Cliente Welux",
+      "pt": "Cliente Welux"
+    },
+    "visitor": {
+      "en": "Guest",
+      "fr": "Visiteur",
+      "es": "Visitante",
+      "pt": "Visitante"
+    },
+    "favorites": {
+      "en": "Favourites",
+      "fr": "Favoris",
+      "es": "Favoritos",
+      "pt": "Favoritos"
+    },
+    "cart": {
+      "en": "Basket",
+      "fr": "Panier",
+      "es": "Cesta",
+      "pt": "Carrinho"
+    },
+    "settings": {
+      "en": "Settings",
+      "fr": "Réglages",
+      "es": "Ajustes",
+      "pt": "Definições"
+    },
+    "theme_label": {
+      "en": "Theme",
+      "fr": "Thème",
+      "es": "Tema",
+      "pt": "Tema"
+    },
+    "theme_light": {
+      "en": "Light",
+      "fr": "Clair",
+      "es": "Claro",
+      "pt": "Claro"
+    },
+    "theme_dark": {
+      "en": "Dark",
+      "fr": "Sombre",
+      "es": "Oscuro",
+      "pt": "Escuro"
+    },
+    "text_label": {
+      "en": "Text",
+      "fr": "Texte",
+      "es": "Texto",
+      "pt": "Texto"
+    },
+    "text_normal": {
+      "en": "Normal",
+      "fr": "Normal",
+      "es": "Normal",
+      "pt": "Normal"
+    },
+    "text_large": {
+      "en": "Large",
+      "fr": "Grand",
+      "es": "Grande",
+      "pt": "Grande"
+    },
+    "language_label": {
+      "en": "Language",
+      "fr": "Langue",
+      "es": "Idioma",
+      "pt": "Idioma"
+    },
+    "sort_label": {
+      "en": "Sort",
+      "fr": "Trier",
+      "es": "Ordenar",
+      "pt": "Ordenar"
+    },
+    "sort_relevance": {
+      "en": "Relevance",
+      "fr": "Pertinence",
+      "es": "Relevancia",
+      "pt": "Relevância"
+    },
+    "sort_az": {
+      "en": "Name A–Z",
+      "fr": "Nom A–Z",
+      "es": "Nombre A-Z",
+      "pt": "Nome A–Z"
+    },
+    "sort_za": {
+      "en": "Name Z–A",
+      "fr": "Nom Z–A",
+      "es": "Nombre Z-A",
+      "pt": "Nome Z–A"
+    },
+    "only_fav": {
+      "en": "Favourites only",
+      "fr": "Favoris uniquement",
+      "es": "Solo favoritos",
+      "pt": "Só favoritos"
+    },
+    "clear_data": {
+      "en": "Delete my data",
+      "fr": "Effacer mes données",
+      "es": "Borrar mis datos",
+      "pt": "Apagar os meus dados"
+    },
+    "mode_visitor": {
+      "en": "Mode: Guest",
+      "fr": "Mode : Visiteur",
+      "es": "Modo: Visitante",
+      "pt": "Modo: Visitante"
+    },
+    "mode_client": {
+      "en": "Mode: Welux customer — {name}",
+      "fr": "Mode : Client Welux — {name}",
+      "es": "Modo: Cliente Welux — {name}",
+      "pt": "Modo: Cliente Welux — {name}"
+    },
+    "close_menu": {
+      "en": "Close menu",
+      "fr": "Fermer le menu",
+      "es": "Cerrar menú",
+      "pt": "Fechar menu"
+    },
+    "cat_todos": {
+      "en": "All",
+      "fr": "Tout",
+      "es": "Todos",
+      "pt": "Todos"
+    },
+    "cat_energia": {
+      "en": "Energy",
+      "fr": "Énergie",
+      "es": "Energía",
+      "pt": "Energia"
+    },
+    "cat_persianas-calefaccion": {
+      "en": "Blinds & heating",
+      "fr": "Stores et chauffage",
+      "es": "Persianas y calefacción",
+      "pt": "Estores e aquecimento"
+    },
+    "cat_smart-home": {
+      "en": "Smart home",
+      "fr": "Maison connectée",
+      "es": "Smart home",
+      "pt": "Casa inteligente"
+    },
+    "cat_pantallas-av": {
+      "en": "Screens & AV",
+      "fr": "Écrans et AV",
+      "es": "Pantallas y AV",
+      "pt": "Ecrãs e AV"
+    },
+    "cat_red-oficina": {
+      "en": "Network & office",
+      "fr": "Réseau et bureau",
+      "es": "Red y oficina",
+      "pt": "Rede e escritório"
+    },
+    "cat_jardin": {
+      "en": "Garden",
+      "fr": "Jardin",
+      "es": "Jardín",
+      "pt": "Jardim"
+    },
+    "cat_limpieza-profesional": {
+      "en": "Professional cleaning",
+      "fr": "Nettoyage professionnel",
+      "es": "Limpieza profesional",
+      "pt": "Limpeza profissional"
+    },
+    "cat_herramientas-tecnica": {
+      "en": "Tools & technical",
+      "fr": "Outils et technique",
+      "es": "Herramientas y técnica",
+      "pt": "Ferramentas e técnica"
+    },
+    "cat_repuestos-horeca": {
+      "en": "HORECA spare parts",
+      "fr": "Pièces détachées HORECA",
+      "es": "Repuestos HORECA",
+      "pt": "Peças HORECA"
+    },
+    "cat_iluminacion-horeca": {
+      "en": "HORECA lighting",
+      "fr": "Éclairage HORECA",
+      "es": "Iluminación HORECA",
+      "pt": "Iluminação HORECA"
+    },
+    "cat_menu-boards": {
+      "en": "LED menu boards",
+      "fr": "Ardoises LED",
+      "es": "Menú boards LED",
+      "pt": "Quadros de menu LED"
+    },
+    "cat_guias": {
+      "en": "PDF guides",
+      "fr": "Guides PDF",
+      "es": "Guías PDF",
+      "pt": "Guias PDF"
+    },
+    "notice": {
+      "en": "<strong>Welux Store:</strong> plug-and-play technical equipment and smart home in Luxembourg. Every product includes advice and a guide: you install it, or a third party does. Prices are shown in the store; if any product still has no price, your order goes through WhatsApp or email and we confirm the price before charging anything. Currency: euros (EUR). Online card payment when activated; until then, order by WhatsApp or email.",
+      "fr": "<strong>Boutique Welux :</strong> matériel technique et maison connectée plug-and-play au Luxembourg. Chaque produit inclut conseils et guide : vous l'installez, ou un tiers s'en charge. Les prix sont affichés dans la boutique ; si un produit n'a toujours pas de prix, votre commande passe par WhatsApp ou par e-mail et nous confirmons le prix avant de facturer quoi que ce soit. Devise : euros (EUR). Paiement en ligne par carte dès qu'il est activé ; en attendant, commandez par WhatsApp ou par e-mail.",
+      "es": "<strong>Tienda Welux:</strong> material técnico y smart home plug-and-play en Luxemburgo. Cada producto incluye la asesoría y la guía: tú lo instalas o lo instala un tercero. Los precios se muestran en la tienda; si algún producto sigue sin precio, el pedido sale por WhatsApp o correo y se confirma el precio antes de cobrar nada. Moneda: euros (EUR). Pago en línea con tarjeta cuando esté activado; mientras tanto, pedido por WhatsApp o correo.",
+      "pt": "<strong>Loja Welux:</strong> material técnico e casa inteligente plug-and-play no Luxemburgo. Cada produto inclui aconselhamento e guia: instala você ou um terceiro. Os preços são mostrados na loja; se algum produto ainda não tiver preço, o pedido segue por WhatsApp ou e-mail e confirmamos o preço antes de cobrar o que quer que seja. Moeda: euros (EUR). Pagamento online por cartão quando estiver ativado; até lá, encomende por WhatsApp ou e-mail."
+    },
+    "hero_title": {
+      "en": "Product + advice, without doing the work.",
+      "fr": "Produit + conseils, sans faire le travail.",
+      "es": "Producto + asesoría, sin hacer el trabajo.",
+      "pt": "Produto + aconselhamento, sem fazer o trabalho."
+    },
+    "hero_p1": {
+      "en": "Welux Store sells the device, the advice and the guide. You fit it with the guide, or a third party fits it. No fixed wiring, no building work: everything plug-and-play, plug and app.",
+      "fr": "La boutique Welux vend l'appareil, le conseil et le guide. Vous l'installez avec le guide, ou un tiers l'installe. Pas de câblage fixe, pas de travaux : tout est plug-and-play, prise et application.",
+      "es": "Tienda Welux vende el dispositivo, el consejo y la guía. Tú lo montas con la guía, o lo monta un tercero. Sin cableado fijo, sin obra: todo plug-and-play, enchufe y app.",
+      "pt": "A Loja Welux vende o dispositivo, o aconselhamento e o guia. Instala você com o guia, ou instala um terceiro. Sem cablagem fixa, sem obras: tudo plug-and-play, tomada e app."
+    },
+    "hero_p2": {
+      "en": "<strong>Star product:</strong> 799 W balcony solar kit — up to 799 W plugs in with no declaration or approval in Luxembourg. <strong>Account:</strong> Welux customer with points and orders · <strong>Guest:</strong> buy without registering · <strong>Favourites:</strong> save what you like with the heart.",
+      "fr": "<strong>Produit vedette :</strong> kit solaire de balcon 799 W — jusqu'à 799 W, il se branche sans déclaration ni autorisation au Luxembourg. <strong>Compte :</strong> client Welux avec points et commandes · <strong>Visiteur :</strong> achetez sans vous inscrire · <strong>Favoris :</strong> gardez ce que vous aimez avec le cœur.",
+      "es": "<strong>Producto estrella:</strong> kit solar de balcón 799 W — hasta 799 W se enchufa sin declaración ni aprobación en Luxemburgo. <strong>Cuenta:</strong> cliente Welux con puntos y pedidos · <strong>Visitante:</strong> compra sin registro · <strong>Favoritos:</strong> guarda lo que te gusta con el corazón.",
+      "pt": "<strong>Produto em destaque:</strong> kit solar de varanda de 799 W — até 799 W liga-se sem declaração nem aprovação no Luxemburgo. <strong>Conta:</strong> cliente Welux com pontos e encomendas · <strong>Visitante:</strong> compre sem registo · <strong>Favoritos:</strong> guarde o que gosta com o coração."
+    },
+    "how_title": {
+      "en": "How to buy here",
+      "fr": "Comment acheter ici",
+      "es": "Cómo comprar aquí",
+      "pt": "Como comprar aqui"
+    },
+    "how_p": {
+      "en": "1. Search, filter by category or sort by name. 2. Rate with stars, save to favourites and add to your basket. 3. Confirm your order: if the price is confirmed, pay online by card (Stripe); if it still needs confirming, the order goes through WhatsApp or email and we confirm the price before charging anything. If you are a Welux customer, every order earns you points and is saved under My orders.",
+      "fr": "1. Recherchez, filtrez par catégorie ou triez par nom. 2. Notez avec des étoiles, ajoutez aux favoris et mettez dans le panier. 3. Confirmez votre commande : si le prix est confirmé, payez en ligne par carte (Stripe) ; s'il reste à confirmer, la commande passe par WhatsApp ou par e-mail et nous confirmons le prix avant de facturer quoi que ce soit. Si vous êtes client Welux, chaque commande vous rapporte des points et est enregistrée dans Mes commandes.",
+      "es": "1. Busca, filtra por categoría u ordena por nombre. 2. Valora con estrellas, guarda en favoritos y añade a la cesta. 3. Confirma tu pedido: si el precio está confirmado, pagas en línea con tarjeta (Stripe); si está a confirmar, el pedido sale por WhatsApp o correo y te confirmamos el precio antes de cobrar nada. Si eres cliente Welux, cada pedido te suma puntos y queda guardado en Mis pedidos.",
+      "pt": "1. Pesquise, filtre por categoria ou ordene por nome. 2. Classifique com estrelas, guarde nos favoritos e adicione ao carrinho. 3. Confirme a sua encomenda: se o preço estiver confirmado, pague online por cartão (Stripe); se ainda estiver por confirmar, a encomenda segue por WhatsApp ou e-mail e confirmamos o preço antes de cobrar o que quer que seja. Se for cliente Welux, cada encomenda soma pontos e fica guardada em As minhas encomendas."
+    },
+    "includes_title": {
+      "en": "What every product includes",
+      "fr": "Ce que chaque produit inclut",
+      "es": "Qué incluye cada producto",
+      "pt": "O que cada produto inclui"
+    },
+    "includes_p": {
+      "en": "The device + the advice (what to buy, compatibility, what power) + the step-by-step guide. Welux does not do the installation: you do it with the guide, or a third party does it. No fixed wiring, no touching the fuse box.",
+      "fr": "L'appareil + les conseils (quoi acheter, compatibilité, quelle puissance) + le guide étape par étape. Welux ne fait pas l'installation : vous la faites avec le guide, ou un tiers la fait. Pas de câblage fixe, pas de tableau électrique à toucher.",
+      "es": "El dispositivo + la asesoría (qué comprar, compatibilidad, qué potencia) + la guía paso a paso. Welux no hace la instalación: la haces tú con la guía o la hace un tercero. Nada de cableado fijo ni de tocar el cuadro eléctrico.",
+      "pt": "O dispositivo + o aconselhamento (o que comprar, compatibilidade, que potência) + o guia passo a passo. A Welux não faz a instalação: faz você com o guia, ou faz um terceiro. Nada de cablagem fixa nem de mexer no quadro elétrico."
+    },
+    "services_title": {
+      "en": "Digital services and the Home platform",
+      "fr": "Services numériques et plateforme Maison",
+      "es": "Servicios digitales y plataforma Hogar",
+      "pt": "Serviços digitais e plataforma Lar"
+    },
+    "services_p": {
+      "en": "As well as the store: digital invitations, WhatsApp chatbots, AI automation, CRM, digital support, and photo and video for real estate. And coming soon, the Home platform (cleaning, home care, babysitting, pet sitting and adult companionship, no medical care): Welux connects customer with provider, it does not employ anyone or do the work. For all of that, write to us at <a href=\"mailto:info@weluxhub.com\">info@weluxhub.com</a>.",
+      "fr": "En plus de la boutique : invitations numériques, chatbots WhatsApp, automatisation par IA, CRM, accompagnement numérique et photos et vidéos pour l'immobilier. Et bientôt la plateforme Maison (ménage, soins à domicile, babysitting, pet sitting et compagnie pour adultes, sans soins médicaux) : Welux met en relation client et prestataire, sans employer personne ni faire le travail. Pour tout cela, écrivez-nous à <a href=\"mailto:info@weluxhub.com\">info@weluxhub.com</a>.",
+      "es": "Además de la tienda: invitaciones digitales, chatbots de WhatsApp, automatización con IA, CRM, acompañamiento digital y vídeos y fotos para bienes raíces. Y próximamente la plataforma Hogar (limpieza, cuidados domésticos, babysitting, pet sitting y compañía de adultos, sin medicina): Welux conecta cliente con prestador, no emplea ni hace el trabajo. Para todo eso, escríbenos a <a href=\"mailto:info@weluxhub.com\">info@weluxhub.com</a>.",
+      "pt": "Para além da loja: convites digitais, chatbots de WhatsApp, automação com IA, CRM, acompanhamento digital e vídeos e fotos para imobiliário. E em breve a plataforma Lar (limpeza, cuidados domésticos, babysitting, pet sitting e companhia de adultos, sem medicina): a Welux liga cliente a prestador, não emprega ninguém nem faz o trabalho. Para tudo isso, escreva-nos para <a href=\"mailto:info@weluxhub.com\">info@weluxhub.com</a>."
+    },
+    "about_title": {
+      "en": "Who we are",
+      "fr": "Qui sommes-nous",
+      "es": "Quiénes somos",
+      "pt": "Quem somos"
+    },
+    "about_p": {
+      "en": "Welux Digital Services SARL-S, Luxembourg. Sales of technical and audiovisual equipment, digital services and support. Contact: <a href=\"mailto:info@weluxhub.com\">info@weluxhub.com</a>.",
+      "fr": "Welux Digital Services SARL-S, Luxembourg. Vente de matériel technique et audiovisuel, services numériques et accompagnement. Contact : <a href=\"mailto:info@weluxhub.com\">info@weluxhub.com</a>.",
+      "es": "Welux Digital Services SARL-S, Luxemburgo. Venta de material técnico y audiovisual, servicios digitales y acompañamiento. Contacto: <a href=\"mailto:info@weluxhub.com\">info@weluxhub.com</a>.",
+      "pt": "Welux Digital Services SARL-S, Luxemburgo. Venda de material técnico e audiovisual, serviços digitais e acompanhamento. Contacto: <a href=\"mailto:info@weluxhub.com\">info@weluxhub.com</a>."
+    },
+    "count_products": {
+      "en": "{n} products",
+      "fr": "{n} produits",
+      "es": "{n} productos",
+      "pt": "{n} produtos"
+    },
+    "count_for": {
+      "en": " for \"{q}\"",
+      "fr": " pour « {q} »",
+      "es": " para \"{q}\"",
+      "pt": " para \"{q}\""
+    },
+    "count_only_fav": {
+      "en": " · favourites only",
+      "fr": " · favoris uniquement",
+      "es": " · solo favoritos",
+      "pt": " · só favoritos"
+    },
+    "no_results": {
+      "en": "No products found for that search or filter. Try another word or remove the filter.",
+      "fr": "Aucun produit trouvé pour cette recherche ou ce filtre. Essayez un autre mot ou retirez le filtre.",
+      "es": "No se encontraron productos con esa búsqueda o filtro. Prueba otra palabra o quita el filtro.",
+      "pt": "Não foram encontrados produtos com essa pesquisa ou filtro. Tente outra palavra ou remova o filtro."
+    },
+    "unit_label": {
+      "en": "Unit:",
+      "fr": "Unité :",
+      "es": "Unidad:",
+      "pt": "Unidade:"
+    },
+    "advice_line": {
+      "en": "Advice and guide included · Delivery to be agreed in Luxembourg · No electrical installation",
+      "fr": "Conseils et guide inclus · Livraison à convenir au Luxembourg · Pas d'installation électrique",
+      "es": "Asesoría y guía incluidas · Entrega a convenir en Luxemburgo · Sin instalación eléctrica",
+      "pt": "Aconselhamento e guia incluídos · Entrega a combinar no Luxemburgo · Sem instalação elétrica"
+    },
+    "no_ratings": {
+      "en": "No ratings yet — tap a star",
+      "fr": "Pas encore d'avis — touchez une étoile",
+      "es": "Sin valoraciones aún — toca una estrella",
+      "pt": "Ainda sem avaliações — toque numa estrela"
+    },
+    "ratings": {
+      "en": "{avg} ({n} ratings)",
+      "fr": "{avg} ({n} avis)",
+      "es": "{avg} ({n} valoraciones)",
+      "pt": "{avg} ({n} avaliações)"
+    },
+    "add_to_cart": {
+      "en": "Add to basket",
+      "fr": "Ajouter au panier",
+      "es": "Añadir a la cesta",
+      "pt": "Adicionar ao carrinho"
+    },
+    "save_fav": {
+      "en": "Save to favourites",
+      "fr": "Ajouter aux favoris",
+      "es": "Guardar en favoritos",
+      "pt": "Guardar nos favoritos"
+    },
+    "in_fav_remove": {
+      "en": "In favourites — remove",
+      "fr": "Dans les favoris — retirer",
+      "es": "En favoritos — quitar",
+      "pt": "Nos favoritos — remover"
+    },
+    "price_to_confirm": {
+      "en": "Price to confirm",
+      "fr": "Prix à confirmer",
+      "es": "Precio a confirmar",
+      "pt": "Preço a confirmar"
+    },
+    "total_dash": {
+      "en": "Total: —",
+      "fr": "Total : —",
+      "es": "Total: —",
+      "pt": "Total: —"
+    },
+    "total_to_confirm": {
+      "en": "Total: to confirm",
+      "fr": "Total : à confirmer",
+      "es": "Total: a confirmar",
+      "pt": "Total: a confirmar"
+    },
+    "total_prefix": {
+      "en": "Total: ",
+      "fr": "Total : ",
+      "es": "Total: ",
+      "pt": "Total: "
+    },
+    "cart_title": {
+      "en": "Your basket",
+      "fr": "Votre panier",
+      "es": "Tu cesta",
+      "pt": "O seu carrinho"
+    },
+    "cart_empty": {
+      "en": "Your basket is empty.",
+      "fr": "Votre panier est vide.",
+      "es": "Tu cesta está vacía.",
+      "pt": "O seu carrinho está vazio."
+    },
+    "checkout": {
+      "en": "Confirm order",
+      "fr": "Confirmer la commande",
+      "es": "Confirmar pedido",
+      "pt": "Confirmar encomenda"
+    },
+    "clear_cart": {
+      "en": "Empty basket",
+      "fr": "Vider le panier",
+      "es": "Vaciar cesta",
+      "pt": "Esvaziar carrinho"
+    },
+    "close": {
+      "en": "Close",
+      "fr": "Fermer",
+      "es": "Cerrar",
+      "pt": "Fechar"
+    },
+    "cart_note": {
+      "en": "When you confirm, pay online by card (Stripe) if the price is confirmed, or send the order by WhatsApp or email so we can confirm the price for you. No spam.",
+      "fr": "En confirmant, payez en ligne par carte (Stripe) si le prix est confirmé, ou envoyez la commande par WhatsApp ou par e-mail pour que nous confirmions le prix. Pas de spam.",
+      "es": "Al confirmar, pagas en línea con tarjeta (Stripe) si el precio está confirmado, o envías el pedido por WhatsApp o correo para que te confirmamos el precio. Sin pasar por correo no deseado.",
+      "pt": "Ao confirmar, pague online por cartão (Stripe) se o preço estiver confirmado, ou envie a encomenda por WhatsApp ou e-mail para confirmarmos o preço. Sem spam."
+    },
+    "account_title": {
+      "en": "Welux customer access",
+      "fr": "Accès client Welux",
+      "es": "Acceso cliente Welux",
+      "pt": "Acesso de cliente Welux"
+    },
+    "account_intro": {
+      "en": "Want to become a loyal customer? Save your name and every order earns you points. No password; your details stay only on your device.",
+      "fr": "Envie de devenir fidèle ? Enregistrez votre nom et chaque commande vous rapporte des points. Pas de mot de passe ; vos données restent uniquement sur votre appareil.",
+      "es": "¿Quieres fidelizarte? Guarda tu nombre y cada pedido te suma puntos. Sin contraseña; tus datos quedan solo en tu dispositivo.",
+      "pt": "Quer fidelizar-se? Guarde o seu nome e cada encomenda soma pontos. Sem palavra-passe; os seus dados ficam só no seu dispositivo."
+    },
+    "name_label": {
+      "en": "Name",
+      "fr": "Nom",
+      "es": "Nombre",
+      "pt": "Nome"
+    },
+    "phone_label": {
+      "en": "Phone (optional)",
+      "fr": "Téléphone (facultatif)",
+      "es": "Teléfono (opcional)",
+      "pt": "Telefone (opcional)"
+    },
+    "save_user": {
+      "en": "Become a loyal customer / Save",
+      "fr": "Devenir fidèle / Enregistrer",
+      "es": "Fidelizarme / Guardar",
+      "pt": "Fidelizar-me / Guardar"
+    },
+    "logout_user": {
+      "en": "Log out / Continue as guest",
+      "fr": "Se déconnecter / Continuer en visiteur",
+      "es": "Salir / Seguir como visitante",
+      "pt": "Sair / Continuar como visitante"
+    },
+    "user_info_no": {
+      "en": "You are not a loyal customer yet. Save your name above to earn points.",
+      "fr": "Vous n'êtes pas encore fidélisé. Enregistrez votre nom ci-dessus pour cumuler des points.",
+      "es": "Aún no estás fidelizado. Guarda tu nombre arriba para acumular puntos.",
+      "pt": "Ainda não está fidelizado. Guarde o seu nome acima para acumular pontos."
+    },
+    "user_info_hello": {
+      "en": "Hello {name}. Loyalty points: {points}. Orders saved: {orders}.",
+      "fr": "Bonjour {name}. Points de fidélité : {points}. Commandes enregistrées : {orders}.",
+      "es": "Hola {name}. Puntos de fidelidad: {points}. Pedidos guardados: {orders}.",
+      "pt": "Olá {name}. Pontos de fidelidade: {points}. Encomendas guardadas: {orders}."
+    },
+    "my_orders": {
+      "en": "My orders",
+      "fr": "Mes commandes",
+      "es": "Mis pedidos",
+      "pt": "As minhas encomendas"
+    },
+    "no_orders": {
+      "en": "No orders yet.",
+      "fr": "Aucune commande pour l'instant.",
+      "es": "Sin pedidos aún.",
+      "pt": "Ainda sem encomendas."
+    },
+    "wish_title": {
+      "en": "My favourites",
+      "fr": "Mes favoris",
+      "es": "Mis favoritos",
+      "pt": "Os meus favoritos"
+    },
+    "wish_empty": {
+      "en": "No favourites yet. Tap Save to favourites on any card.",
+      "fr": "Pas encore de favoris. Touchez Ajouter aux favoris sur une fiche.",
+      "es": "Sin favoritos aún. Toca Guardar en favoritos en cualquier tarjeta.",
+      "pt": "Ainda sem favoritos. Toque em Guardar nos favoritos em qualquer cartão."
+    },
+    "contact_float": {
+      "en": "Contact",
+      "fr": "Contact",
+      "es": "Contacto",
+      "pt": "Contacto"
+    },
+    "whatsapp_float": {
+      "en": "WhatsApp",
+      "fr": "WhatsApp",
+      "es": "WhatsApp",
+      "pt": "WhatsApp"
+    },
+    "footer_p1": {
+      "en": "Welux Store · Welux Digital Services SARL-S · Luxembourg",
+      "fr": "Boutique Welux · Welux Digital Services SARL-S · Luxembourg",
+      "es": "Tienda Welux · Welux Digital Services SARL-S · Luxemburgo",
+      "pt": "Loja Welux · Welux Digital Services SARL-S · Luxemburgo"
+    },
+    "footer_p2": {
+      "en": "Contact: ",
+      "fr": "Contact : ",
+      "es": "Contacto: ",
+      "pt": "Contacto: "
+    },
+    "remove": {
+      "en": "Remove",
+      "fr": "Retirer",
+      "es": "Quitar",
+      "pt": "Remover"
+    },
+    "alert_cart_empty": {
+      "en": "Your basket is empty. Add a product first.",
+      "fr": "Votre panier est vide. Ajoutez d'abord un produit.",
+      "es": "Tu cesta está vacía. Añade un producto primero.",
+      "pt": "O seu carrinho está vazio. Adicione primeiro um produto."
+    },
+    "alert_order_registered": {
+      "en": "Order {num} registered. We will confirm the price by email before charging anything.",
+      "fr": "Commande {num} enregistrée. Nous confirmerons le prix par e-mail avant de facturer quoi que ce soit.",
+      "es": "Pedido {num} registrado. Te confirmamos el precio por correo antes de cobrar nada.",
+      "pt": "Encomenda {num} registada. Confirmaremos o preço por e-mail antes de cobrar o que quer que seja."
+    },
+    "alert_name_required": {
+      "en": "Write your name to become a loyal customer.",
+      "fr": "Écrivez votre nom pour devenir fidèle.",
+      "es": "Escribe tu nombre para fidelizarte.",
+      "pt": "Escreva o seu nome para se fidelizar."
+    },
+    "alert_welcome": {
+      "en": "Welcome, {name}! You are now a Welux customer. Every order earns you points.",
+      "fr": "Bienvenue, {name} ! Vous êtes maintenant client Welux. Chaque commande vous rapporte des points.",
+      "es": "Bienvenido, {name}! Ya eres cliente Welux. Cada pedido te suma puntos.",
+      "pt": "Bem-vindo, {name}! Já é cliente Welux. Cada encomenda soma pontos."
+    },
+    "alert_visitor": {
+      "en": "You are browsing as a guest. You can search, save favourites and buy without registering.",
+      "fr": "Vous naviguez en visiteur. Vous pouvez rechercher, enregistrer des favoris et acheter sans vous inscrire.",
+      "es": "Estás navegando como visitante. Puedes buscar, guardar favoritos y comprar sin registrarte.",
+      "pt": "Está a navegar como visitante. Pode pesquisar, guardar favoritos e comprar sem se registar."
+    },
+    "confirm_clear_data": {
+      "en": "Delete your data saved on this device (account, favourites, ratings, orders, basket)?",
+      "fr": "Effacer vos données enregistrées sur cet appareil (compte, favoris, avis, commandes, panier) ?",
+      "es": "¿Borrar tus datos guardados en este dispositivo (cuenta, favoritos, valoraciones, pedidos, cesta)?",
+      "pt": "Apagar os seus dados guardados neste dispositivo (conta, favoritos, avaliações, encomendas, carrinho)?"
+    },
+    "order_hello": {
+      "en": "Hello Welux Store, I would like to place an order ({num}):",
+      "fr": "Bonjour Boutique Welux, je souhaite passer une commande ({num}) :",
+      "es": "Hola Tienda Welux, quiero hacer un pedido ({num}):",
+      "pt": "Olá Loja Welux, quero fazer uma encomenda ({num}):"
+    },
+    "order_i_am": {
+      "en": "I am {name}",
+      "fr": "Je suis {name}",
+      "es": "Soy {name}",
+      "pt": "Sou {name}"
+    },
+    "order_subject": {
+      "en": "Welux Store order {num}",
+      "fr": "Commande Boutique Welux {num}",
+      "es": "Pedido Tienda Welux {num}",
+      "pt": "Encomenda Loja Welux {num}"
+    },
+    "order_whatsapp_msg": {
+      "en": "Hello Welux Store, I would like to place an order: ",
+      "fr": "Bonjour Boutique Welux, je souhaite passer une commande : ",
+      "es": "Hola Tienda Welux, quiero hacer un pedido: ",
+      "pt": "Olá Loja Welux, quero fazer uma encomenda: "
+    },
+    "order_whatsapp_msg_empty": {
+      "en": "Hello Welux Store, I would like to place an order.",
+      "fr": "Bonjour Boutique Welux, je souhaite passer une commande.",
+      "es": "Hola Tienda Welux, quiero hacer un pedido.",
+      "pt": "Olá Loja Welux, quero fazer uma encomenda."
+    },
+    "consult_subject": {
+      "en": "Welux Store enquiry",
+      "fr": "Demande Boutique Welux",
+      "es": "Consulta Tienda Welux",
+      "pt": "Consulta Loja Welux"
+    },
+    "language_name_en": {
+      "en": "English",
+      "fr": "Anglais",
+      "es": "Inglés",
+      "pt": "Inglês"
+    },
+    "language_name_fr": {
+      "en": "French",
+      "fr": "Français",
+      "es": "Francés",
+      "pt": "Francês"
+    },
+    "language_name_es": {
+      "en": "Spanish",
+      "fr": "Espagnol",
+      "es": "Español",
+      "pt": "Espanhol"
+    },
+    "language_name_pt": {
+      "en": "Portuguese",
+      "fr": "Portugais",
+      "es": "Portugués",
+      "pt": "Português"
+    },
+    "brand_line": {
+      "en": "Welux Store · Welux Digital Services",
+      "fr": "Boutique Welux · Welux Digital Services",
+      "es": "Tienda Welux · Welux Digital Services",
+      "pt": "Loja Welux · Welux Digital Services"
+    },
+    "units": {
+      "en": {
+        "1 unidad": "1 unit",
+        "1 pack": "1 pack",
+        "1 kit": "1 kit",
+        "1 guía digital": "1 digital guide",
+        "1 día": "1 day",
+        "1 motor": "1 motor",
+        "1 panel": "1 panel",
+        "1 mando": "1 remote",
+        "1 cámara": "1 camera",
+        "1 válvula": "1 valve",
+        "1 sistema": "1 system",
+        "1 pack (2 unidades)": "1 pack (2 units)",
+        "1 junta": "1 gasket"
+      },
+      "fr": {
+        "1 unidad": "1 unité",
+        "1 pack": "1 pack",
+        "1 kit": "1 kit",
+        "1 guía digital": "1 guide numérique",
+        "1 día": "1 jour",
+        "1 motor": "1 moteur",
+        "1 panel": "1 panneau",
+        "1 mando": "1 télécommande",
+        "1 cámara": "1 caméra",
+        "1 válvula": "1 vanne",
+        "1 sistema": "1 système",
+        "1 pack (2 unidades)": "1 pack (2 unités)",
+        "1 junta": "1 joint"
+      },
+      "es": {
+        "1 unidad": "1 unidad",
+        "1 pack": "1 pack",
+        "1 kit": "1 kit",
+        "1 guía digital": "1 guía digital",
+        "1 día": "1 día",
+        "1 motor": "1 motor",
+        "1 panel": "1 panel",
+        "1 mando": "1 mando",
+        "1 cámara": "1 cámara",
+        "1 válvula": "1 válvula",
+        "1 sistema": "1 sistema",
+        "1 pack (2 unidades)": "1 pack (2 unidades)",
+        "1 junta": "1 junta"
+      },
+      "pt": {
+        "1 unidad": "1 unidade",
+        "1 pack": "1 pack",
+        "1 kit": "1 kit",
+        "1 guía digital": "1 guia digital",
+        "1 día": "1 dia",
+        "1 motor": "1 motor",
+        "1 panel": "1 painel",
+        "1 mando": "1 comando",
+        "1 cámara": "1 câmara",
+        "1 válvula": "1 válvula",
+        "1 sistema": "1 sistema",
+        "1 pack (2 unidades)": "1 pack (2 unidades)",
+        "1 junta": "1 junta"
+      }
+    }
+  },
+  "products": {
+    "kit-solar-balcon-799w": {
+      "en": {
+        "nombre": "799 W balcony solar kit",
+        "descripcion": "The star product. Up to 799 W plugs in with no declaration or approval; from 800 W it must be declared and approved by the grid operator. Produces 700–900 kWh/year. Reference price in Luxembourg ~€629 installed (kit only, to be confirmed). Includes guidance on orientation and a connection guide; a residual-current breaker and Wieland plug are recommended. Materials only, no installation."
+      },
+      "fr": {
+        "nombre": "Kit solaire de balcon 799 W",
+        "descripcion": "Le produit vedette. Jusqu'à 799 W, il se branche sans déclaration ni autorisation ; à partir de 800 W, il faut le déclarer et le faire approuver par le gestionnaire de réseau. Produit 700 à 900 kWh/an. Prix de référence au Luxembourg ~629 € installé (le kit seul, à confirmer). Inclut des conseils d'orientation et un guide de raccordement ; disjoncteur différentiel et prise Wieland recommandés. Matériel seul, sans installation."
+      },
+      "es": {
+        "nombre": "Kit solar de balcón 799 W",
+        "descripcion": "El producto estrella. Hasta 799 W se enchufa sin declaración ni aprobación; desde 800 W hay que declarar y que el gestor de red lo apruebe. Produce 700–900 kWh/año. Precio de referencia en LU ~629 € instalado (el kit solo, a confirmar). Incluye asesoría de orientación y guía de conexión; se recomienda disyuntor diferencial y enchufe Wieland. Solo material, sin instalación."
+      },
+      "pt": {
+        "nombre": "Kit solar de varanda de 799 W",
+        "descripcion": "O produto em destaque. Até 799 W liga-se sem declaração nem aprovação; a partir de 800 W tem de ser declarado e aprovado pelo operador de rede. Produz 700–900 kWh/ano. Preço de referência no Luxemburgo ~629 € instalado (só o kit, a confirmar). Inclui aconselhamento de orientação e guia de ligação; recomenda-se disjuntor diferencial e tomada Wieland. Só material, sem instalação."
+      }
+    },
+    "power-station-1000wh": {
+      "en": {
+        "nombre": "Portable power station ~1000 Wh",
+        "descripcion": "Portable battery (EcoFlow, Jackery or Bluetti). Pairs with the solar kit; camping, power cuts and home backup. Plug-and-play. Includes advice on capacity and a user guide."
+      },
+      "fr": {
+        "nombre": "Station d'énergie portable ~1000 Wh",
+        "descripcion": "Batterie portable (EcoFlow, Jackery ou Bluetti). Se combine avec le kit solaire ; camping, coupures de courant et secours à la maison. Plug-and-play. Inclut des conseils sur la capacité et un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Power station portátil ~1000 Wh",
+        "descripcion": "Batería portátil (EcoFlow, Jackery o Bluetti). Combina con el kit solar; camping, cortes de luz y respaldo en casa. Plug-and-play. Incluye asesoría de capacidad y guía de uso."
+      },
+      "pt": {
+        "nombre": "Estação de energia portátil ~1000 Wh",
+        "descripcion": "Bateria portátil (EcoFlow, Jackery ou Bluetti). Combina com o kit solar; campismo, cortes de luz e reserva em casa. Plug-and-play. Inclui aconselhamento sobre capacidade e guia de utilização."
+      }
+    },
+    "power-station-500wh": {
+      "en": {
+        "nombre": "Portable power station ~500 Wh",
+        "descripcion": "Compact portable battery (EcoFlow, Jackery or Bluetti) for weekends, working away from home and basic backup. Plug-and-play. Includes advice on capacity and a user guide."
+      },
+      "fr": {
+        "nombre": "Station d'énergie portable ~500 Wh",
+        "descripcion": "Batterie portable compacte (EcoFlow, Jackery ou Bluetti) pour les week-ends, le travail hors de la maison et un secours de base. Plug-and-play. Inclut des conseils sur la capacité et un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Power station portátil ~500 Wh",
+        "descripcion": "Batería portátil compacta (EcoFlow, Jackery o Bluetti) para fines de semana, trabajo fuera de casa y respaldo básico. Plug-and-play. Incluye asesoría de capacidad y guía de uso."
+      },
+      "pt": {
+        "nombre": "Estação de energia portátil ~500 Wh",
+        "descripcion": "Bateria portátil compacta (EcoFlow, Jackery ou Bluetti) para fins de semana, trabalho fora de casa e reserva básica. Plug-and-play. Inclui aconselhamento sobre capacidade e guia de utilização."
+      }
+    },
+    "panel-solar-portatil-200w": {
+      "en": {
+        "nombre": "Foldable portable solar panel ~200 W",
+        "descripcion": "Folding panel to charge the power station away from home or on the balcony. Plug-and-play. Includes advice on compatibility and a user guide."
+      },
+      "fr": {
+        "nombre": "Panneau solaire portable pliable ~200 W",
+        "descripcion": "Panneau pliable pour charger la station d'énergie hors de la maison ou sur le balcon. Plug-and-play. Inclut des conseils de compatibilité et un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Panel solar portátil plegable ~200 W",
+        "descripcion": "Panel plegable para cargar la power station fuera de casa o en el balcón. Plug-and-play. Incluye asesoría de compatibilidad y guía de uso."
+      },
+      "pt": {
+        "nombre": "Painel solar portátil dobrável ~200 W",
+        "descripcion": "Painel dobrável para carregar a estação de energia fora de casa ou na varanda. Plug-and-play. Inclui aconselhamento de compatibilidade e guia de utilização."
+      }
+    },
+    "motor-schellenberg-15nm": {
+      "en": {
+        "nombre": "Schellenberg tubular motor 15 Nm",
+        "descripcion": "Tubular motor for a large roller shutter (living room). Precedent: Jean Paul Baustert (03/10/2026). Purchase price at Hornbach €56.45; selling price to be confirmed. Includes a compatibility report and a step-by-step installation guide. The customer or a third party installs it."
+      },
+      "fr": {
+        "nombre": "Moteur tubulaire Schellenberg 15 Nm",
+        "descripcion": "Moteur tubulaire pour grand volet roulant (salon). Précédent : Jean Paul Baustert (03/10/2026). Prix d'achat chez Hornbach 56,45 € ; prix de vente à confirmer. Inclut un rapport de compatibilité et un guide d'installation étape par étape. Le client ou un tiers l'installe."
+      },
+      "es": {
+        "nombre": "Motor tubular Schellenberg 15 Nm",
+        "descripcion": "Motor tubular para persiana enrollable grande (salón). Precedente: Jean Paul Baustert (03/10/2026). Precio de compra en Hornbach 56,45 €; precio de venta a confirmar. Incluye informe de compatibilidad y guía de instalación paso a paso. El cliente o un tercero lo instala."
+      },
+      "pt": {
+        "nombre": "Motor tubular Schellenberg de 15 Nm",
+        "descripcion": "Motor tubular para estore de enrolar grande (sala). Precedente: Jean Paul Baustert (03/10/2026). Preço de compra na Hornbach 56,45 €; preço de venda a confirmar. Inclui relatório de compatibilidade e guia de instalação passo a passo. Instala o cliente ou um terceiro."
+      }
+    },
+    "motor-schellenberg-20nm-20621": {
+      "en": {
+        "nombre": "Schellenberg Maxi Standard tubular motor 20 Nm (ref. 20621)",
+        "descripcion": "Schellenberg Maxi Standard tubular motor 20 Nm, ref. 20621, 60 mm shaft, up to 34 kg, 145 W. For roller shutters (garden door and large windows). Includes a compatibility report and a step-by-step installation guide. The customer or a third party installs it."
+      },
+      "fr": {
+        "nombre": "Moteur tubulaire Schellenberg Maxi Standard 20 Nm (réf. 20621)",
+        "descripcion": "Moteur tubulaire Schellenberg Maxi Standard 20 Nm, réf. 20621, axe 60 mm, jusqu'à 34 kg, 145 W. Pour volet roulant (porte de jardin et grandes fenêtres). Inclut un rapport de compatibilité et un guide d'installation étape par étape. Le client ou un tiers l'installe."
+      },
+      "es": {
+        "nombre": "Motor tubular Schellenberg Maxi Standard 20 Nm (ref. 20621)",
+        "descripcion": "Motor tubular Schellenberg Maxi Standard 20 Nm, ref. 20621, eje 60 mm, hasta 34 kg, 145 W. Para persiana enrollable (puerta de jardín y grandes ventanales). Incluye informe de compatibilidad y guía de instalación paso a paso. El cliente o un tercero lo instala."
+      },
+      "pt": {
+        "nombre": "Motor tubular Schellenberg Maxi Standard de 20 Nm (ref. 20621)",
+        "descripcion": "Motor tubular Schellenberg Maxi Standard de 20 Nm, ref. 20621, eixo de 60 mm, até 34 kg, 145 W. Para estore de enrolar (porta de jardim e janelas grandes). Inclui relatório de compatibilidade e guia de instalação passo a passo. Instala o cliente ou um terceiro."
+      }
+    },
+    "mando-persiana": {
+      "en": {
+        "nombre": "Remote control for shutter motor",
+        "descripcion": "Remote or switch compatible with tubular shutter motors. Plug-and-play. Includes advice on compatibility and a pairing guide."
+      },
+      "fr": {
+        "nombre": "Télécommande pour moteur de volet",
+        "descripcion": "Télécommande ou interrupteur compatible avec les moteurs tubulaires de volet. Plug-and-play. Inclut des conseils de compatibilité et un guide d'appairage."
+      },
+      "es": {
+        "nombre": "Mando a distancia para motor de persiana",
+        "descripcion": "Mando o interruptor compatible con motores tubulares de persiana. Plug-and-play. Incluye asesoría de compatibilidad y guía de emparejamiento."
+      },
+      "pt": {
+        "nombre": "Comando para motor de estore",
+        "descripcion": "Comando ou interruptor compatível com motores tubulares de estore. Plug-and-play. Inclui aconselhamento de compatibilidade e guia de emparelhamento."
+      }
+    },
+    "panel-calefactor-infrarrojo": {
+      "en": {
+        "nombre": "Plug-and-play infrared heating panel",
+        "descripcion": "Supplementary heating in winter, plug in and done. Materials only, no installation. Includes a power calculation and a placement guide."
+      },
+      "fr": {
+        "nombre": "Panneau chauffant infrarouge plug-and-play",
+        "descripcion": "Chauffage d'appoint en hiver, on branche et c'est prêt. Matériel seul, sans installation. Inclut un calcul de puissance et un guide de placement."
+      },
+      "es": {
+        "nombre": "Panel calefactor infrarrojo plug-and-play",
+        "descripcion": "Calefacción de apoyo en invierno, se enchufa y listo. Solo como material, sin instalación. Incluye cálculo de potencia y guía de colocación."
+      },
+      "pt": {
+        "nombre": "Painel de aquecimento por infravermelhos plug-and-play",
+        "descripcion": "Aquecimento de apoio no inverno, basta ligar à tomada. Só material, sem instalação. Inclui cálculo de potência e guia de colocação."
+      }
+    },
+    "panel-calefactor-600w": {
+      "en": {
+        "nombre": "600 W heating panel with thermostat",
+        "descripcion": "Plug-in electric heating panel with thermostat for one room. Materials only, no installation. Includes a power calculation and a placement guide."
+      },
+      "fr": {
+        "nombre": "Panneau chauffant 600 W avec thermostat",
+        "descripcion": "Panneau chauffant électrique enfichable avec thermostat pour une pièce. Matériel seul, sans installation. Inclut un calcul de puissance et un guide de placement."
+      },
+      "es": {
+        "nombre": "Panel calefactor 600 W con termostato",
+        "descripcion": "Panel calefactor eléctrico enchufable con termostato para una habitación. Solo como material, sin instalación. Incluye cálculo de potencia y guía de colocación."
+      },
+      "pt": {
+        "nombre": "Painel de aquecimento de 600 W com termostato",
+        "descripcion": "Painel de aquecimento elétrico de tomada com termostato para uma divisão. Só material, sem instalação. Inclui cálculo de potência e guia de colocação."
+      }
+    },
+    "enchufe-smart": {
+      "en": {
+        "nombre": "Smart plug (Shelly / Tapo)",
+        "descripcion": "Smart plug with app and voice control: plug in and done. Includes advice on compatibility and a setup guide."
+      },
+      "fr": {
+        "nombre": "Prise connectée (Shelly / Tapo)",
+        "descripcion": "Prise connectée avec application et commande vocale : on branche et c'est prêt. Inclut des conseils de compatibilité et un guide de configuration."
+      },
+      "es": {
+        "nombre": "Enchufe inteligente (Shelly / Tapo)",
+        "descripcion": "Enchufe smart con app y control por voz: enchufe y listo. Incluye asesoría de compatibilidad y guía de configuración."
+      },
+      "pt": {
+        "nombre": "Tomada inteligente (Shelly / Tapo)",
+        "descripcion": "Tomada inteligente com app e controlo por voz: basta ligar. Inclui aconselhamento de compatibilidade e guia de configuração."
+      }
+    },
+    "pack-bombillas-led-smart": {
+      "en": {
+        "nombre": "Smart bulb + LED strip pack",
+        "descripcion": "Smart bulbs and LED strip (Hue, Tapo or Govee): screw in or stick on, no wiring. Includes lighting advice and a setup guide."
+      },
+      "fr": {
+        "nombre": "Pack ampoules connectées + ruban LED",
+        "descripcion": "Ampoules et ruban LED connectés (Hue, Tapo ou Govee) : on visse ou on colle, sans câblage. Inclut des conseils d'éclairage et un guide de configuration."
+      },
+      "es": {
+        "nombre": "Pack bombillas smart + tira LED",
+        "descripcion": "Bombillas y tira LED inteligentes (Hue, Tapo o Govee): se enroscan o se pegan, sin cableado. Incluye asesoría de iluminación y guía de configuración."
+      },
+      "pt": {
+        "nombre": "Pack de lâmpadas inteligentes + fita LED",
+        "descripcion": "Lâmpadas e fita LED inteligentes (Hue, Tapo ou Govee): enroscam-se ou colam-se, sem cablagem. Inclui aconselhamento de iluminação e guia de configuração."
+      }
+    },
+    "camara-wifi-bateria": {
+      "en": {
+        "nombre": "Battery or solar WiFi camera",
+        "descripcion": "Battery-powered or solar-panel WiFi security camera (Eufy, Arlo or Tapo): no wiring. Includes advice on placement and a setup guide."
+      },
+      "fr": {
+        "nombre": "Caméra WiFi sur batterie ou solaire",
+        "descripcion": "Caméra de sécurité WiFi sur batterie ou avec panneau solaire (Eufy, Arlo ou Tapo) : sans câblage. Inclut des conseils de placement et un guide de configuration."
+      },
+      "es": {
+        "nombre": "Cámara WiFi de batería o solar",
+        "descripcion": "Cámara de seguridad WiFi a batería o con panel solar (Eufy, Arlo o Tapo): sin cablear. Incluye asesoría de colocación y guía de configuración."
+      },
+      "pt": {
+        "nombre": "Câmara WiFi de bateria ou solar",
+        "descripcion": "Câmara de segurança WiFi a bateria ou com painel solar (Eufy, Arlo ou Tapo): sem cablagem. Inclui aconselhamento de colocação e guia de configuração."
+      }
+    },
+    "videoportero-bateria": {
+      "en": {
+        "nombre": "Battery video doorbell",
+        "descripcion": "Battery video doorbell (Ring or Eufy): no fixed wiring. Includes advice on compatibility and a setup guide."
+      },
+      "fr": {
+        "nombre": "Visiophone sur batterie",
+        "descripcion": "Visiophone sur batterie (Ring ou Eufy) : sans câblage fixe. Inclut des conseils de compatibilité et un guide de configuration."
+      },
+      "es": {
+        "nombre": "Videoportero de batería",
+        "descripcion": "Videoportero a batería (Ring o Eufy): sin cableado fijo. Incluye asesoría de compatibilidad y guía de configuración."
+      },
+      "pt": {
+        "nombre": "Videoporteiro de bateria",
+        "descripcion": "Videoporteiro a bateria (Ring ou Eufy): sem cablagem fixa. Inclui aconselhamento de compatibilidade e guia de configuração."
+      }
+    },
+    "valvula-termostatica-radiador": {
+      "en": {
+        "nombre": "Smart thermostatic radiator valve",
+        "descripcion": "Smart valve that screws onto the radiator, no wiring. Room-by-room heating control from the app. Includes advice on compatibility and an installation guide."
+      },
+      "fr": {
+        "nombre": "Vanne thermostatique connectée de radiateur",
+        "descripcion": "Vanne connectée qui se visse sur le radiateur, sans câblage. Contrôle du chauffage pièce par pièce depuis l'application. Inclut des conseils de compatibilité et un guide d'installation."
+      },
+      "es": {
+        "nombre": "Válvula termostática smart de radiador",
+        "descripcion": "Válvula inteligente que se enrosca en el radiador, sin cableado. Control de calefacción por habitación desde la app. Incluye asesoría de compatibilidad y guía de instalación."
+      },
+      "pt": {
+        "nombre": "Válvula termostática inteligente de radiador",
+        "descripcion": "Válvula inteligente que se enrosca no radiador, sem cablagem. Controlo do aquecimento por divisão a partir da app. Inclui aconselhamento de compatibilidade e guia de instalação."
+      }
+    },
+    "cerradura-smart-nuki": {
+      "en": {
+        "nombre": "Smart retrofit lock (Nuki)",
+        "descripcion": "Smart lock that fits over the existing cylinder, without changing the lock. DIY. Includes advice on compatibility and a fitting guide."
+      },
+      "fr": {
+        "nombre": "Serrure connectée retrofit (Nuki)",
+        "descripcion": "Serrure connectée qui se monte sur le cylindre existant, sans changer la serrure. À faire soi-même. Inclut des conseils de compatibilité et un guide de montage."
+      },
+      "es": {
+        "nombre": "Cerradura smart retrofit (Nuki)",
+        "descripcion": "Cerradura inteligente que se monta sobre el cilindro existente, sin cambiar la cerradura. DIY. Incluye asesoría de compatibilidad y guía de montaje."
+      },
+      "pt": {
+        "nombre": "Fechadura inteligente retrofit (Nuki)",
+        "descripcion": "Fechadura inteligente que se monta sobre o cilindro existente, sem trocar a fechadura. DIY. Inclui aconselhamento de compatibilidade e guia de montagem."
+      }
+    },
+    "pack-sensores-hogar": {
+      "en": {
+        "nombre": "Smart home sensor pack",
+        "descripcion": "Door/window, motion, temperature and water-leak sensors: adhesive and battery-powered. Includes advice and a setup guide."
+      },
+      "fr": {
+        "nombre": "Pack capteurs pour la maison connectée",
+        "descripcion": "Capteurs de porte/fenêtre, de mouvement, de température et de fuite d'eau : adhésifs et sur batterie. Inclut des conseils et un guide de configuration."
+      },
+      "es": {
+        "nombre": "Pack sensores de hogar smart",
+        "descripcion": "Sensores de puerta/ventana, movimiento, temperatura y fugas de agua: adhesivo y batería. Incluye asesoría y guía de configuración."
+      },
+      "pt": {
+        "nombre": "Pack de sensores para casa inteligente",
+        "descripcion": "Sensores de porta/janela, movimento, temperatura e fugas de água: adesivos e a bateria. Inclui aconselhamento e guia de configuração."
+      }
+    },
+    "altavoz-smart": {
+      "en": {
+        "nombre": "Smart speaker (Echo / Nest Audio)",
+        "descripcion": "Speaker with voice assistant: plug in and WiFi. Music, home control and routines. Includes advice and a setup guide."
+      },
+      "fr": {
+        "nombre": "Enceinte connectée (Echo / Nest Audio)",
+        "descripcion": "Enceinte avec assistant vocal : prise et WiFi. Musique, contrôle de la maison et routines. Inclut des conseils et un guide de configuration."
+      },
+      "es": {
+        "nombre": "Altavoz inteligente (Echo / Nest Audio)",
+        "descripcion": "Altavoz con asistente: enchufe y WiFi. Música, control del hogar y rutinas. Incluye asesoría y guía de configuración."
+      },
+      "pt": {
+        "nombre": "Altifalante inteligente (Echo / Nest Audio)",
+        "descripcion": "Altifalante com assistente: tomada e WiFi. Música, controlo da casa e rotinas. Inclui aconselhamento e guia de configuração."
+      }
+    },
+    "smart-display": {
+      "en": {
+        "nombre": "Smart display (Echo Show / Nest Hub)",
+        "descripcion": "Display with voice assistant: plug in and WiFi. Kitchen, bedroom or business. Includes advice and a setup guide."
+      },
+      "fr": {
+        "nombre": "Écran connecté (Echo Show / Nest Hub)",
+        "descripcion": "Écran avec assistant vocal : prise et WiFi. Cuisine, chambre ou commerce. Inclut des conseils et un guide de configuration."
+      },
+      "es": {
+        "nombre": "Smart display (Echo Show / Nest Hub)",
+        "descripcion": "Pantalla con asistente: enchufe y WiFi. Cocina, dormitorio o negocio. Incluye asesoría y guía de configuración."
+      },
+      "pt": {
+        "nombre": "Ecrã inteligente (Echo Show / Nest Hub)",
+        "descripcion": "Ecrã com assistente: tomada e WiFi. Cozinha, quarto ou negócio. Inclui aconselhamento e guia de configuração."
+      }
+    },
+    "marco-fotos-wifi": {
+      "en": {
+        "nombre": "WiFi digital photo frame",
+        "descripcion": "Photo frame with WiFi: set up from your phone, ideal as a gift. Plug-and-play. Includes a setup guide."
+      },
+      "fr": {
+        "nombre": "Cadre photo numérique WiFi",
+        "descripcion": "Cadre photo avec WiFi : se configure depuis le téléphone, idéal en cadeau. Plug-and-play. Inclut un guide de configuration."
+      },
+      "es": {
+        "nombre": "Marco de fotos digital WiFi",
+        "descripcion": "Marco de fotos con WiFi: se configura desde el móvil, ideal como regalo. Plug-and-play. Incluye guía de configuración."
+      },
+      "pt": {
+        "nombre": "Moldura de fotos digital WiFi",
+        "descripcion": "Moldura de fotos com WiFi: configura-se a partir do telemóvel, ideal como presente. Plug-and-play. Inclui guia de configuração."
+      }
+    },
+    "monitor-portatil-usbc": {
+      "en": {
+        "nombre": "Portable USB-C monitor",
+        "descripcion": "Second screen for your laptop: a single USB-C cable, no installation. Ideal for working from home. Includes advice on compatibility and a guide."
+      },
+      "fr": {
+        "nombre": "Écran portable USB-C",
+        "descripcion": "Deuxième écran pour l'ordinateur portable : un seul câble USB-C, sans installation. Idéal pour le télétravail. Inclut des conseils de compatibilité et un guide."
+      },
+      "es": {
+        "nombre": "Monitor portátil USB-C",
+        "descripcion": "Segunda pantalla para el portátil: un solo cable USB-C, sin instalación. Ideal para teletrabajo. Incluye asesoría de compatibilidad y guía."
+      },
+      "pt": {
+        "nombre": "Monitor portátil USB-C",
+        "descripcion": "Segundo ecrã para o portátil: um só cabo USB-C, sem instalação. Ideal para teletrabalho. Inclui aconselhamento de compatibilidade e guia."
+      }
+    },
+    "proyector-smart-portatil": {
+      "en": {
+        "nombre": "Portable smart projector (Android TV)",
+        "descripcion": "Projector with built-in Android TV: home cinema without installing anything. Includes fitting advice and a setup guide."
+      },
+      "fr": {
+        "nombre": "Vidéoprojecteur connecté portable (Android TV)",
+        "descripcion": "Vidéoprojecteur avec Android TV intégré : cinéma à la maison sans rien installer. Inclut des conseils de montage et un guide de configuration."
+      },
+      "es": {
+        "nombre": "Proyector smart portátil (Android TV)",
+        "descripcion": "Proyector con Android TV integrado: cine en casa sin instalar nada. Incluye asesoría de montaje y guía de configuración."
+      },
+      "pt": {
+        "nombre": "Projetor inteligente portátil (Android TV)",
+        "descripcion": "Projetor com Android TV integrada: cinema em casa sem instalar nada. Inclui aconselhamento de montagem e guia de configuração."
+      }
+    },
+    "smart-tv-43": {
+      "en": {
+        "nombre": "43\" Smart TV (AV equipment)",
+        "descripcion": "Smart TV as audiovisual equipment: sale + delivery + guide. Wall mounting with a bracket is done by the customer or a third party, not by Welux."
+      },
+      "fr": {
+        "nombre": "Smart TV 43\" (matériel AV)",
+        "descripcion": "Téléviseur connecté en tant que matériel audiovisuel : vente + livraison + guide. La fixation murale avec support est faite par le client ou un tiers, pas par Welux."
+      },
+      "es": {
+        "nombre": "Smart TV 43\" (material AV)",
+        "descripcion": "Televisor inteligente como material audiovisual: venta + entrega + guía. El montaje en pared con soporte lo hace el cliente o un tercero, no Welux."
+      },
+      "pt": {
+        "nombre": "Smart TV de 43\" (material AV)",
+        "descripcion": "Televisor inteligente como material audiovisual: venda + entrega + guia. A montagem na parede com suporte é feita pelo cliente ou por um terceiro, não pela Welux."
+      }
+    },
+    "pantalla-senalizacion-negocio": {
+      "en": {
+        "nombre": "Digital signage screen for businesses",
+        "descripcion": "Screen + stick or mini-PC for menus, shop windows and waiting rooms. Fits Welux's digital side (screen + content). Includes content advice and a startup guide."
+      },
+      "fr": {
+        "nombre": "Écran d'affichage numérique pour commerces",
+        "descripcion": "Écran + clé ou mini-PC pour menus, vitrines et salles d'attente. S'inscrit dans le côté numérique de Welux (écran + contenu). Inclut des conseils de contenu et un guide de mise en route."
+      },
+      "es": {
+        "nombre": "Pantalla de señalización digital para negocios",
+        "descripcion": "Pantalla + stick o mini-PC para menús, escaparates y salas de espera. Encaja con el lado digital de Welux (pantalla + contenido). Incluye asesoría de contenido y guía de puesta en marcha."
+      },
+      "pt": {
+        "nombre": "Ecrã de sinalização digital para negócios",
+        "descripcion": "Ecrã + stick ou mini-PC para menus, montras e salas de espera. Encaixa no lado digital da Welux (ecrã + conteúdo). Inclui aconselhamento de conteúdo e guia de arranque."
+      }
+    },
+    "dron-camara-4k": {
+      "en": {
+        "nombre": "4K camera drone",
+        "descripcion": "Drone with camera for photo and video: audiovisual equipment. Real estate, events and creators. Includes advice on the model and a starter guide. Respect Luxembourg's drone regulations."
+      },
+      "fr": {
+        "nombre": "Drone avec caméra 4K",
+        "descripcion": "Drone avec caméra pour la photo et la vidéo : matériel audiovisuel. Immobilier, événements et créateurs. Inclut des conseils sur le modèle et un guide de démarrage. Respectez la réglementation luxembourgeoise sur les drones."
+      },
+      "es": {
+        "nombre": "Dron con cámara 4K",
+        "descripcion": "Dron con cámara para foto y vídeo: material audiovisual. Bienes raíces, eventos y creadores. Incluye asesoría de modelo y guía de inicio. Respeta la normativa de drones de Luxemburgo."
+      },
+      "pt": {
+        "nombre": "Drone com câmara 4K",
+        "descripcion": "Drone com câmara para foto e vídeo: material audiovisual. Imobiliário, eventos e criadores. Inclui aconselhamento sobre o modelo e guia de início. Respeite a regulamentação de drones do Luxemburgo."
+      }
+    },
+    "camara-accion-gimbal": {
+      "en": {
+        "nombre": "Action camera + gimbal",
+        "descripcion": "Action camera with stabiliser for video on the move. Audiovisual equipment. Includes advice and a user guide."
+      },
+      "fr": {
+        "nombre": "Caméra d'action + stabilisateur",
+        "descripcion": "Caméra d'action avec stabilisateur pour la vidéo en mouvement. Matériel audiovisuel. Inclut des conseils et un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Cámara de acción + gimbal",
+        "descripcion": "Cámara de acción con estabilizador para vídeo en movimiento. Material audiovisual. Incluye asesoría y guía de uso."
+      },
+      "pt": {
+        "nombre": "Câmara de ação + gimbal",
+        "descripcion": "Câmara de ação com estabilizador para vídeo em movimento. Material audiovisual. Inclui aconselhamento e guia de utilização."
+      }
+    },
+    "kit-starlink": {
+      "en": {
+        "nombre": "Starlink kit (dish + router)",
+        "descripcion": "Satellite internet plug-and-play: rural areas and second homes. Includes advice on coverage and a startup guide."
+      },
+      "fr": {
+        "nombre": "Kit Starlink (antenne + routeur)",
+        "descripcion": "Internet par satellite plug-and-play : zones rurales et résidences secondaires. Inclut des conseils de couverture et un guide de mise en route."
+      },
+      "es": {
+        "nombre": "Kit Starlink (antena + router)",
+        "descripcion": "Internet por satélite plug-and-play: zonas rurales y segundas residencias. Incluye asesoría de cobertura y guía de puesta en marcha."
+      },
+      "pt": {
+        "nombre": "Kit Starlink (antena + router)",
+        "descripcion": "Internet por satélite plug-and-play: zonas rurais e segundas residências. Inclui aconselhamento de cobertura e guia de arranque."
+      }
+    },
+    "mesh-wifi-3-nodos": {
+      "en": {
+        "nombre": "Mesh WiFi system (3 nodes)",
+        "descripcion": "Mesh WiFi for the whole house (Deco, Nest Wifi or Eero): plug in and app. Includes advice on coverage and a setup guide."
+      },
+      "fr": {
+        "nombre": "Système WiFi mesh (3 nœuds)",
+        "descripcion": "WiFi maillé pour toute la maison (Deco, Nest Wifi ou Eero) : prise et application. Inclut des conseils de couverture et un guide de configuration."
+      },
+      "es": {
+        "nombre": "Sistema mesh WiFi (3 nodos)",
+        "descripcion": "WiFi de malla para toda la casa (Deco, Nest Wifi o Eero): enchufe y app. Incluye asesoría de cobertura y guía de configuración."
+      },
+      "pt": {
+        "nombre": "Sistema mesh WiFi (3 nós)",
+        "descripcion": "WiFi de malha para toda a casa (Deco, Nest Wifi ou Eero): tomada e app. Inclui aconselhamento de cobertura e guia de configuração."
+      }
+    },
+    "kit-powerline-plc": {
+      "en": {
+        "nombre": "Powerline adapter kit (PLC)",
+        "descripcion": "Internet through the plug socket: brings the network where WiFi does not reach. Plug-and-play. Includes advice and a setup guide."
+      },
+      "fr": {
+        "nombre": "Kit adaptateurs CPL (powerline)",
+        "descripcion": "Internet par la prise : amène le réseau là où le WiFi ne passe pas. Plug-and-play. Inclut des conseils et un guide de configuration."
+      },
+      "es": {
+        "nombre": "Kit adaptadores powerline (PLC)",
+        "descripcion": "Internet por el enchufe: lleva la red a donde no llega el WiFi. Plug-and-play. Incluye asesoría y guía de configuración."
+      },
+      "pt": {
+        "nombre": "Kit de adaptadores powerline (PLC)",
+        "descripcion": "Internet pela tomada: leva a rede onde o WiFi não chega. Plug-and-play. Inclui aconselhamento e guia de configuração."
+      }
+    },
+    "repetidor-wifi": {
+      "en": {
+        "nombre": "WiFi repeater / extender",
+        "descripcion": "Extends WiFi coverage at home or in the office. Plug in and app. Includes advice on placement and a setup guide."
+      },
+      "fr": {
+        "nombre": "Répéteur / extenseur WiFi",
+        "descripcion": "Étend la couverture WiFi à la maison ou au bureau. Prise et application. Inclut des conseils de placement et un guide de configuration."
+      },
+      "es": {
+        "nombre": "Repetidor / extensor WiFi",
+        "descripcion": "Amplía la cobertura WiFi en casa o en la oficina. Enchufe y app. Incluye asesoría de colocación y guía de configuración."
+      },
+      "pt": {
+        "nombre": "Repetidor / extensor WiFi",
+        "descripcion": "Amplia a cobertura WiFi em casa ou no escritório. Tomada e app. Inclui aconselhamento de colocação e guia de configuração."
+      }
+    },
+    "dock-usbc": {
+      "en": {
+        "nombre": "USB-C dock for home office",
+        "descripcion": "USB-C base with ports, charging and video output: one cable and you are working. Plug-and-play. Includes advice on compatibility and a guide."
+      },
+      "fr": {
+        "nombre": "Station d'accueil USB-C pour bureau à domicile",
+        "descripcion": "Base USB-C avec ports, charge et sortie vidéo : un câble et on travaille. Plug-and-play. Inclut des conseils de compatibilité et un guide."
+      },
+      "es": {
+        "nombre": "Dock USB-C para oficina en casa",
+        "descripcion": "Base USB-C con puertos, carga y salida de vídeo: un cable y a trabajar. Plug-and-play. Incluye asesoría de compatibilidad y guía."
+      },
+      "pt": {
+        "nombre": "Dock USB-C para escritório em casa",
+        "descripcion": "Base USB-C com portas, carregamento e saída de vídeo: um cabo e a trabalhar. Plug-and-play. Inclui aconselhamento de compatibilidade e guia."
+      }
+    },
+    "webcam-4k": {
+      "en": {
+        "nombre": "4K webcam for remote work and streaming",
+        "descripcion": "4K webcam with microphone for video calls and live streams. Plug-and-play via USB. Includes a setup guide."
+      },
+      "fr": {
+        "nombre": "Webcam 4K pour télétravail et streaming",
+        "descripcion": "Webcam 4K avec microphone pour visioconférences et directs. Plug-and-play par USB. Inclut un guide de configuration."
+      },
+      "es": {
+        "nombre": "Webcam 4K para teletrabajo y streaming",
+        "descripcion": "Cámara web 4K con micrófono para videollamadas y directos. Plug-and-play por USB. Incluye guía de configuración."
+      },
+      "pt": {
+        "nombre": "Webcam 4K para teletrabalho e streaming",
+        "descripcion": "Câmara web 4K com microfone para videochamadas e diretos. Plug-and-play por USB. Inclui guia de configuração."
+      }
+    },
+    "luz-streaming": {
+      "en": {
+        "nombre": "Streaming light (Elgato Key Light or similar)",
+        "descripcion": "LED studio light for video calls and streaming: mounts on the desk and is controlled from the app. Plug-and-play. Includes a user guide."
+      },
+      "fr": {
+        "nombre": "Lumière de streaming (Elgato Key Light ou similaire)",
+        "descripcion": "Lumière LED de studio pour visioconférences et streaming : se monte sur le bureau et se contrôle depuis l'application. Plug-and-play. Inclut un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Luz de streaming (Elgato Key Light o similar)",
+        "descripcion": "Luz LED de estudio para videollamadas y streaming: se monta en el escritorio y se controla desde la app. Plug-and-play. Incluye guía de uso."
+      },
+      "pt": {
+        "nombre": "Luz de streaming (Elgato Key Light ou similar)",
+        "descripcion": "Luz LED de estúdio para videochamadas e streaming: monta-se na secretária e controla-se a partir da app. Plug-and-play. Inclui guia de utilização."
+      }
+    },
+    "riego-smart-jardin": {
+      "en": {
+        "nombre": "Smart garden watering",
+        "descripcion": "Battery watering controller + soil moisture sensor: schedule watering from the app. Plug-and-play, no building work. Includes advice and an installation guide."
+      },
+      "fr": {
+        "nombre": "Arrosage connecté de jardin",
+        "descripcion": "Programmateur d'arrosage sur batterie + capteur d'humidité du sol : programmez l'arrosage depuis l'application. Plug-and-play, sans travaux. Inclut des conseils et un guide d'installation."
+      },
+      "es": {
+        "nombre": "Riego smart de jardín",
+        "descripcion": "Controlador de riego a batería + sensor de humedad del suelo: programa el riego desde la app. Plug-and-play, sin obra. Incluye asesoría y guía de instalación."
+      },
+      "pt": {
+        "nombre": "Rega inteligente de jardim",
+        "descripcion": "Controlador de rega a bateria + sensor de humidade do solo: programe a rega a partir da app. Plug-and-play, sem obras. Inclui aconselhamento e guia de instalação."
+      }
+    },
+    "guia-pdf-motor-persiana": {
+      "en": {
+        "nombre": "PDF guide: shutter motor (report + installation)",
+        "descripcion": "Compatibility report + step-by-step installation guide for tubular shutter motors. The Jean Paul model, turned into a digital product. Sent by email after purchase."
+      },
+      "fr": {
+        "nombre": "Guide PDF : moteur de volet (rapport + installation)",
+        "descripcion": "Rapport de compatibilité + guide d'installation étape par étape pour moteurs tubulaires de volet. Le modèle Jean Paul, converti en produit numérique. Envoyé par e-mail après l'achat."
+      },
+      "es": {
+        "nombre": "Guía PDF: motor de persiana (informe + instalación)",
+        "descripcion": "Informe de compatibilidad + guía de instalación paso a paso para motores tubulares de persiana. El modelo Jean Paul, convertido en producto digital. Se envía por correo tras la compra."
+      },
+      "pt": {
+        "nombre": "Guia PDF: motor de estore (relatório + instalação)",
+        "descripcion": "Relatório de compatibilidade + guia de instalação passo a passo para motores tubulares de estore. O modelo Jean Paul, convertido em produto digital. Enviado por e-mail após a compra."
+      }
+    },
+    "guia-pdf-kit-solar": {
+      "en": {
+        "nombre": "PDF guide: balcony solar kit",
+        "descripcion": "Complete guide to the 799 W balcony solar kit: orientation, connection, Wieland plug and what to declare (and what not to). Sent by email after purchase."
+      },
+      "fr": {
+        "nombre": "Guide PDF : kit solaire de balcon",
+        "descripcion": "Guide complet du kit solaire de balcon 799 W : orientation, raccordement, prise Wieland et ce qu'il faut déclarer (et ce qu'il ne faut pas). Envoyé par e-mail après l'achat."
+      },
+      "es": {
+        "nombre": "Guía PDF: kit solar de balcón",
+        "descripcion": "Guía completa del kit solar de balcón 799 W: orientación, conexión, enchufe Wieland y qué declarar (y qué no). Se envía por correo tras la compra."
+      },
+      "pt": {
+        "nombre": "Guia PDF: kit solar de varanda",
+        "descripcion": "Guia completo do kit solar de varanda de 799 W: orientação, ligação, tomada Wieland e o que declarar (e o que não declarar). Enviado por e-mail após a compra."
+      }
+    },
+    "guia-pdf-panel-calefactor": {
+      "en": {
+        "nombre": "PDF guide: heating panel",
+        "descripcion": "Power calculation + placement guide for plug-and-play heating panels. Sent by email after purchase."
+      },
+      "fr": {
+        "nombre": "Guide PDF : panneau chauffant",
+        "descripcion": "Calcul de puissance + guide de placement des panneaux chauffants plug-and-play. Envoyé par e-mail après l'achat."
+      },
+      "es": {
+        "nombre": "Guía PDF: panel calefactor",
+        "descripcion": "Cálculo de potencia + guía de colocación de paneles calefactores plug-and-play. Se envía por correo tras la compra."
+      },
+      "pt": {
+        "nombre": "Guia PDF: painel de aquecimento",
+        "descripcion": "Cálculo de potência + guia de colocação de painéis de aquecimento plug-and-play. Enviado por e-mail após a compra."
+      }
+    },
+    "guia-pdf-iluminacion-smart": {
+      "en": {
+        "nombre": "PDF guide: smart lighting",
+        "descripcion": "Smart lighting guide for home or business: what to buy, compatibility and setup. Sent by email after purchase."
+      },
+      "fr": {
+        "nombre": "Guide PDF : éclairage connecté",
+        "descripcion": "Guide d'éclairage connecté pour la maison ou le commerce : quoi acheter, compatibilité et configuration. Envoyé par e-mail après l'achat."
+      },
+      "es": {
+        "nombre": "Guía PDF: iluminación smart",
+        "descripcion": "Guía de iluminación inteligente para casa o negocio: qué comprar, compatibilidad y configuración. Se envía por correo tras la compra."
+      },
+      "pt": {
+        "nombre": "Guia PDF: iluminação inteligente",
+        "descripcion": "Guia de iluminação inteligente para casa ou negócio: o que comprar, compatibilidade e configuração. Enviado por e-mail após a compra."
+      }
+    },
+    "hidrolimpiadora": {
+      "en": {
+        "nombre": "Pressure washer (Kärcher or similar)",
+        "descripcion": "Pressure cleaning of terraces, façades, cars and patios (Kärcher or similar). Includes advice on nozzles and pressure, and a user guide."
+      },
+      "fr": {
+        "nombre": "Nettoyeur haute pression (Kärcher ou similaire)",
+        "descripcion": "Nettoyage haute pression des terrasses, façades, voitures et patios (Kärcher ou similaire). Inclut des conseils sur les buses et la pression, et un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Hidrolimpiadora (Kärcher o similar)",
+        "descripcion": "Limpieza a presión de terrazas, fachadas, coches y patios (Kärcher o similar). Incluye asesoría de boquillas y presión, y guía de uso."
+      },
+      "pt": {
+        "nombre": "Lavadora de alta pressão (Kärcher ou similar)",
+        "descripcion": "Limpeza a pressão de terraços, fachadas, carros e pátios (Kärcher ou similar). Inclui aconselhamento sobre bicos e pressão, e guia de utilização."
+      }
+    },
+    "extractor-alfombras-tapiceria": {
+      "en": {
+        "nombre": "Carpet and upholstery extractor / cleaner",
+        "descripcion": "Deep cleaning of carpets, sofas, mattresses and car interiors (Kärcher Puzzi, Bissell or similar). Includes advice on use and a deep-cleaning guide."
+      },
+      "fr": {
+        "nombre": "Extracteur / nettoyeur de tapis et tissus d'ameublement",
+        "descripcion": "Nettoyage en profondeur des tapis, canapés, matelas et intérieurs de voiture (Kärcher Puzzi, Bissell ou similaire). Inclut des conseils d'utilisation et un guide de nettoyage en profondeur."
+      },
+      "es": {
+        "nombre": "Extractor / limpiador de alfombras y tapicería",
+        "descripcion": "Limpieza profunda de alfombras, sofás, colchones e interiores de coche (Kärcher Puzzi, Bissell o similar). Incluye asesoría de uso y guía de limpieza profunda."
+      },
+      "pt": {
+        "nombre": "Extrator / limpador de alcatifas e estofos",
+        "descripcion": "Limpeza profunda de alcatifas, sofás, colchões e interiores de carro (Kärcher Puzzi, Bissell ou similar). Inclui aconselhamento de utilização e guia de limpeza profunda."
+      }
+    },
+    "limpiador-vapor": {
+      "en": {
+        "nombre": "Steam cleaner",
+        "descripcion": "Cleans floors, bathrooms and kitchens with steam, without chemicals. Includes advice on accessories and a user guide."
+      },
+      "fr": {
+        "nombre": "Nettoyeur vapeur",
+        "descripcion": "Nettoie sols, salles de bains et cuisines à la vapeur, sans produits chimiques. Inclut des conseils sur les accessoires et un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Limpiador a vapor",
+        "descripcion": "Limpia suelos, baños y cocinas con vapor, sin químicos. Incluye asesoría de accesorios y guía de uso."
+      },
+      "pt": {
+        "nombre": "Limpador a vapor",
+        "descripcion": "Limpa pavimentos, casas de banho e cozinhas com vapor, sem químicos. Inclui aconselhamento sobre acessórios e guia de utilização."
+      }
+    },
+    "aspiradora-industrial-humedo-seco": {
+      "en": {
+        "nombre": "Industrial wet/dry vacuum cleaner",
+        "descripcion": "For building sites, garages and workshops: vacuums dust, sawdust and liquids. Includes advice on filters and a user guide."
+      },
+      "fr": {
+        "nombre": "Aspirateur industriel eau et poussière",
+        "descripcion": "Pour chantiers, garages et ateliers : aspire poussière, sciure et liquides. Inclut des conseils sur les filtres et un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Aspiradora industrial húmedo/seco",
+        "descripcion": "Para obra, garaje y taller: aspira polvo, serrín y líquidos. Incluye asesoría de filtros y guía de uso."
+      },
+      "pt": {
+        "nombre": "Aspirador industrial húmido/seco",
+        "descripcion": "Para obras, garagem e oficina: aspira pó, serradura e líquidos. Inclui aconselhamento sobre filtros e guia de utilização."
+      }
+    },
+    "pulidora-suelos": {
+      "en": {
+        "nombre": "Floor polisher / buffer",
+        "descripcion": "Polishes and shines hard floors. Includes advice on pads and a user guide."
+      },
+      "fr": {
+        "nombre": "Polisseuse / lustreuse de sols",
+        "descripcion": "Polit et fait briller les sols durs. Inclut des conseils sur les disques et un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Pulidora / abrillantadora de suelos",
+        "descripcion": "Pule y abrillanta suelos duros. Incluye asesoría de discos y guía de uso."
+      },
+      "pt": {
+        "nombre": "Polideira / enceradora de pavimentos",
+        "descripcion": "Pule e dá brilho a pavimentos duros. Inclui aconselhamento sobre discos e guia de utilização."
+      }
+    },
+    "pulidora-orbital-auto": {
+      "en": {
+        "nombre": "Orbital polisher for car detailing",
+        "descripcion": "Bodywork polishing to remove marks and restore shine. Detailing equipment, no chemicals. Includes advice on pads and a polishing guide."
+      },
+      "fr": {
+        "nombre": "Polisseuse orbitale pour detailing auto",
+        "descripcion": "Polissage de carrosserie pour enlever les marques et redonner de l'éclat. Équipement de detailing, sans produits chimiques. Inclut des conseils sur les pads et un guide de polissage."
+      },
+      "es": {
+        "nombre": "Pulidora orbital para detailing de coche",
+        "descripcion": "Pulido de carrocería para quitar marcas y devolver el brillo. Equipo de detailing, sin químicos. Incluye asesoría de pads y guía de pulido."
+      },
+      "pt": {
+        "nombre": "Polideira orbital para detailing de automóvel",
+        "descripcion": "Polimento da carroçaria para remover marcas e devolver o brilho. Equipamento de detailing, sem químicos. Inclui aconselhamento sobre pads e guia de polimento."
+      }
+    },
+    "aspiradora-coche": {
+      "en": {
+        "nombre": "Car vacuum cleaner for detailing",
+        "descripcion": "Car interior cleaning: seats, mats and boot. Includes advice on nozzles and a user guide."
+      },
+      "fr": {
+        "nombre": "Aspirateur de voiture pour detailing",
+        "descripcion": "Nettoyage de l'intérieur de la voiture : sièges, tapis et coffre. Inclut des conseils sur les buses et un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Aspiradora de coche para detailing",
+        "descripcion": "Limpieza interior del coche: asientos, alfombrillas y maletero. Incluye asesoría de boquillas y guía de uso."
+      },
+      "pt": {
+        "nombre": "Aspirador de carro para detailing",
+        "descripcion": "Limpeza do interior do carro: bancos, tapetes e bagageira. Inclui aconselhamento sobre bicos e guia de utilização."
+      }
+    },
+    "lanza-espuma-hidrolimpiadora": {
+      "en": {
+        "nombre": "Foam lance for pressure washer",
+        "descripcion": "Pre-wash foam for the car, attaches to the pressure washer. Equipment, no chemicals. Includes a user guide."
+      },
+      "fr": {
+        "nombre": "Lance à mousse pour nettoyeur haute pression",
+        "descripcion": "Mousse de prélavage pour la voiture, se fixe au nettoyeur haute pression. Équipement, sans produits chimiques. Inclut un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Lanza de espuma para hidrolimpiadora",
+        "descripcion": "Espuma de prelavado para el coche, se acopla a la hidrolimpiadora. Equipo, sin químicos. Incluye guía de uso."
+      },
+      "pt": {
+        "nombre": "Lança de espuma para lavadora de alta pressão",
+        "descripcion": "Espuma de pré-lavagem para o carro, acopla-se à lavadora de alta pressão. Equipamento, sem químicos. Inclui guia de utilização."
+      }
+    },
+    "aspiradora-cenizas": {
+      "en": {
+        "nombre": "Ash vacuum cleaner",
+        "descripcion": "For stoves, fireplaces and barbecues: vacuums cold ash without making a mess. Includes a user guide."
+      },
+      "fr": {
+        "nombre": "Aspirateur de cendres",
+        "descripcion": "Pour poêles, cheminées et barbecues : aspire la cendre froide sans salir. Inclut un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Aspiradora de cenizas",
+        "descripcion": "Para estufas, chimeneas y barbacoas: aspira ceniza fría sin ensuciar. Incluye guía de uso."
+      },
+      "pt": {
+        "nombre": "Aspirador de cinzas",
+        "descripcion": "Para salamandras, lareiras e churrasqueiras: aspira cinza fria sem sujar. Inclui guia de utilização."
+      }
+    },
+    "luz-trabajo-led-recargable": {
+      "en": {
+        "nombre": "Rechargeable LED work light",
+        "descripcion": "Portable lighting for building sites, garages and workshops, with rechargeable battery. Includes a user guide."
+      },
+      "fr": {
+        "nombre": "Lampe de chantier LED rechargeable",
+        "descripcion": "Éclairage portable pour chantiers, garages et ateliers, avec batterie rechargeable. Inclut un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Luz de trabajo LED recargable",
+        "descripcion": "Iluminación portátil para obra, garaje y taller, con batería recargable. Incluye guía de uso."
+      },
+      "pt": {
+        "nombre": "Luz de trabalho LED recarregável",
+        "descripcion": "Iluminação portátil para obras, garagem e oficina, com bateria recarregável. Inclui guia de utilização."
+      }
+    },
+    "medidor-laser-distancia": {
+      "en": {
+        "nombre": "Laser distance measurer",
+        "descripcion": "Measures distances and areas instantly: renovations, real estate and surveys. Includes a user guide."
+      },
+      "fr": {
+        "nombre": "Télémètre laser",
+        "descripcion": "Mesure distances et surfaces en un instant : rénovations, immobilier et mesures. Inclut un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Medidor láser de distancia",
+        "descripcion": "Mide distancias y superficies al instante: reformas, inmobiliarias y mediciones. Incluye guía de uso."
+      },
+      "pt": {
+        "nombre": "Medidor laser de distância",
+        "descripcion": "Mede distâncias e superfícies num instante: remodelações, imobiliário e medições. Inclui guia de utilização."
+      }
+    },
+    "camara-inspeccion-endoscopica": {
+      "en": {
+        "nombre": "Endoscopic inspection camera",
+        "descripcion": "See inside pipes, walls and engines: for plumbers, electricians and mechanics. Includes a user guide."
+      },
+      "fr": {
+        "nombre": "Caméra d'inspection endoscopique",
+        "descripcion": "Voir à l'intérieur des tuyaux, des murs et des moteurs : pour plombiers, électriciens et mécaniciens. Inclut un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Cámara de inspección endoscópica",
+        "descripcion": "Ve dentro de tuberías, muros y motores: para fontaneros, electricistas y mecánicos. Incluye guía de uso."
+      },
+      "pt": {
+        "nombre": "Câmara de inspeção endoscópica",
+        "descripcion": "Vê dentro de tubagens, paredes e motores: para canalizadores, eletricistas e mecânicos. Inclui guia de utilização."
+      }
+    },
+    "impresora-3d": {
+      "en": {
+        "nombre": "3D printer",
+        "descripcion": "For makers, prototypes and spare parts: print pieces at home. Includes advice on model and filament, and a starter guide."
+      },
+      "fr": {
+        "nombre": "Imprimante 3D",
+        "descripcion": "Pour makers, prototypes et pièces détachées : imprimez des pièces à la maison. Inclut des conseils sur le modèle et le filament, et un guide de démarrage."
+      },
+      "es": {
+        "nombre": "Impresora 3D",
+        "descripcion": "Para makers, prototipos y repuestos: imprime piezas en casa. Incluye asesoría de modelo y filamento, y guía de inicio."
+      },
+      "pt": {
+        "nombre": "Impressora 3D",
+        "descripcion": "Para makers, protótipos e peças sobressalentes: imprima peças em casa. Inclui aconselhamento sobre modelo e filamento, e guia de início."
+      }
+    },
+    "estacion-meteorologica-smart": {
+      "en": {
+        "nombre": "Smart weather station",
+        "descripcion": "Temperature, humidity, rain and wind at home and in the garden, with app. Includes a setup guide."
+      },
+      "fr": {
+        "nombre": "Station météo connectée",
+        "descripcion": "Température, humidité, pluie et vent à la maison et au jardin, avec application. Inclut un guide de configuration."
+      },
+      "es": {
+        "nombre": "Estación meteorológica smart",
+        "descripcion": "Temperatura, humedad, lluvia y viento en casa y jardín, con app. Incluye guía de configuración."
+      },
+      "pt": {
+        "nombre": "Estação meteorológica inteligente",
+        "descripcion": "Temperatura, humidade, chuva e vento em casa e no jardim, com app. Inclui guia de configuração."
+      }
+    },
+    "iluminacion-solar-jardin": {
+      "en": {
+        "nombre": "Solar garden lighting",
+        "descripcion": "Solar lights for garden and terrace: stick them in and done, no wiring. Includes a placement guide."
+      },
+      "fr": {
+        "nombre": "Éclairage solaire de jardin",
+        "descripcion": "Lumières solaires pour jardin et terrasse : on les plante et c'est prêt, sans câblage. Inclut un guide de placement."
+      },
+      "es": {
+        "nombre": "Iluminación solar de jardín",
+        "descripcion": "Luces solares para jardín y terraza: se clavan y listo, sin cableado. Incluye guía de colocación."
+      },
+      "pt": {
+        "nombre": "Iluminação solar de jardim",
+        "descripcion": "Luzes solares para jardim e terraço: cravam-se e está feito, sem cablagem. Inclui guia de colocação."
+      }
+    },
+    "detector-humo-co-smart": {
+      "en": {
+        "nombre": "Smart smoke and CO detector",
+        "descripcion": "Battery smoke and carbon monoxide detector, with WiFi and phone alerts. Includes an installation guide."
+      },
+      "fr": {
+        "nombre": "Détecteur de fumée et de CO connecté",
+        "descripcion": "Détecteur de fumée et de monoxyde de carbone sur batterie, avec WiFi et alerte sur le téléphone. Inclut un guide d'installation."
+      },
+      "es": {
+        "nombre": "Detector de humo y CO smart",
+        "descripcion": "Detector de humo y monóxido de carbono a batería, con WiFi y aviso al móvil. Incluye guía de instalación."
+      },
+      "pt": {
+        "nombre": "Detetor de fumo e CO inteligente",
+        "descripcion": "Detetor de fumo e monóxido de carbono a bateria, com WiFi e aviso no telemóvel. Inclui guia de instalação."
+      }
+    },
+    "cargador-ev-portatil": {
+      "en": {
+        "nombre": "Portable EV charger",
+        "descripcion": "Charge the electric car from a normal plug socket, without installing a wallbox. A fixed wallbox is not included. Includes advice on compatibility and a user guide."
+      },
+      "fr": {
+        "nombre": "Chargeur VE portable",
+        "descripcion": "Charge la voiture électrique depuis une prise normale, sans installer de wallbox. La wallbox fixe n'est pas incluse. Inclut des conseils de compatibilité et un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Cargador EV portátil",
+        "descripcion": "Carga el coche eléctrico desde un enchufe normal, sin instalar wallbox. El wallbox fijo no entra. Incluye asesoría de compatibilidad y guía de uso."
+      },
+      "pt": {
+        "nombre": "Carregador EV portátil",
+        "descripcion": "Carrega o carro elétrico a partir de uma tomada normal, sem instalar wallbox. A wallbox fixa não está incluída. Inclui aconselhamento de compatibilidade e guia de utilização."
+      }
+    },
+    "walkie-talkies-eventos": {
+      "en": {
+        "nombre": "Walkie-talkies / radios for events",
+        "descripcion": "Communication at events, building sites and shoots. Technical event equipment. Includes a user guide."
+      },
+      "fr": {
+        "nombre": "Talkies-walkies / radios pour événements",
+        "descripcion": "Communication lors d'événements, de chantiers et de tournages. Matériel technique d'événements. Inclut un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Walkie-talkies / radios para eventos",
+        "descripcion": "Comunicación en eventos, obras y rodajes. Material técnico de eventos. Incluye guía de uso."
+      },
+      "pt": {
+        "nombre": "Walkie-talkies / rádios para eventos",
+        "descripcion": "Comunicação em eventos, obras e filmagens. Material técnico de eventos. Inclui guia de utilização."
+      }
+    },
+    "ups-respaldo": {
+      "en": {
+        "nombre": "UPS / backup battery",
+        "descripcion": "Protects computer and router during power cuts: backup for office and home. Includes advice on runtime and a user guide."
+      },
+      "fr": {
+        "nombre": "Onduleur UPS / batterie de secours",
+        "descripcion": "Protège ordinateur et routeur en cas de coupure : secours pour bureau et maison. Inclut des conseils sur l'autonomie et un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "UPS / batería de respaldo",
+        "descripcion": "Protege ordenador y router en cortes de luz: respaldo para oficina y casa. Incluye asesoría de autonomía y guía de uso."
+      },
+      "pt": {
+        "nombre": "UPS / bateria de reserva",
+        "descripcion": "Protege computador e router em cortes de luz: reserva para escritório e casa. Inclui aconselhamento sobre autonomia e guia de utilização."
+      }
+    },
+    "kit-herramientas-precision-electronica": {
+      "en": {
+        "nombre": "Precision tool kit for electronics",
+        "descripcion": "Precision screwdrivers and tools for repairing phones and computers. Includes a user guide."
+      },
+      "fr": {
+        "nombre": "Kit d'outils de précision pour l'électronique",
+        "descripcion": "Tournevis et outils de précision pour réparer téléphones et ordinateurs. Inclut un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Kit de herramientas de precisión para electrónica",
+        "descripcion": "Destornilladores y herramientas de precisión para reparar móviles y ordenadores. Incluye guía de uso."
+      },
+      "pt": {
+        "nombre": "Kit de ferramentas de precisão para eletrónica",
+        "descripcion": "Chaves de fendas e ferramentas de precisão para reparar telemóveis e computadores. Inclui guia de utilização."
+      }
+    },
+    "soporte-brazo-monitor-tv": {
+      "en": {
+        "nombre": "Articulated arm / mount for monitor and TV",
+        "descripcion": "Sale of the mount + guide. Drilling installation is done by the customer or a third party, not by Welux."
+      },
+      "fr": {
+        "nombre": "Support / bras articulé pour écran et TV",
+        "descripcion": "Vente du support + guide. Le montage avec perçage est fait par le client ou un tiers, pas par Welux."
+      },
+      "es": {
+        "nombre": "Soporte / brazo articulado para monitor y TV",
+        "descripcion": "Venta del soporte + guía. El montaje con taladro lo hace el cliente o un tercero, no Welux."
+      },
+      "pt": {
+        "nombre": "Suporte / braço articulado para monitor e TV",
+        "descripcion": "Venda do suporte + guia. A montagem com furo é feita pelo cliente ou por um terceiro, não pela Welux."
+      }
+    },
+    "cargador-solar-portatil-usb": {
+      "en": {
+        "nombre": "Portable solar USB charger",
+        "descripcion": "Power bank with solar panel to charge your phone while camping and in emergencies. Includes a user guide."
+      },
+      "fr": {
+        "nombre": "Chargeur solaire portable USB",
+        "descripcion": "Batterie externe avec panneau solaire pour charger le téléphone en camping et en cas d'urgence. Inclut un guide d'utilisation."
+      },
+      "es": {
+        "nombre": "Cargador solar portátil USB",
+        "descripcion": "Power bank con panel solar para cargar el móvil en camping y emergencias. Incluye guía de uso."
+      },
+      "pt": {
+        "nombre": "Carregador solar portátil USB",
+        "descripcion": "Power bank com painel solar para carregar o telemóvel em campismo e emergências. Inclui guia de utilização."
+      }
+    },
+    "pack-smart-home-estudio": {
+      "en": {
+        "nombre": "Smart home pack — studio (1 room)",
+        "descripcion": "Complete pack configured for a studio: plugs, bulbs, camera and mesh as per the pack, with a step-by-step setup guide by app and compatibility (Hue/Tapo/Shelly/Eufy/Nuki). Advice in Spanish/Portuguese included. Everything plug-in, no wiring."
+      },
+      "fr": {
+        "nombre": "Pack maison connectée — studio (1 pièce)",
+        "descripcion": "Pack complet configuré pour un studio : prises, ampoules, caméra et mesh selon le pack, avec guide de configuration étape par étape par application et compatibilité (Hue/Tapo/Shelly/Eufy/Nuki). Conseils en espagnol/portugais inclus. Tout enfichable, sans câblage."
+      },
+      "es": {
+        "nombre": "Pack smart home — estudio (1 habitación)",
+        "descripcion": "Pack completo configurado para un estudio: enchufes, bombillas, cámara y mesh según el pack, con guía de configuración paso a paso por app y compatibilidad (Hue/Tapo/Shelly/Eufy/Nuki). Asesoría en español/portugués incluida. Todo enchufable, sin cableado."
+      },
+      "pt": {
+        "nombre": "Pack casa inteligente — estúdio (1 divisão)",
+        "descripcion": "Pack completo configurado para um estúdio: tomadas, lâmpadas, câmara e mesh conforme o pack, com guia de configuração passo a passo por app e compatibilidade (Hue/Tapo/Shelly/Eufy/Nuki). Aconselhamento em espanhol/português incluído. Tudo de tomada, sem cablagem."
+      }
+    },
+    "pack-smart-home-piso": {
+      "en": {
+        "nombre": "Smart home pack — 2-bedroom flat",
+        "descripcion": "Complete pack configured for a 2-bedroom flat: plugs, bulbs, camera and mesh as per the pack, with a step-by-step setup guide by app and compatibility (Hue/Tapo/Shelly/Eufy/Nuki). Advice in Spanish/Portuguese included. Everything plug-in, no wiring."
+      },
+      "fr": {
+        "nombre": "Pack maison connectée — appartement 2 chambres",
+        "descripcion": "Pack complet configuré pour un appartement de 2 chambres : prises, ampoules, caméra et mesh selon le pack, avec guide de configuration étape par étape par application et compatibilité (Hue/Tapo/Shelly/Eufy/Nuki). Conseils en espagnol/portugais inclus. Tout enfichable, sans câblage."
+      },
+      "es": {
+        "nombre": "Pack smart home — piso 2 habitaciones",
+        "descripcion": "Pack completo configurado para un piso de 2 habitaciones: enchufes, bombillas, cámara y mesh según el pack, con guía de configuración paso a paso por app y compatibilidad (Hue/Tapo/Shelly/Eufy/Nuki). Asesoría en español/portugués incluida. Todo enchufable, sin cableado."
+      },
+      "pt": {
+        "nombre": "Pack casa inteligente — apartamento de 2 quartos",
+        "descripcion": "Pack completo configurado para um apartamento de 2 quartos: tomadas, lâmpadas, câmara e mesh conforme o pack, com guia de configuração passo a passo por app e compatibilidade (Hue/Tapo/Shelly/Eufy/Nuki). Aconselhamento em espanhol/português incluído. Tudo de tomada, sem cablagem."
+      }
+    },
+    "pack-smart-home-casa": {
+      "en": {
+        "nombre": "Smart home pack — house",
+        "descripcion": "Complete pack configured for a house: plugs, bulbs, cameras, video doorbell and mesh as per the pack, with a step-by-step setup guide by app and compatibility (Hue/Tapo/Shelly/Eufy/Nuki). Advice in Spanish/Portuguese included. Everything plug-in, no wiring."
+      },
+      "fr": {
+        "nombre": "Pack maison connectée — maison",
+        "descripcion": "Pack complet configuré pour une maison : prises, ampoules, caméras, visiophone et mesh selon le pack, avec guide de configuration étape par étape par application et compatibilité (Hue/Tapo/Shelly/Eufy/Nuki). Conseils en espagnol/portugais inclus. Tout enfichable, sans câblage."
+      },
+      "es": {
+        "nombre": "Pack smart home — casa",
+        "descripcion": "Pack completo configurado para una casa: enchufes, bombillas, cámaras, videoportero y mesh según el pack, con guía de configuración paso a paso por app y compatibilidad (Hue/Tapo/Shelly/Eufy/Nuki). Asesoría en español/portugués incluida. Todo enchufable, sin cableado."
+      },
+      "pt": {
+        "nombre": "Pack casa inteligente — casa",
+        "descripcion": "Pack completo configurado para uma casa: tomadas, lâmpadas, câmaras, videoporteiro e mesh conforme o pack, com guia de configuração passo a passo por app e compatibilidade (Hue/Tapo/Shelly/Eufy/Nuki). Aconselhamento em espanhol/português incluído. Tudo de tomada, sem cablagem."
+      }
+    },
+    "pack-smart-home-negocio": {
+      "en": {
+        "nombre": "Smart home pack — small business",
+        "descripcion": "Complete pack configured for a small business (shop, restaurant, office): plugs, bulbs, cameras and mesh as per the pack, with a step-by-step setup guide by app. Advice in Spanish/Portuguese included. Everything plug-in, no wiring."
+      },
+      "fr": {
+        "nombre": "Pack maison connectée — petit commerce",
+        "descripcion": "Pack complet configuré pour un petit commerce (boutique, restaurant, bureau) : prises, ampoules, caméras et mesh selon le pack, avec guide de configuration étape par étape par application. Conseils en espagnol/portugais inclus. Tout enfichable, sans câblage."
+      },
+      "es": {
+        "nombre": "Pack smart home — pequeño negocio",
+        "descripcion": "Pack completo configurado para un pequeño negocio (tienda, restaurante, oficina): enchufes, bombillas, cámaras y mesh según el pack, con guía de configuración paso a paso por app. Asesoría en español/portugués incluida. Todo enchufable, sin cableado."
+      },
+      "pt": {
+        "nombre": "Pack casa inteligente — pequeno negócio",
+        "descripcion": "Pack completo configurado para um pequeno negócio (loja, restaurante, escritório): tomadas, lâmpadas, câmaras e mesh conforme o pack, com guia de configuração passo a passo por app. Aconselhamento em espanhol/português incluído. Tudo de tomada, sem cablagem."
+      }
+    },
+    "alquiler-hidrolimpiadora": {
+      "en": {
+        "nombre": "Pressure washer hire — per day",
+        "descripcion": "HIRE per day or weekend + user guide and nozzles + deposit. In Luxembourg nobody hires this equipment out to private customers. Equipment hire only; Welux does not provide the cleaning service."
+      },
+      "fr": {
+        "nombre": "Location de nettoyeur haute pression — par jour",
+        "descripcion": "LOCATION par jour ou par week-end + guide d'utilisation et buses + caution. Au Luxembourg, personne ne loue ces équipements aux particuliers. Location de matériel technique uniquement ; Welux ne fournit pas le service de nettoyage."
+      },
+      "es": {
+        "nombre": "Alquiler hidrolimpiadora — por día",
+        "descripcion": "ALQUILER por día o fin de semana + guía de uso y boquillas + depósito. En Luxemburgo nadie alquila estos equipos a particulares. Solo alquiler de material técnico; Welux no presta el servicio de limpieza."
+      },
+      "pt": {
+        "nombre": "Aluguer de lavadora de alta pressão — por dia",
+        "descripcion": "ALUGUER por dia ou fim de semana + guia de utilização e bicos + caução. No Luxemburgo ninguém aluga estes equipamentos a particulares. Só aluguer de material técnico; a Welux não presta o serviço de limpeza."
+      }
+    },
+    "alquiler-extractor-alfombras": {
+      "en": {
+        "nombre": "Carpet extractor hire — per day",
+        "descripcion": "HIRE per day or weekend + user guide + deposit. Deep cleaning of carpets, sofas, mattresses and car interiors. Equipment hire only; Welux does not provide the cleaning service."
+      },
+      "fr": {
+        "nombre": "Location d'extracteur de tapis — par jour",
+        "descripcion": "LOCATION par jour ou par week-end + guide d'utilisation + caution. Nettoyage en profondeur des tapis, canapés, matelas et intérieurs de voiture. Location de matériel technique uniquement ; Welux ne fournit pas le service de nettoyage."
+      },
+      "es": {
+        "nombre": "Alquiler extractor de alfombras — por día",
+        "descripcion": "ALQUILER por día o fin de semana + guía de uso + depósito. Limpieza profunda de alfombras, sofás, colchones e interiores de coche. Solo alquiler de material técnico; Welux no presta el servicio de limpieza."
+      },
+      "pt": {
+        "nombre": "Aluguer de extrator de alcatifas — por dia",
+        "descripcion": "ALUGUER por dia ou fim de semana + guia de utilização + caução. Limpeza profunda de alcatifas, sofás, colchões e interiores de carro. Só aluguer de material técnico; a Welux não presta o serviço de limpeza."
+      }
+    },
+    "alquiler-limpiador-vapor": {
+      "en": {
+        "nombre": "Steam cleaner hire — per day",
+        "descripcion": "HIRE per day or weekend + user guide and accessories + deposit. Cleans floors, bathrooms and kitchens with steam, without chemicals. Equipment hire only; Welux does not provide the cleaning service."
+      },
+      "fr": {
+        "nombre": "Location de nettoyeur vapeur — par jour",
+        "descripcion": "LOCATION par jour ou par week-end + guide d'utilisation et accessoires + caution. Nettoie sols, salles de bains et cuisines à la vapeur, sans produits chimiques. Location de matériel technique uniquement ; Welux ne fournit pas le service de nettoyage."
+      },
+      "es": {
+        "nombre": "Alquiler limpiador a vapor — por día",
+        "descripcion": "ALQUILER por día o fin de semana + guía de uso y accesorios + depósito. Limpia suelos, baños y cocinas con vapor, sin químicos. Solo alquiler de material técnico; Welux no presta el servicio de limpieza."
+      },
+      "pt": {
+        "nombre": "Aluguer de limpador a vapor — por dia",
+        "descripcion": "ALUGUER por dia ou fim de semana + guia de utilização e acessórios + caução. Limpa pavimentos, casas de banho e cozinhas com vapor, sem químicos. Só aluguer de material técnico; a Welux não presta o serviço de limpeza."
+      }
+    },
+    "alquiler-pulidora-suelos": {
+      "en": {
+        "nombre": "Floor polisher hire — per day",
+        "descripcion": "HIRE per day or weekend + user guide and pads + deposit. Polishes and shines hard floors. Equipment hire only; Welux does not provide the cleaning service."
+      },
+      "fr": {
+        "nombre": "Location de polisseuse de sols — par jour",
+        "descripcion": "LOCATION par jour ou par week-end + guide d'utilisation et disques + caution. Polit et fait briller les sols durs. Location de matériel technique uniquement ; Welux ne fournit pas le service de nettoyage."
+      },
+      "es": {
+        "nombre": "Alquiler pulidora de suelos — por día",
+        "descripcion": "ALQUILER por día o fin de semana + guía de uso y discos + depósito. Pule y abrillanta suelos duros. Solo alquiler de material técnico; Welux no presta el servicio de limpieza."
+      },
+      "pt": {
+        "nombre": "Aluguer de polideira de pavimentos — por dia",
+        "descripcion": "ALUGUER por dia ou fim de semana + guia de utilização e discos + caução. Pule e dá brilho a pavimentos duros. Só aluguer de material técnico; a Welux não presta o serviço de limpeza."
+      }
+    },
+    "barra-sonido-guia": {
+      "en": {
+        "nombre": "Soundbar with setup guide",
+        "descripcion": "Soundbar for TV or projector + fitting and setup guide. Drilling installation is done by the customer or a third party, not by Welux. AV equipment sale + guide, no installation."
+      },
+      "fr": {
+        "nombre": "Barre de son avec guide de configuration",
+        "descripcion": "Barre de son pour TV ou vidéoprojecteur + guide de montage et de configuration. Le montage avec perçage est fait par le client ou un tiers, pas par Welux. Vente de matériel AV + guide, sans installation."
+      },
+      "es": {
+        "nombre": "Barra de sonido con guía de configuración",
+        "descripcion": "Barra de sonido para TV o proyector + guía de montaje y configuración. El montaje con taladro lo hace el cliente o un tercero, no Welux. Venta de material AV + guía, sin instalar."
+      },
+      "pt": {
+        "nombre": "Barra de som com guia de configuração",
+        "descripcion": "Barra de som para TV ou projetor + guia de montagem e configuração. A montagem com furo é feita pelo cliente ou por um terceiro, não pela Welux. Venda de material AV + guia, sem instalar."
+      }
+    },
+    "pack-cine-en-casa": {
+      "en": {
+        "nombre": "Home cinema pack (projector + soundbar + mount)",
+        "descripcion": "Smart projector + soundbar + mount + fitting and setup guide. The mid-range that Cinémotion does not cover (only bespoke luxury with building work). Installation is done by the customer or a third party, not by Welux."
+      },
+      "fr": {
+        "nombre": "Pack cinéma à la maison (vidéoprojecteur + barre de son + support)",
+        "descripcion": "Vidéoprojecteur connecté + barre de son + support + guide de montage et de configuration. Le milieu de gamme que Cinémotion ne couvre pas (seulement du luxe sur mesure avec travaux). Le montage est fait par le client ou un tiers, pas par Welux."
+      },
+      "es": {
+        "nombre": "Pack cine en casa (proyector + barra de sonido + soporte)",
+        "descripcion": "Proyector smart + barra de sonido + soporte + guía de montaje y configuración. El tramo medio que Cinémotion no cubre (solo lujo a medida con obra). El montaje lo hace el cliente o un tercero, no Welux."
+      },
+      "pt": {
+        "nombre": "Pack cinema em casa (projetor + barra de som + suporte)",
+        "descripcion": "Projetor inteligente + barra de som + suporte + guia de montagem e configuração. A gama média que a Cinémotion não cobre (só luxo por medida com obras). A montagem é feita pelo cliente ou por um terceiro, não pela Welux."
+      }
+    },
+    "pack-starlink-mesh": {
+      "en": {
+        "nombre": "Starlink + mesh WiFi pack",
+        "descripcion": "Starlink kit + mesh (Deco/Nest Wifi/Eero) + guide for aiming the dish and placing the nodes. For rural areas and second homes. Plug-and-play."
+      },
+      "fr": {
+        "nombre": "Pack Starlink + WiFi mesh",
+        "descripcion": "Kit Starlink + mesh (Deco/Nest Wifi/Eero) + guide d'orientation de l'antenne et de placement des nœuds. Pour zones rurales et résidences secondaires. Plug-and-play."
+      },
+      "es": {
+        "nombre": "Pack Starlink + mesh WiFi",
+        "descripcion": "Kit Starlink + mesh (Deco/Nest Wifi/Eero) + guía de orientación de la antena y colocación de nodos. Para zonas rurales y segundas residencias. Plug-and-play."
+      },
+      "pt": {
+        "nombre": "Pack Starlink + mesh WiFi",
+        "descripcion": "Kit Starlink + mesh (Deco/Nest Wifi/Eero) + guia de orientação da antena e colocação dos nós. Para zonas rurais e segundas residências. Plug-and-play."
+      }
+    },
+    "pack-respaldo-teletrabajo": {
+      "en": {
+        "nombre": "Work-from-home backup pack (power station + UPS)",
+        "descripcion": "Power station + UPS + runtime guide: what to plug into each. For power cuts and working from home. Plug-and-play."
+      },
+      "fr": {
+        "nombre": "Pack de secours télétravail (station d'énergie + onduleur)",
+        "descripcion": "Station d'énergie + onduleur + guide d'autonomie : quoi brancher sur chaque appareil. Pour coupures de courant et télétravail. Plug-and-play."
+      },
+      "es": {
+        "nombre": "Pack respaldo teletrabajo (power station + UPS)",
+        "descripcion": "Power station + UPS + guía de autonomía: qué enchufar a cada cosa. Para cortes de luz y teletrabajo. Plug-and-play."
+      },
+      "pt": {
+        "nombre": "Pack de reserva para teletrabalho (estação de energia + UPS)",
+        "descripcion": "Estação de energia + UPS + guia de autonomia: o que ligar a cada coisa. Para cortes de luz e teletrabalho. Plug-and-play."
+      }
+    },
+    "pack-respaldo-camping": {
+      "en": {
+        "nombre": "Camping backup pack (power station + folding panel)",
+        "descripcion": "Power station + folding solar panel + runtime guide for camping and weekends away from home. Plug-and-play."
+      },
+      "fr": {
+        "nombre": "Pack de secours camping (station d'énergie + panneau pliable)",
+        "descripcion": "Station d'énergie + panneau solaire pliable + guide d'autonomie pour le camping et les week-ends hors de la maison. Plug-and-play."
+      },
+      "es": {
+        "nombre": "Pack respaldo camping (power station + panel plegable)",
+        "descripcion": "Power station + panel solar plegable + guía de autonomía para camping y fines de semana fuera de casa. Plug-and-play."
+      },
+      "pt": {
+        "nombre": "Pack de reserva para campismo (estação de energia + painel dobrável)",
+        "descripcion": "Estação de energia + painel solar dobrável + guia de autonomia para campismo e fins de semana fora de casa. Plug-and-play."
+      }
+    },
+    "pack-respaldo-casa": {
+      "en": {
+        "nombre": "Home backup pack (fridge / router)",
+        "descripcion": "Power station + folding panel + UPS + runtime guide to keep the fridge and router running during power cuts. Plug-and-play."
+      },
+      "fr": {
+        "nombre": "Pack de secours maison (frigo / routeur)",
+        "descripcion": "Station d'énergie + panneau pliable + onduleur + guide d'autonomie pour garder frigo et routeur en marche pendant les coupures. Plug-and-play."
+      },
+      "es": {
+        "nombre": "Pack respaldo de casa (nevera / router)",
+        "descripcion": "Power station + panel plegable + UPS + guía de autonomía para mantener nevera y router en cortes de luz. Plug-and-play."
+      },
+      "pt": {
+        "nombre": "Pack de reserva para casa (frigorífico / router)",
+        "descripcion": "Estação de energia + painel dobrável + UPS + guia de autonomia para manter o frigorífico e o router em cortes de luz. Plug-and-play."
+      }
+    },
+    "pack-detailing-auto": {
+      "en": {
+        "nombre": "Car detailing pack (polisher + vacuum + foam lance)",
+        "descripcion": "Orbital polisher + car vacuum + foam lance for pressure washer + step-by-step detailing guide. Equipment, no chemicals. Nobody sells this pack in Luxembourg."
+      },
+      "fr": {
+        "nombre": "Pack detailing auto (polisseuse + aspirateur + lance à mousse)",
+        "descripcion": "Polisseuse orbitale + aspirateur de voiture + lance à mousse pour nettoyeur haute pression + guide de detailing étape par étape. Équipement, sans produits chimiques. Personne ne vend ce pack au Luxembourg."
+      },
+      "es": {
+        "nombre": "Pack detailing de auto (pulidora + aspiradora + lanza de espuma)",
+        "descripcion": "Pulidora orbital + aspiradora de coche + lanza de espuma para hidrolimpiadora + guía de detailing paso a paso. Equipo, sin químicos. Nadie vende este pack en LU."
+      },
+      "pt": {
+        "nombre": "Pack detailing de automóvel (polideira + aspirador + lança de espuma)",
+        "descripcion": "Polideira orbital + aspirador de carro + lança de espuma para lavadora de alta pressão + guia de detailing passo a passo. Equipamento, sem químicos. Ninguém vende este pack no Luxemburgo."
+      }
+    },
+    "pack-jardin-smart": {
+      "en": {
+        "nombre": "Smart garden pack (watering + weather station + solar lighting)",
+        "descripcion": "Battery watering controller + moisture sensor + weather station + solar lights + no-wiring installation guide. Nobody puts this pack together in Luxembourg."
+      },
+      "fr": {
+        "nombre": "Pack jardin connecté (arrosage + station météo + éclairage solaire)",
+        "descripcion": "Programmateur d'arrosage sur batterie + capteur d'humidité + station météo + lumières solaires + guide d'installation sans câblage. Personne n'assemble ce pack au Luxembourg."
+      },
+      "es": {
+        "nombre": "Pack jardín smart (riego + estación meteo + iluminación solar)",
+        "descripcion": "Controlador de riego a batería + sensor de humedad + estación meteorológica + luces solares + guía de instalación sin cableado. Nadie arma este pack en LU."
+      },
+      "pt": {
+        "nombre": "Pack jardim inteligente (rega + estação meteorológica + iluminação solar)",
+        "descripcion": "Controlador de rega a bateria + sensor de humidade + estação meteorológica + luzes solares + guia de instalação sem cablagem. Ninguém monta este pack no Luxemburgo."
+      }
+    },
+    "bombilla-horno-industrial-300c": {
+      "en": {
+        "nombre": "Industrial oven bulb E14/E27 300 °C",
+        "descripcion": "High-temperature oven bulb (E14 15/25/40 W, T22/T25/G45, 300 °C) for industrial ovens in restaurants, hotels, bakeries and catering. Reference purchase price: €1.39–€7.49 for a pack of 2 on Amazon.de; €2.65–€2.75 at Hornbach Germany. No local stock in Luxembourg. Includes advice on identifying by oven brand/model (OEM references: Bosch, Smeg, Indesit…) + cold replacement guide, power off. Case proven by the owner."
+      },
+      "fr": {
+        "nombre": "Ampoule de four industriel E14/E27 300 °C",
+        "descripcion": "Ampoule de four haute température (E14 15/25/40 W, T22/T25/G45, 300 °C) pour fours industriels de restaurants, hôtels, boulangeries et traiteurs. Prix d'achat de référence : 1,39–7,49 € le pack de 2 sur Amazon.de ; 2,65–2,75 € chez Hornbach Allemagne. Pas de stock local au Luxembourg. Inclut des conseils d'identification par marque/modèle de four (références OEM : Bosch, Smeg, Indesit…) + guide de remplacement à froid, hors tension. Cas prouvé par le propriétaire."
+      },
+      "es": {
+        "nombre": "Bombilla de horno industrial E14/E27 300 °C",
+        "descripcion": "Bombilla de horno de alta temperatura (E14 15/25/40 W, T22/T25/G45, 300 °C) para hornos industriales de restaurantes, hoteles, panaderías y catering. Precio de compra de referencia: 1,39–7,49 € el pack de 2 en Amazon.de; 2,65–2,75 € en Hornbach Alemania. Sin stock local en Luxemburgo. Incluye asesoría de identificación por marca/modelo de horno (referencias OEM: Bosch, Smeg, Indesit...) + guía de sustitución en frío, sin tensión. Caso probado por el dueño."
+      },
+      "pt": {
+        "nombre": "Lâmpada de forno industrial E14/E27 300 °C",
+        "descripcion": "Lâmpada de forno de alta temperatura (E14 15/25/40 W, T22/T25/G45, 300 °C) para fornos industriais de restaurantes, hotéis, padarias e catering. Preço de compra de referência: 1,39–7,49 € o pack de 2 na Amazon.de; 2,65–2,75 € na Hornbach Alemanha. Sem stock local no Luxemburgo. Inclui aconselhamento de identificação por marca/modelo de forno (referências OEM: Bosch, Smeg, Indesit…) + guia de substituição a frio, sem tensão. Caso comprovado pelo proprietário."
+      }
+    },
+    "junta-horno-frigorifico-profesional": {
+      "en": {
+        "nombre": "Professional oven and fridge door gasket",
+        "descripcion": "Oven door gasket (high-temperature silicone, by the metre or OEM reference) and fridge/cold-room gasket made to measure. A worn gasket = heat/cold loss and a hygiene risk. Includes advice on identifying by reference or measurement + replacement guide."
+      },
+      "fr": {
+        "nombre": "Joint de porte de four et de réfrigérateur professionnel",
+        "descripcion": "Joint de porte de four (silicone haute température, au mètre ou référence OEM) et joint de réfrigérateur/chambre froide sur mesure. Un joint usé = perte de chaud/froid et risque d'hygiène. Inclut des conseils d'identification par référence ou mesure + guide de remplacement."
+      },
+      "es": {
+        "nombre": "Junta de goma de horno y frigorífico profesional",
+        "descripcion": "Junta de puerta de horno (silicona alta temperatura, por metro o referencia OEM) y junta de frigorífico/cámara por medida. Una junta gastada = pérdida de calor/frío y riesgo higiénico. Incluye asesoría de identificación por referencia o medida + guía de sustitución."
+      },
+      "pt": {
+        "nombre": "Junta de porta de forno e frigorífico profissional",
+        "descripcion": "Junta de porta de forno (silicone de alta temperatura, por metro ou referência OEM) e junta de frigorífico/câmara por medida. Uma junta gasta = perda de calor/frio e risco higiénico. Inclui aconselhamento de identificação por referência ou medida + guia de substituição."
+      }
+    },
+    "resistencia-termostato-horeca": {
+      "en": {
+        "nombre": "Heating element / thermostat for professional oven, fryer and griddle",
+        "descripcion": "Heating element, safety thermostat and temperature probe by rating-plate reference (Rational, Hobart, GGF, Moretti Forni, Diamond…) for combi ovens, fryers, griddles and pizza ovens. Includes an identification guide. Electrical replacement must be done by a qualified technician; Welux does not install."
+      },
+      "fr": {
+        "nombre": "Résistance / thermostat pour four, friteuse et plancha professionnels",
+        "descripcion": "Résistance, thermostat de sécurité et sonde de température par référence de plaque (Rational, Hobart, GGF, Moretti Forni, Diamond…) pour fours mixtes, friteuses, planchas et fours à pizza. Inclut un guide d'identification. Le remplacement électrique doit être fait par un technicien qualifié ; Welux n'installe pas."
+      },
+      "es": {
+        "nombre": "Resistencia / termostato para horno, freidora y plancha profesional",
+        "descripcion": "Resistencia, termostato de seguridad y sonda de temperatura por referencia de placa (Rational, Hobart, GGF, Moretti Forni, Diamond...) para hornos mixtos, freidoras, planchas y fours à pizza. Incluye guía de identificación. La sustitución eléctrica la hace un técnico cualificado; Welux no instala."
+      },
+      "pt": {
+        "nombre": "Resistência / termostato para forno, fritadeira e chapa profissional",
+        "descripcion": "Resistência, termostato de segurança e sonda de temperatura por referência de placa (Rational, Hobart, GGF, Moretti Forni, Diamond…) para fornos mistos, fritadeiras, chapas e fornos de pizza. Inclui guia de identificação. A substituição elétrica é feita por um técnico qualificado; a Welux não instala."
+      }
+    },
+    "filtro-campana-extractora-profesional": {
+      "en": {
+        "nombre": "Professional extractor hood filter and parts",
+        "descripcion": "Metal hood filter, carbon filter, extraction motor, belt and fan capacitor. A rotating consumable: a saturated filter = smoke, smells and fire risk. Includes advice by hood size/model + guide for replacing and cleaning the metal filter."
+      },
+      "fr": {
+        "nombre": "Filtre et pièces de hotte aspirante professionnelle",
+        "descripcion": "Filtre métallique de hotte, filtre à charbon, moteur d'extraction, courroie et condensateur de ventilateur. Consommable de rotation : filtre saturé = fumée, odeurs et risque d'incendie. Inclut des conseils par taille/modèle de hotte + guide de remplacement et de nettoyage du filtre métallique."
+      },
+      "es": {
+        "nombre": "Filtro y piezas de campana extractora profesional",
+        "descripcion": "Filtro metálico de campana, filtro de carbón, motor de extracción, correa y condensador de ventilador. Consumible de rotación: filtro saturado = humo, olores y riesgo de incendio. Incluye asesoría por medida/modelo de campana + guía de sustitución y de limpieza del filtro metálico."
+      },
+      "pt": {
+        "nombre": "Filtro e peças de exaustor profissional",
+        "descripcion": "Filtro metálico de exaustor, filtro de carvão, motor de extração, correia e condensador de ventilador. Consumível de rotação: filtro saturado = fumo, odores e risco de incêndio. Inclui aconselhamento por medida/modelo de exaustor + guia de substituição e de limpeza do filtro metálico."
+      }
+    },
+    "pieza-lavavajillas-industrial": {
+      "en": {
+        "nombre": "Industrial dishwasher part",
+        "descripcion": "Circulation pump, wash/rinse arm, solenoid valve, dosing unit, thermostat and gasket (Winterhalter, Hobart, Comenda, Silanos, DIHR, Electrolux). Without a dishwasher there is no service; the part is cheap, the wait is expensive. Includes an identification guide by reference. Replacement is done by the customer's technician."
+      },
+      "fr": {
+        "nombre": "Pièce de lave-vaisselle industriel",
+        "descripcion": "Pompe de cyclage, bras de lavage/rinçage, électrovanne, doseur, thermostat et joint (Winterhalter, Hobart, Comenda, Silanos, DIHR, Electrolux). Sans lave-vaisselle, pas de service ; la pièce est bon marché, l'attente coûte cher. Inclut un guide d'identification par référence. Le remplacement est fait par le technicien du client."
+      },
+      "es": {
+        "nombre": "Pieza de lavavajillas industrial",
+        "descripcion": "Bomba de cyclage, brazo de lavado/rinçage, electroválvula, dosificador, termostato y junta (Winterhalter, Hobart, Comenda, Silanos, DIHR, Electrolux). Sin lavavajillas no hay servicio; la pieza es barata, la espera es cara. Incluye guía de identificación por referencia. El cambio lo hace el técnico del cliente."
+      },
+      "pt": {
+        "nombre": "Peça de máquina de lavar loiça industrial",
+        "descripcion": "Bomba de circulação, braço de lavagem/enxaguamento, eletroválvula, doseador, termostato e junta (Winterhalter, Hobart, Comenda, Silanos, DIHR, Electrolux). Sem máquina de lavar loiça não há serviço; a peça é barata, a espera é cara. Inclui guia de identificação por referência. A troca é feita pelo técnico do cliente."
+      }
+    },
+    "kit-juntas-cafetera-profesional": {
+      "en": {
+        "nombre": "Gasket and filter kit for professional coffee machine",
+        "descripcion": "Group gaskets, shower screens, filters, pumps, valves and portafilters (La Marzocco, Rancilio, ECM, Expobar, La Pavoni, Reneka…). The group gasket is changed every few months. Includes a replacement guide by machine model."
+      },
+      "fr": {
+        "nombre": "Kit de joints et filtres pour machine à café professionnelle",
+        "descripcion": "Joints de groupe, douches, filtres, pompes, vannes et porte-filtres (La Marzocco, Rancilio, ECM, Expobar, La Pavoni, Reneka…). Le joint de groupe se change tous les quelques mois. Inclut un guide de remplacement par modèle de machine."
+      },
+      "es": {
+        "nombre": "Kit de juntas y filtros para cafetera profesional",
+        "descripcion": "Juntas de grupo, duchas, filtros, bombas, válvulas y portafiltros (La Marzocco, Rancilio, ECM, Expobar, La Pavoni, Reneka...). La junta de grupo se cambia cada pocos meses. Incluye guía de sustitución por modelo de máquina."
+      },
+      "pt": {
+        "nombre": "Kit de juntas e filtros para máquina de café profissional",
+        "descripcion": "Juntas de grupo, chuveiros, filtros, bombas, válvulas e porta-filtros (La Marzocco, Rancilio, ECM, Expobar, La Pavoni, Reneka…). A junta de grupo muda-se de poucos em poucos meses. Inclui guia de substituição por modelo de máquina."
+      }
+    },
+    "pieza-frio-profesional": {
+      "en": {
+        "nombre": "Professional refrigeration part (cold room, display, freezer)",
+        "descripcion": "Thermostat, probe, fan, door gasket/seal, handle, hinge and cold-room lamp. A cold room without cold = stock lost. Includes an identification guide by reference."
+      },
+      "fr": {
+        "nombre": "Pièce de froid professionnel (chambre, vitrine, congélateur)",
+        "descripcion": "Thermostat, sonde, ventilateur, joint/bourrelet de porte, poignée, charnière et lampe de chambre froide. Une chambre sans froid = marchandise perdue. Inclut un guide d'identification par référence."
+      },
+      "es": {
+        "nombre": "Pieza de frío profesional (cámara, vitrina, congelador)",
+        "descripcion": "Termostato, sonda, ventilador, burlete/junta de puerta, pomo, bisagra y lámpara de cámara frigorífica. Una cámara sin frío = género perdido. Incluye guía de identificación por referencia."
+      },
+      "pt": {
+        "nombre": "Peça de frio profissional (câmara, vitrina, congelador)",
+        "descripcion": "Termostato, sonda, ventilador, burlete/junta de porta, puxador, dobradiça e lâmpada de câmara frigorífica. Uma câmara sem frio = género perdido. Inclui guia de identificação por referência."
+      }
+    },
+    "pieza-lavanderia-profesional": {
+      "en": {
+        "nombre": "Professional laundry part",
+        "descripcion": "Belt, heating element, drain pump, door gasket, shock absorber and valve (Miele Professional, Electrolux Professional, Primus, Speed Queen). Includes an identification guide by reference."
+      },
+      "fr": {
+        "nombre": "Pièce de blanchisserie professionnelle",
+        "descripcion": "Courroie, résistance, pompe de vidange, joint de porte, amortisseur et vanne (Miele Professional, Electrolux Professional, Primus, Speed Queen). Inclut un guide d'identification par référence."
+      },
+      "es": {
+        "nombre": "Pieza de lavandería profesional",
+        "descripcion": "Correa, resistencia, bomba de desagüe, junta de puerta, amortiguador y válvula (Miele Professional, Electrolux Professional, Primus, Speed Queen). Incluye guía de identificación por referencia."
+      },
+      "pt": {
+        "nombre": "Peça de lavandaria profissional",
+        "descripcion": "Correia, resistência, bomba de drenagem, junta de porta, amortecedor e válvula (Miele Professional, Electrolux Professional, Primus, Speed Queen). Inclui guia de identificação por referência."
+      }
+    },
+    "pieza-panaderia-pizzeria": {
+      "en": {
+        "nombre": "Bakery and pizzeria part",
+        "descripcion": "Refractory stone, heating element, thermostat, mixer/divider motor, belt and timer (Moretti Forni, GGF, Bongard, Italforni, Prismafood…). Includes an identification guide by reference."
+      },
+      "fr": {
+        "nombre": "Pièce de boulangerie et pizzeria",
+        "descripcion": "Pierre réfractaire, résistance, thermostat, moteur de pétrin/diviseuse, courroie et minuteur (Moretti Forni, GGF, Bongard, Italforni, Prismafood…). Inclut un guide d'identification par référence."
+      },
+      "es": {
+        "nombre": "Pieza de panadería y pizzería",
+        "descripcion": "Piedra refractaria, resistencia, termostato, motor de amasadora/divisora, correa y temporizador (Moretti Forni, GGF, Bongard, Italforni, Prismafood...). Incluye guía de identificación por referencia."
+      },
+      "pt": {
+        "nombre": "Peça de padaria e pizzaria",
+        "descripcion": "Pedra refratária, resistência, termostato, motor de amassadeira/divisora, correia e temporizador (Moretti Forni, GGF, Bongard, Italforni, Prismafood…). Inclui guia de identificação por referência."
+      }
+    },
+    "lampara-tubo-especial-horeca": {
+      "en": {
+        "nombre": "Special lamp / tube for hospitality",
+        "descripcion": "High-temperature G9 halogen, hot display lamp, cold-room tube, microwave lamp and salamander lamp. Includes advice on identifying by equipment model + guide. Same model as the oven bulb."
+      },
+      "fr": {
+        "nombre": "Lampe / tube spécial pour l'hôtellerie-restauration",
+        "descripcion": "G9 halogène haute température, lampe pour vitrine chaude, tube pour chambre froide, lampe de micro-ondes et de salamandre. Inclut des conseils d'identification par modèle d'équipement + guide. Même modèle que l'ampoule de four."
+      },
+      "es": {
+        "nombre": "Lámpara / tubo especial para hostelería",
+        "descripcion": "G9 halógeno alta temperatura, lámpara para vitrina caliente, tubo para cámara frigorífica, lámpara de microondas y de salamandra. Incluye asesoría de identificación por modelo de equipo + guía. Mismo modelo que la bombilla de horno."
+      },
+      "pt": {
+        "nombre": "Lâmpada / tubo especial para hotelaria",
+        "descripcion": "G9 halogéneo de alta temperatura, lâmpada para vitrina quente, tubo para câmara frigorífica, lâmpada de micro-ondas e de salamandra. Inclui aconselhamento de identificação por modelo de equipamento + guia. O mesmo modelo que a lâmpada de forno."
+      }
+    },
+    "pieza-preparacion-horeca": {
+      "en": {
+        "nombre": "Preparation part (blade, belt, gasket)",
+        "descripcion": "Robot-Coupe/cutter blade, slicer belt, professional blender/mixer gasket and mincer blade. Includes an identification guide by model."
+      },
+      "fr": {
+        "nombre": "Pièce de préparation (lame, courroie, joint)",
+        "descripcion": "Lame de Robot-Coupe/cutter, courroie de trancheuse, joint de mixeur/blender professionnel et lame de hachoir. Inclut un guide d'identification par modèle."
+      },
+      "es": {
+        "nombre": "Pieza de preparación (cuchilla, correa, junta)",
+        "descripcion": "Cuchilla de Robot-Coupe/cutter, correa de trancheuse, junta de batidora/licuadora profesional y cuchilla de picadora. Incluye guía de identificación por modelo."
+      },
+      "pt": {
+        "nombre": "Peça de preparação (lâmina, correia, junta)",
+        "descripcion": "Lâmina de Robot-Coupe/cutter, correia de fatiadora, junta de liquidificadora/batedeira profissional e lâmina de picadora. Inclui guia de identificação por modelo."
+      }
+    },
+    "filtro-agua-cartucho-horeca": {
+      "en": {
+        "nombre": "Water filter / cartridge for coffee machine and combi oven",
+        "descripcion": "Filter and descaling cartridge for coffee machine and combi oven (Brita, BWT and compatibles). Changed every 3–6 months; without a filter, limescale kills the machine. Includes a replacement guide by model. PENDING confirmation before invoicing that it is not classed as a cleaning consumable: it is a part of the equipment, like an air filter."
+      },
+      "fr": {
+        "nombre": "Filtre à eau / cartouche pour machine à café et four mixte",
+        "descripcion": "Cartouche filtrante et détartrante pour machine à café et four mixte (Brita, BWT et compatibles). Se change tous les 3 à 6 mois ; sans filtre, le calcaire tue la machine. Inclut un guide de remplacement par modèle. EN ATTENTE de confirmation avant facturation qu'il ne soit pas classé comme consommable de nettoyage : c'est une pièce de l'équipement, comme un filtre à air."
+      },
+      "es": {
+        "nombre": "Filtro de agua / cartucho para cafetera y horno mixto",
+        "descripcion": "Cartucho filtrante y descalcificador para máquina de café y horno mixto (Brita, BWT y compatibles). Se cambia cada 3–6 meses; sin filtro, la cal mata la máquina. Incluye guía de sustitución por modelo. PENDIENTE confirmar antes de facturar que no se clasifique como consumible de limpieza: es pieza del equipo, como un filtro de aire."
+      },
+      "pt": {
+        "nombre": "Filtro de água / cartucho para máquina de café e forno misto",
+        "descripcion": "Cartucho filtrante e descalcificador para máquina de café e forno misto (Brita, BWT e compatíveis). Muda-se de 3 em 3–6 meses; sem filtro, a cal mata a máquina. Inclui guia de substituição por modelo. PENDENTE confirmar antes de faturar que não se classifique como consumível de limpeza: é uma peça do equipamento, como um filtro de ar."
+      }
+    },
+    "lampara-escritorio-usb-bigbuy-home": {
+      "en": {
+        "nombre": "Desk lamp with USB port and wireless charging (BigBuy Home)",
+        "descripcion": "Modern desk lamp with built-in USB port and wireless charging base. Warm dimmable light for working or studying. Plug-and-play. Includes lighting advice and a guide. Price to be confirmed."
+      },
+      "fr": {
+        "nombre": "Lampe de bureau avec port USB et charge sans fil (BigBuy Home)",
+        "descripcion": "Lampe de bureau moderne avec port USB intégré et base de charge sans fil. Lumière chaude réglable pour travailler ou étudier. Plug-and-play. Inclut des conseils d'éclairage et un guide. Prix à confirmer."
+      },
+      "es": {
+        "nombre": "Lámpara de escritorio con puerto USB y carga inalámbrica (BigBuy Home)",
+        "descripcion": "Lámpara de escritorio moderna con puerto USB integrado y base de carga inalámbrica. Luz cálida regulable para trabajar o estudiar. Plug-and-play. Incluye asesoría de iluminación y guía. Precio a confirmar."
+      },
+      "pt": {
+        "nombre": "Candeeiro de secretária com porta USB e carregamento sem fios (BigBuy Home)",
+        "descripcion": "Candeeiro de secretária moderno com porta USB integrada e base de carregamento sem fios. Luz quente regulável para trabalhar ou estudar. Plug-and-play. Inclui aconselhamento de iluminação e guia. Preço a confirmar."
+      }
+    },
+    "lampara-mesa-led-recargable-securit": {
+      "en": {
+        "nombre": "Rechargeable LED table lamp Securit (HORECA)",
+        "descripcion": "Cordless rechargeable LED table lamp, for restaurants and terraces. Securit brand, common in hospitality. Warm light, enough battery for the whole service. Includes advice and a charging guide. Price to be confirmed."
+      },
+      "fr": {
+        "nombre": "Lampe de table LED rechargeable Securit (HORECA)",
+        "descripcion": "Lampe de table LED rechargeable sans fil, pour restaurants et terrasses. Marque Securit, courante en hôtellerie-restauration. Lumière chaude, autonomie pour tout le service. Inclut des conseils et un guide de charge. Prix à confirmer."
+      },
+      "es": {
+        "nombre": "Lámpara de mesa LED recargable Securit (HORECA)",
+        "descripcion": "Lámpara de mesa LED recargable sin cable, para restaurantes y terrazas. Marca Securit, habitual en hostelería. Luz cálida, autonomía para el servicio completo. Incluye asesoría y guía de carga. Precio a confirmar."
+      },
+      "pt": {
+        "nombre": "Candeeiro de mesa LED recarregável Securit (HORECA)",
+        "descripcion": "Candeeiro de mesa LED recarregável sem fios, para restaurantes e esplanadas. Marca Securit, habitual na hotelaria. Luz quente, autonomia para o serviço completo. Inclui aconselhamento e guia de carregamento. Preço a confirmar."
+      }
+    },
+    "lampara-mesa-tactil-usb-vtac": {
+      "en": {
+        "nombre": "Touch table lamp with USB V-TAC",
+        "descripcion": "Modern LED table lamp with touch control and USB charging port. Touch-dimmable brightness. For desk, reception or bedroom. Includes advice and a guide. Price to be confirmed."
+      },
+      "fr": {
+        "nombre": "Lampe de table tactile avec USB V-TAC",
+        "descripcion": "Lampe de table LED moderne avec commande tactile et port USB de charge. Intensité réglable au toucher. Pour bureau, réception ou chambre. Inclut des conseils et un guide. Prix à confirmer."
+      },
+      "es": {
+        "nombre": "Lámpara de mesa táctil con USB V-TAC",
+        "descripcion": "Lámpara de mesa LED moderna con control táctil y puerto USB de carga. Intensidad regulable al tacto. Para mesa de trabajo, recepción o dormitorio. Incluye asesoría y guía. Precio a confirmar."
+      },
+      "pt": {
+        "nombre": "Candeeiro de mesa tátil com USB V-TAC",
+        "descripcion": "Candeeiro de mesa LED moderno com controlo tátil e porta USB de carregamento. Intensidade regulável ao toque. Para secretária, receção ou quarto. Inclui aconselhamento e guia. Preço a confirmar."
+      }
+    },
+    "monitor-oficina-led-24-bigbuy": {
+      "en": {
+        "nombre": "24\" LED office monitor (BigBuy)",
+        "descripcion": "24\" LED monitor for office and working from home. Full HD panel, slim frame, HDMI connection. Office electronics only, no furniture. Includes advice on compatibility and a guide. Price to be confirmed."
+      },
+      "fr": {
+        "nombre": "Écran LED de bureau 24\" (BigBuy)",
+        "descripcion": "Écran LED de 24\" pour bureau et télétravail. Dalle Full HD, cadre fin, connexion HDMI. Électronique de bureau uniquement, pas de mobilier. Inclut des conseils de compatibilité et un guide. Prix à confirmer."
+      },
+      "es": {
+        "nombre": "Monitor LED de oficina 24\" (BigBuy)",
+        "descripcion": "Monitor LED de 24\" para oficina y teletrabajo. Panel Full HD, marco fino, conexión HDMI. Solo electrónica de oficina, sin muebles. Incluye asesoría de compatibilidad y guía. Precio a confirmar."
+      },
+      "pt": {
+        "nombre": "Monitor LED de escritório de 24\" (BigBuy)",
+        "descripcion": "Monitor LED de 24\" para escritório e teletrabalho. Painel Full HD, moldura fina, ligação HDMI. Só eletrónica de escritório, sem móveis. Inclui aconselhamento de compatibilidade e guia. Preço a confirmar."
+      }
+    },
+    "soporte-proyector-gembird-cm-b-01": {
+      "en": {
+        "nombre": "Ceiling projector mount Gembird CM-B-01 (up to 13 kg)",
+        "descripcion": "Ceiling projector mount, telescopic arm 380–580 mm, up to 13 kg. Tilt and swivel adjustment. Includes fitting advice and a guide. Price to be confirmed."
+      },
+      "fr": {
+        "nombre": "Support de plafond pour vidéoprojecteur Gembird CM-B-01 (jusqu'à 13 kg)",
+        "descripcion": "Support de plafond pour vidéoprojecteur, bras télescopique 380–580 mm, jusqu'à 13 kg. Réglage d'inclinaison et de rotation. Inclut des conseils de montage et un guide. Prix à confirmer."
+      },
+      "es": {
+        "nombre": "Soporte de techo para proyector Gembird CM-B-01 (hasta 13 kg)",
+        "descripcion": "Soporte de techo para proyector, brazo telescópico 380–580 mm, hasta 13 kg. Ajuste de inclinación y giro. Incluye asesoría de montaje y guía. Precio a confirmar."
+      },
+      "pt": {
+        "nombre": "Suporte de teto para projetor Gembird CM-B-01 (até 13 kg)",
+        "descripcion": "Suporte de teto para projetor, braço telescópico de 380–580 mm, até 13 kg. Ajuste de inclinação e rotação. Inclui aconselhamento de montagem e guia. Preço a confirmar."
+      }
+    },
+    "soporte-proyector-aisens-cp02tsre-051": {
+      "en": {
+        "nombre": "Ceiling projector mount Aisens CP02TSRE-051 (up to 20 kg)",
+        "descripcion": "Ceiling projector mount, telescopic arm 575–825 mm, up to 20 kg. For large hall and classroom projectors. Includes fitting advice and a guide. Price to be confirmed."
+      },
+      "fr": {
+        "nombre": "Support de plafond pour vidéoprojecteur Aisens CP02TSRE-051 (jusqu'à 20 kg)",
+        "descripcion": "Support de plafond pour vidéoprojecteur, bras télescopique 575–825 mm, jusqu'à 20 kg. Pour grands vidéoprojecteurs de salle et de classe. Inclut des conseils de montage et un guide. Prix à confirmer."
+      },
+      "es": {
+        "nombre": "Soporte de techo para proyector Aisens CP02TSRE-051 (hasta 20 kg)",
+        "descripcion": "Soporte de techo para proyector, brazo telescópico 575–825 mm, hasta 20 kg. Para proyectores grandes de sala y aula. Incluye asesoría de montaje y guía. Precio a confirmar."
+      },
+      "pt": {
+        "nombre": "Suporte de teto para projetor Aisens CP02TSRE-051 (até 20 kg)",
+        "descripcion": "Suporte de teto para projetor, braço telescópico de 575–825 mm, até 20 kg. Para projetores grandes de sala e aula. Inclui aconselhamento de montagem e guia. Preço a confirmar."
+      }
+    },
+    "soporte-proyector-maclean-mc-945": {
+      "en": {
+        "nombre": "Wall projector mount MacLean MC-945 (up to 15 kg)",
+        "descripcion": "Wall projector mount, articulated arm, up to 15 kg. For small rooms and offices. Includes fitting advice and a guide. Price to be confirmed."
+      },
+      "fr": {
+        "nombre": "Support mural pour vidéoprojecteur MacLean MC-945 (jusqu'à 15 kg)",
+        "descripcion": "Support mural pour vidéoprojecteur, bras articulé, jusqu'à 15 kg. Pour petites salles et bureaux. Inclut des conseils de montage et un guide. Prix à confirmer."
+      },
+      "es": {
+        "nombre": "Soporte de pared para proyector MacLean MC-945 (hasta 15 kg)",
+        "descripcion": "Soporte de pared para proyector, brazo articulado, hasta 15 kg. Para salas pequeñas y oficinas. Incluye asesoría de montaje y guía. Precio a confirmar."
+      },
+      "pt": {
+        "nombre": "Suporte de parede para projetor MacLean MC-945 (até 15 kg)",
+        "descripcion": "Suporte de parede para projetor, braço articulado, até 15 kg. Para salas pequenas e escritórios. Inclui aconselhamento de montagem e guia. Preço a confirmar."
+      }
+    },
+    "proyector-wanbo-full-hd": {
+      "en": {
+        "nombre": "Wanbo Full HD projector",
+        "descripcion": "Compact Full HD projector for home, office and small events. Sharp image up to 100\". Plug-and-play. Includes advice and a user guide. Price to be confirmed."
+      },
+      "fr": {
+        "nombre": "Vidéoprojecteur Wanbo Full HD",
+        "descripcion": "Vidéoprojecteur compact Full HD pour maison, bureau et petits événements. Image nette jusqu'à 100\". Plug-and-play. Inclut des conseils et un guide d'utilisation. Prix à confirmer."
+      },
+      "es": {
+        "nombre": "Proyector Wanbo Full HD",
+        "descripcion": "Proyector compacto Full HD para casa, oficina y eventos pequeños. Imagen nítida hasta 100\". Plug-and-play. Incluye asesoría y guía de uso. Precio a confirmar."
+      },
+      "pt": {
+        "nombre": "Projetor Wanbo Full HD",
+        "descripcion": "Projetor compacto Full HD para casa, escritório e eventos pequenos. Imagem nítida até 100\". Plug-and-play. Inclui aconselhamento e guia de utilização. Preço a confirmar."
+      }
+    },
+    "pantalla-proyeccion-vidaxl-enrollable-16-9": {
+      "en": {
+        "nombre": "vidaXL roll-up projection screen 16:9",
+        "descripcion": "16:9 roll-up projection screen, white metal case for wall or ceiling. Matte anti-glare surface. Includes advice and a fitting guide. Price to be confirmed."
+      },
+      "fr": {
+        "nombre": "Écran de projection enroulable vidaXL 16:9",
+        "descripcion": "Écran de projection enroulable 16:9, boîtier métallique blanc pour mur ou plafond. Surface mate antireflet. Inclut des conseils et un guide de montage. Prix à confirmer."
+      },
+      "es": {
+        "nombre": "Pantalla de proyección enrollable vidaXL 16:9",
+        "descripcion": "Pantalla de proyección enrollable 16:9, carcasa metálica blanca para pared o techo. Superficie mate antirreflejos. Incluye asesoría y guía de montaje. Precio a confirmar."
+      },
+      "pt": {
+        "nombre": "Ecrã de projeção enrolável vidaXL 16:9",
+        "descripcion": "Ecrã de projeção enrolável 16:9, caixa metálica branca para parede ou teto. Superfície mate antirreflexo. Inclui aconselhamento e guia de montagem. Preço a confirmar."
+      }
+    },
+    "pantalla-proyeccion-tripode-vidaxl-81": {
+      "en": {
+        "nombre": "vidaXL tripod projection screen 81\" 1:1",
+        "descripcion": "Tripod projection screen, 1:1 format 81\". Foldable and portable, for presentations and events. Includes advice and a guide. Price to be confirmed."
+      },
+      "fr": {
+        "nombre": "Écran de projection sur trépied vidaXL 81\" 1:1",
+        "descripcion": "Écran de projection sur trépied, format 1:1 de 81\". Pliable et transportable, pour présentations et événements. Inclut des conseils et un guide. Prix à confirmer."
+      },
+      "es": {
+        "nombre": "Pantalla de proyección con trípode vidaXL 81\" 1:1",
+        "descripcion": "Pantalla de proyección con trípode, formato 1:1 de 81\". Plegable y transportable, para presentaciones y eventos. Incluye asesoría y guía. Precio a confirmar."
+      },
+      "pt": {
+        "nombre": "Ecrã de projeção com tripé vidaXL 81\" 1:1",
+        "descripcion": "Ecrã de projeção com tripé, formato 1:1 de 81\". Dobrável e transportável, para apresentações e eventos. Inclui aconselhamento e guia. Preço a confirmar."
+      }
+    },
+    "simulador-golf-celexon-fairway": {
+      "en": {
+        "nombre": "celexon FAIRWAY Professional golf simulator",
+        "descripcion": "Professional golf simulator: structure with 4K multi-layer impact screen, fire-rated B1, 2.6×2.5×1.5 m. Niche product from a specialist distributor (not general dropshipping); projector and software sold separately. Includes full advice. Price to be confirmed."
+      },
+      "fr": {
+        "nombre": "Simulateur de golf celexon FAIRWAY Professional",
+        "descripcion": "Simulateur de golf professionnel : structure avec écran d'impact multicouche 4K et ignifuge B1, 2,6×2,5×1,5 m. Produit de niche par distributeur spécialisé (pas de dropshipping général) ; vidéoprojecteur et logiciel vendus séparément. Inclut des conseils complets. Prix à confirmer."
+      },
+      "es": {
+        "nombre": "Simulador de golf celexon FAIRWAY Professional",
+        "descripcion": "Simulador de golf profesional: estructura con pantalla de impacto multicapa 4K e ignífuga B1, 2,6×2,5×1,5 m. Producto de nicho por distribuidor especializado (no dropshipping general); el proyector y el software se venden aparte. Incluye asesoría completa. Precio a confirmar."
+      },
+      "pt": {
+        "nombre": "Simulador de golfe celexon FAIRWAY Professional",
+        "descripcion": "Simulador de golfe profissional: estrutura com ecrã de impacto multicamada 4K e ignífugo B1, 2,6×2,5×1,5 m. Produto de nicho por distribuidor especializado (não dropshipping geral); o projetor e o software vendem-se à parte. Inclui aconselhamento completo. Preço a confirmar."
+      }
+    },
+    "menu-board-led-convex": {
+      "en": {
+        "nombre": "LED menu board «Convex» VKF Renzel",
+        "descripcion": "LED light box for restaurant menus, aluminium frame, evenly lit panel. For indoors. Includes advice and a fitting guide. Price to be confirmed."
+      },
+      "fr": {
+        "nombre": "Ardoise LED « Convex » VKF Renzel",
+        "descripcion": "Caisson lumineux LED pour menu de restaurant, cadre en aluminium, panneau éclairé uniformément. Pour l'intérieur. Inclut des conseils et un guide de montage. Prix à confirmer."
+      },
+      "es": {
+        "nombre": "Menú board LED «Convex» VKF Renzel",
+        "descripcion": "Caja de luz LED para menú de restaurante, marco de aluminio, panel iluminado uniforme. Para interior. Incluye asesoría y guía de montaje. Precio a confirmar."
+      },
+      "pt": {
+        "nombre": "Quadro de menu LED «Convex» VKF Renzel",
+        "descripcion": "Caixa de luz LED para menu de restaurante, moldura de alumínio, painel iluminado de forma uniforme. Para interior. Inclui aconselhamento e guia de montagem. Preço a confirmar."
+      }
+    },
+    "menu-board-led-simple": {
+      "en": {
+        "nombre": "Double-sided LED frame «Simple» VKF Renzel",
+        "descripcion": "Double-sided LED frame for menus, aluminium frame, two lit faces. For indoors and shop windows. Includes advice and a fitting guide. Price to be confirmed."
+      },
+      "fr": {
+        "nombre": "Cadre LED double face « Simple » VKF Renzel",
+        "descripcion": "Cadre LED double face pour menu, cadre en aluminium, deux faces éclairées. Pour l'intérieur et la vitrine. Inclut des conseils et un guide de montage. Prix à confirmer."
+      },
+      "es": {
+        "nombre": "Marco LED doble cara «Simple» VKF Renzel",
+        "descripcion": "Marco LED doble cara para menú, marco de aluminio, dos caras iluminadas. Para interior y escaparate. Incluye asesoría y guía de montaje. Precio a confirmar."
+      },
+      "pt": {
+        "nombre": "Moldura LED de dupla face «Simple» VKF Renzel",
+        "descripcion": "Moldura LED de dupla face para menu, moldura de alumínio, duas faces iluminadas. Para interior e montra. Inclui aconselhamento e guia de montagem. Preço a confirmar."
+      }
+    },
+    "menu-board-led-box": {
+      "en": {
+        "nombre": "LED wall «LED BOX™» VKF Renzel",
+        "descripcion": "Large-format LED wall for menus and signage, evenly lit panel, slim profile. For indoors. Includes advice and a fitting guide. Price to be confirmed."
+      },
+      "fr": {
+        "nombre": "Mur LED « LED BOX™ » VKF Renzel",
+        "descripcion": "Mur LED grand format pour menu et signalétique, panneau éclairé uniformément, profil fin. Pour l'intérieur. Inclut des conseils et un guide de montage. Prix à confirmer."
+      },
+      "es": {
+        "nombre": "Muro LED «LED BOX™» VKF Renzel",
+        "descripcion": "Muro LED de gran formato para menú y señalización, panel iluminado uniforme, perfil fino. Para interior. Incluye asesoría y guía de montaje. Precio a confirmar."
+      },
+      "pt": {
+        "nombre": "Parede LED «LED BOX™» VKF Renzel",
+        "descripcion": "Parede LED de grande formato para menu e sinalização, painel iluminado de forma uniforme, perfil fino. Para interior. Inclui aconselhamento e guia de montagem. Preço a confirmar."
+      }
+    },
+    "menu-board-plegable-pano": {
+      "en": {
+        "nombre": "Folding LED wall «Pano» VKF Renzel",
+        "descripcion": "Folding LED wall for menus and signage, hinged panels that open like a menu. For indoors and shop windows. Includes advice and a guide. Price to be confirmed."
+      },
+      "fr": {
+        "nombre": "Paroi pliable LED « Pano » VKF Renzel",
+        "descripcion": "Paroi pliable LED pour menu et signalétique, panneaux articulés qui s'ouvrent comme un menu. Pour l'intérieur et la vitrine. Inclut des conseils et un guide. Prix à confirmer."
+      },
+      "es": {
+        "nombre": "Pared plegable LED «Pano» VKF Renzel",
+        "descripcion": "Pared plegable LED para menú y señalización, paneles articulados que se abren tipo menú. Para interior y escaparate. Incluye asesoría y guía. Precio a confirmar."
+      },
+      "pt": {
+        "nombre": "Parede dobrável LED «Pano» VKF Renzel",
+        "descripcion": "Parede dobrável LED para menu e sinalização, painéis articulados que se abrem tipo menu. Para interior e montra. Inclui aconselhamento e guia. Preço a confirmar."
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@
    "id": "kit-solar-balcon-799w",
    "imagen": "./img/kit-solar-balcon-799w.png",
    "nombre": "Kit solar de balcón 799 W",
-   "precio_minorista": null,
+   "precio_minorista": 299.99,
    "unidad": "1 kit"
   },
   {
@@ -15,7 +15,7 @@
    "id": "power-station-1000wh",
    "imagen": "./img/power-station-1000wh.png",
    "nombre": "Power station portátil ~1000 Wh",
-   "precio_minorista": null,
+   "precio_minorista": 458.99,
    "unidad": "1 unidad"
   },
   {
@@ -24,7 +24,7 @@
    "id": "power-station-500wh",
    "imagen": "./img/power-station-500wh.png",
    "nombre": "Power station portátil ~500 Wh",
-   "precio_minorista": null,
+   "precio_minorista": 319.99,
    "unidad": "1 unidad"
   },
   {
@@ -33,7 +33,7 @@
    "id": "panel-solar-portatil-200w",
    "imagen": "./img/panel-solar-portatil-200w.png",
    "nombre": "Panel solar portátil plegable ~200 W",
-   "precio_minorista": null,
+   "precio_minorista": 398.99,
    "unidad": "1 unidad"
   },
   {
@@ -42,7 +42,7 @@
    "id": "motor-schellenberg-15nm",
    "imagen": "./img/motor-schellenberg-15nm.png",
    "nombre": "Motor tubular Schellenberg 15 Nm",
-   "precio_minorista": null,
+   "precio_minorista": 56.9,
    "unidad": "1 motor"
   },
   {
@@ -51,7 +51,7 @@
    "id": "motor-schellenberg-20nm-20621",
    "imagen": "./img/motor-schellenberg-20nm-20621.png",
    "nombre": "Motor tubular Schellenberg Maxi Standard 20 Nm (ref. 20621)",
-   "precio_minorista": null,
+   "precio_minorista": 81.99,
    "unidad": "1 motor"
   },
   {
@@ -60,7 +60,7 @@
    "id": "mando-persiana",
    "imagen": "./img/mando-persiana.png",
    "nombre": "Mando a distancia para motor de persiana",
-   "precio_minorista": null,
+   "precio_minorista": 33.9,
    "unidad": "1 mando"
   },
   {
@@ -69,7 +69,7 @@
    "id": "panel-calefactor-infrarrojo",
    "imagen": "./img/panel-calefactor-infrarrojo.png",
    "nombre": "Panel calefactor infrarrojo plug-and-play",
-   "precio_minorista": null,
+   "precio_minorista": 269.95,
    "unidad": "1 panel"
   },
   {
@@ -78,7 +78,7 @@
    "id": "panel-calefactor-600w",
    "imagen": "./img/panel-calefactor-600w.png",
    "nombre": "Panel calefactor 600 W con termostato",
-   "precio_minorista": null,
+   "precio_minorista": 114.99,
    "unidad": "1 panel"
   },
   {
@@ -87,7 +87,7 @@
    "id": "enchufe-smart",
    "imagen": "./img/enchufe-smart.png",
    "nombre": "Enchufe inteligente (Shelly / Tapo)",
-   "precio_minorista": null,
+   "precio_minorista": 12.9,
    "unidad": "1 unidad"
   },
   {
@@ -96,7 +96,7 @@
    "id": "pack-bombillas-led-smart",
    "imagen": "./img/pack-bombillas-led-smart.png",
    "nombre": "Pack bombillas smart + tira LED",
-   "precio_minorista": null,
+   "precio_minorista": 41.9,
    "unidad": "1 pack"
   },
   {
@@ -105,7 +105,7 @@
    "id": "camara-wifi-bateria",
    "imagen": "./img/camara-wifi-bateria.png",
    "nombre": "Cámara WiFi de batería o solar",
-   "precio_minorista": null,
+   "precio_minorista": 44.9,
    "unidad": "1 cámara"
   },
   {
@@ -114,7 +114,7 @@
    "id": "videoportero-bateria",
    "imagen": "./img/videoportero-bateria.png",
    "nombre": "Videoportero de batería",
-   "precio_minorista": null,
+   "precio_minorista": 49.99,
    "unidad": "1 unidad"
   },
   {
@@ -123,7 +123,7 @@
    "id": "valvula-termostatica-radiador",
    "imagen": "./img/valvula-termostatica-radiador.png",
    "nombre": "Válvula termostática smart de radiador",
-   "precio_minorista": null,
+   "precio_minorista": 64.99,
    "unidad": "1 válvula"
   },
   {
@@ -132,7 +132,7 @@
    "id": "cerradura-smart-nuki",
    "imagen": "./img/cerradura-smart-nuki.png",
    "nombre": "Cerradura smart retrofit (Nuki)",
-   "precio_minorista": null,
+   "precio_minorista": 278.99,
    "unidad": "1 unidad"
   },
   {
@@ -141,7 +141,7 @@
    "id": "pack-sensores-hogar",
    "imagen": "./img/pack-sensores-hogar.png",
    "nombre": "Pack sensores de hogar smart",
-   "precio_minorista": null,
+   "precio_minorista": 54.9,
    "unidad": "1 pack"
   },
   {
@@ -150,7 +150,7 @@
    "id": "altavoz-smart",
    "imagen": "./img/altavoz-smart.png",
    "nombre": "Altavoz inteligente (Echo / Nest Audio)",
-   "precio_minorista": null,
+   "precio_minorista": 99.99,
    "unidad": "1 unidad"
   },
   {
@@ -159,7 +159,7 @@
    "id": "smart-display",
    "imagen": "./img/smart-display.png",
    "nombre": "Smart display (Echo Show / Nest Hub)",
-   "precio_minorista": null,
+   "precio_minorista": 181.9,
    "unidad": "1 unidad"
   },
   {
@@ -168,7 +168,7 @@
    "id": "marco-fotos-wifi",
    "imagen": "./img/marco-fotos-wifi.png",
    "nombre": "Marco de fotos digital WiFi",
-   "precio_minorista": null,
+   "precio_minorista": 158.99,
    "unidad": "1 unidad"
   },
   {
@@ -177,7 +177,7 @@
    "id": "monitor-portatil-usbc",
    "imagen": "./img/monitor-portatil-usbc.png",
    "nombre": "Monitor portátil USB-C",
-   "precio_minorista": null,
+   "precio_minorista": 109.9,
    "unidad": "1 unidad"
   },
   {
@@ -186,7 +186,7 @@
    "id": "proyector-smart-portatil",
    "imagen": "./img/proyector-smart-portatil.png",
    "nombre": "Proyector smart portátil (Android TV)",
-   "precio_minorista": null,
+   "precio_minorista": 448.99,
    "unidad": "1 unidad"
   },
   {
@@ -195,7 +195,7 @@
    "id": "smart-tv-43",
    "imagen": "./img/smart-tv-43.png",
    "nombre": "Smart TV 43\" (material AV)",
-   "precio_minorista": null,
+   "precio_minorista": 398.99,
    "unidad": "1 unidad"
   },
   {
@@ -204,7 +204,7 @@
    "id": "pantalla-senalizacion-negocio",
    "imagen": "./img/pantalla-senalizacion-negocio.png",
    "nombre": "Pantalla de señalización digital para negocios",
-   "precio_minorista": null,
+   "precio_minorista": 483.99,
    "unidad": "1 kit"
   },
   {
@@ -213,7 +213,7 @@
    "id": "dron-camara-4k",
    "imagen": "./img/dron-camara-4k.png",
    "nombre": "Dron con cámara 4K",
-   "precio_minorista": null,
+   "precio_minorista": 278.99,
    "unidad": "1 unidad"
   },
   {
@@ -222,7 +222,7 @@
    "id": "camara-accion-gimbal",
    "imagen": "./img/camara-accion-gimbal.png",
    "nombre": "Cámara de acción + gimbal",
-   "precio_minorista": null,
+   "precio_minorista": 396.9,
    "unidad": "1 kit"
   },
   {
@@ -231,7 +231,7 @@
    "id": "kit-starlink",
    "imagen": "./img/kit-starlink.png",
    "nombre": "Kit Starlink (antena + router)",
-   "precio_minorista": null,
+   "precio_minorista": 348.99,
    "unidad": "1 kit"
   },
   {
@@ -240,7 +240,7 @@
    "id": "mesh-wifi-3-nodos",
    "imagen": "./img/mesh-wifi-3-nodos.png",
    "nombre": "Sistema mesh WiFi (3 nodos)",
-   "precio_minorista": null,
+   "precio_minorista": 258.99,
    "unidad": "1 sistema"
   },
   {
@@ -249,7 +249,7 @@
    "id": "kit-powerline-plc",
    "imagen": "./img/kit-powerline-plc.png",
    "nombre": "Kit adaptadores powerline (PLC)",
-   "precio_minorista": null,
+   "precio_minorista": 50.9,
    "unidad": "1 kit"
   },
   {
@@ -258,7 +258,7 @@
    "id": "repetidor-wifi",
    "imagen": "./img/repetidor-wifi.png",
    "nombre": "Repetidor / extensor WiFi",
-   "precio_minorista": null,
+   "precio_minorista": 76.9,
    "unidad": "1 unidad"
   },
   {
@@ -267,7 +267,7 @@
    "id": "dock-usbc",
    "imagen": "./img/dock-usbc.png",
    "nombre": "Dock USB-C para oficina en casa",
-   "precio_minorista": null,
+   "precio_minorista": 139.99,
    "unidad": "1 unidad"
   },
   {
@@ -276,7 +276,7 @@
    "id": "webcam-4k",
    "imagen": "./img/webcam-4k.png",
    "nombre": "Webcam 4K para teletrabajo y streaming",
-   "precio_minorista": null,
+   "precio_minorista": 139.99,
    "unidad": "1 unidad"
   },
   {
@@ -285,7 +285,7 @@
    "id": "luz-streaming",
    "imagen": "./img/luz-streaming.png",
    "nombre": "Luz de streaming (Elgato Key Light o similar)",
-   "precio_minorista": null,
+   "precio_minorista": 179.99,
    "unidad": "1 unidad"
   },
   {
@@ -294,7 +294,7 @@
    "id": "riego-smart-jardin",
    "imagen": "./img/riego-smart-jardin.png",
    "nombre": "Riego smart de jardín",
-   "precio_minorista": null,
+   "precio_minorista": 197.9,
    "unidad": "1 kit"
   },
   {
@@ -303,7 +303,7 @@
    "id": "guia-pdf-motor-persiana",
    "imagen": "./img/guia-pdf-motor-persiana.png",
    "nombre": "Guía PDF: motor de persiana (informe + instalación)",
-   "precio_minorista": null,
+   "precio_minorista": 14.99,
    "unidad": "1 guía digital"
   },
   {
@@ -312,7 +312,7 @@
    "id": "guia-pdf-kit-solar",
    "imagen": "./img/guia-pdf-kit-solar.png",
    "nombre": "Guía PDF: kit solar de balcón",
-   "precio_minorista": null,
+   "precio_minorista": 14.99,
    "unidad": "1 guía digital"
   },
   {
@@ -321,7 +321,7 @@
    "id": "guia-pdf-panel-calefactor",
    "imagen": "./img/guia-pdf-panel-calefactor.png",
    "nombre": "Guía PDF: panel calefactor",
-   "precio_minorista": null,
+   "precio_minorista": 14.99,
    "unidad": "1 guía digital"
   },
   {
@@ -330,7 +330,7 @@
    "id": "guia-pdf-iluminacion-smart",
    "imagen": "./img/guia-pdf-iluminacion-smart.png",
    "nombre": "Guía PDF: iluminación smart",
-   "precio_minorista": null,
+   "precio_minorista": 14.99,
    "unidad": "1 guía digital"
   },
   {
@@ -339,7 +339,7 @@
    "id": "hidrolimpiadora",
    "imagen": "./img/hidrolimpiadora.png",
    "nombre": "Hidrolimpiadora (Kärcher o similar)",
-   "precio_minorista": null,
+   "precio_minorista": 268.99,
    "unidad": "1 unidad"
   },
   {
@@ -348,7 +348,7 @@
    "id": "extractor-alfombras-tapiceria",
    "imagen": "./img/extractor-alfombras-tapiceria.png",
    "nombre": "Extractor / limpiador de alfombras y tapicería",
-   "precio_minorista": null,
+   "precio_minorista": 618.99,
    "unidad": "1 unidad"
   },
   {
@@ -357,7 +357,7 @@
    "id": "limpiador-vapor",
    "imagen": "./img/limpiador-vapor.png",
    "nombre": "Limpiador a vapor",
-   "precio_minorista": null,
+   "precio_minorista": 203.99,
    "unidad": "1 unidad"
   },
   {
@@ -366,7 +366,7 @@
    "id": "aspiradora-industrial-humedo-seco",
    "imagen": "./img/aspiradora-industrial-humedo-seco.png",
    "nombre": "Aspiradora industrial húmedo/seco",
-   "precio_minorista": null,
+   "precio_minorista": 154.99,
    "unidad": "1 unidad"
   },
   {
@@ -375,7 +375,7 @@
    "id": "pulidora-suelos",
    "imagen": "./img/pulidora-suelos.png",
    "nombre": "Pulidora / abrillantadora de suelos",
-   "precio_minorista": null,
+   "precio_minorista": 118.99,
    "unidad": "1 unidad"
   },
   {
@@ -384,7 +384,7 @@
    "id": "pulidora-orbital-auto",
    "imagen": "./img/pulidora-orbital-auto.png",
    "nombre": "Pulidora orbital para detailing de coche",
-   "precio_minorista": null,
+   "precio_minorista": 98.99,
    "unidad": "1 unidad"
   },
   {
@@ -393,7 +393,7 @@
    "id": "aspiradora-coche",
    "imagen": "./img/aspiradora-coche.png",
    "nombre": "Aspiradora de coche para detailing",
-   "precio_minorista": null,
+   "precio_minorista": 44.99,
    "unidad": "1 unidad"
   },
   {
@@ -402,7 +402,7 @@
    "id": "lanza-espuma-hidrolimpiadora",
    "imagen": "./img/lanza-espuma-hidrolimpiadora.png",
    "nombre": "Lanza de espuma para hidrolimpiadora",
-   "precio_minorista": null,
+   "precio_minorista": 14.95,
    "unidad": "1 unidad"
   },
   {
@@ -411,7 +411,7 @@
    "id": "aspiradora-cenizas",
    "imagen": "./img/aspiradora-cenizas.png",
    "nombre": "Aspiradora de cenizas",
-   "precio_minorista": null,
+   "precio_minorista": 113.9,
    "unidad": "1 unidad"
   },
   {
@@ -420,7 +420,7 @@
    "id": "luz-trabajo-led-recargable",
    "imagen": "./img/luz-trabajo-led-recargable.png",
    "nombre": "Luz de trabajo LED recargable",
-   "precio_minorista": null,
+   "precio_minorista": 45.99,
    "unidad": "1 unidad"
   },
   {
@@ -429,7 +429,7 @@
    "id": "medidor-laser-distancia",
    "imagen": "./img/medidor-laser-distancia.png",
    "nombre": "Medidor láser de distancia",
-   "precio_minorista": null,
+   "precio_minorista": 111.9,
    "unidad": "1 unidad"
   },
   {
@@ -438,7 +438,7 @@
    "id": "camara-inspeccion-endoscopica",
    "imagen": "./img/camara-inspeccion-endoscopica.png",
    "nombre": "Cámara de inspección endoscópica",
-   "precio_minorista": null,
+   "precio_minorista": 291.9,
    "unidad": "1 unidad"
   },
   {
@@ -447,7 +447,7 @@
    "id": "impresora-3d",
    "imagen": "./img/impresora-3d.png",
    "nombre": "Impresora 3D",
-   "precio_minorista": null,
+   "precio_minorista": 178.99,
    "unidad": "1 unidad"
   },
   {
@@ -456,7 +456,7 @@
    "id": "estacion-meteorologica-smart",
    "imagen": "./img/estacion-meteorologica-smart.png",
    "nombre": "Estación meteorológica smart",
-   "precio_minorista": null,
+   "precio_minorista": 103.99,
    "unidad": "1 unidad"
   },
   {
@@ -465,7 +465,7 @@
    "id": "iluminacion-solar-jardin",
    "imagen": "./img/iluminacion-solar-jardin.png",
    "nombre": "Iluminación solar de jardín",
-   "precio_minorista": null,
+   "precio_minorista": 49.9,
    "unidad": "1 kit"
   },
   {
@@ -474,7 +474,7 @@
    "id": "detector-humo-co-smart",
    "imagen": "./img/detector-humo-co-smart.png",
    "nombre": "Detector de humo y CO smart",
-   "precio_minorista": null,
+   "precio_minorista": 57.99,
    "unidad": "1 unidad"
   },
   {
@@ -483,7 +483,7 @@
    "id": "cargador-ev-portatil",
    "imagen": "./img/cargador-ev-portatil.png",
    "nombre": "Cargador EV portátil",
-   "precio_minorista": null,
+   "precio_minorista": 146.9,
    "unidad": "1 unidad"
   },
   {
@@ -492,7 +492,7 @@
    "id": "walkie-talkies-eventos",
    "imagen": "./img/walkie-talkies-eventos.png",
    "nombre": "Walkie-talkies / radios para eventos",
-   "precio_minorista": null,
+   "precio_minorista": 90.99,
    "unidad": "1 pack (2 unidades)"
   },
   {
@@ -501,7 +501,7 @@
    "id": "ups-respaldo",
    "imagen": "./img/ups-respaldo.png",
    "nombre": "UPS / batería de respaldo",
-   "precio_minorista": null,
+   "precio_minorista": 134.95,
    "unidad": "1 unidad"
   },
   {
@@ -510,7 +510,7 @@
    "id": "kit-herramientas-precision-electronica",
    "imagen": "./img/kit-herramientas-precision-electronica.png",
    "nombre": "Kit de herramientas de precisión para electrónica",
-   "precio_minorista": null,
+   "precio_minorista": 74.95,
    "unidad": "1 kit"
   },
   {
@@ -519,7 +519,7 @@
    "id": "soporte-brazo-monitor-tv",
    "imagen": "./img/soporte-brazo-monitor-tv.png",
    "nombre": "Soporte / brazo articulado para monitor y TV",
-   "precio_minorista": null,
+   "precio_minorista": 29.99,
    "unidad": "1 unidad"
   },
   {
@@ -528,7 +528,7 @@
    "id": "cargador-solar-portatil-usb",
    "imagen": "./img/cargador-solar-portatil-usb.png",
    "nombre": "Cargador solar portátil USB",
-   "precio_minorista": null,
+   "precio_minorista": 43.99,
    "unidad": "1 unidad"
   },
   {
@@ -537,7 +537,7 @@
    "id": "pack-smart-home-estudio",
    "imagen": "./img/pack-smart-home-estudio.png",
    "nombre": "Pack smart home — estudio (1 habitación)",
-   "precio_minorista": null,
+   "precio_minorista": 84.9,
    "unidad": "1 pack"
   },
   {
@@ -546,7 +546,7 @@
    "id": "pack-smart-home-piso",
    "imagen": "./img/pack-smart-home-piso.png",
    "nombre": "Pack smart home — piso 2 habitaciones",
-   "precio_minorista": null,
+   "precio_minorista": 254.9,
    "unidad": "1 pack"
   },
   {
@@ -555,7 +555,7 @@
    "id": "pack-smart-home-casa",
    "imagen": "./img/pack-smart-home-casa.png",
    "nombre": "Pack smart home — casa",
-   "precio_minorista": null,
+   "precio_minorista": 412.9,
    "unidad": "1 pack"
   },
   {
@@ -564,7 +564,7 @@
    "id": "pack-smart-home-negocio",
    "imagen": "./img/pack-smart-home-negocio.png",
    "nombre": "Pack smart home — pequeño negocio",
-   "precio_minorista": null,
+   "precio_minorista": 299.9,
    "unidad": "1 pack"
   },
   {
@@ -573,7 +573,7 @@
    "id": "alquiler-hidrolimpiadora",
    "imagen": "./img/alquiler-hidrolimpiadora.png",
    "nombre": "Alquiler hidrolimpiadora — por día",
-   "precio_minorista": null,
+   "precio_minorista": 47.9,
    "unidad": "1 día"
   },
   {
@@ -582,7 +582,7 @@
    "id": "alquiler-extractor-alfombras",
    "imagen": "./img/alquiler-extractor-alfombras.png",
    "nombre": "Alquiler extractor de alfombras — por día",
-   "precio_minorista": null,
+   "precio_minorista": 24.99,
    "unidad": "1 día"
   },
   {
@@ -591,7 +591,7 @@
    "id": "alquiler-limpiador-vapor",
    "imagen": "./img/alquiler-limpiador-vapor.png",
    "nombre": "Alquiler limpiador a vapor — por día",
-   "precio_minorista": null,
+   "precio_minorista": 29.99,
    "unidad": "1 día"
   },
   {
@@ -600,7 +600,7 @@
    "id": "alquiler-pulidora-suelos",
    "imagen": "./img/alquiler-pulidora-suelos.png",
    "nombre": "Alquiler pulidora de suelos — por día",
-   "precio_minorista": null,
+   "precio_minorista": 41.99,
    "unidad": "1 día"
   },
   {
@@ -609,7 +609,7 @@
    "id": "barra-sonido-guia",
    "imagen": "./img/barra-sonido-guia.png",
    "nombre": "Barra de sonido con guía de configuración",
-   "precio_minorista": null,
+   "precio_minorista": 297.99,
    "unidad": "1 unidad"
   },
   {
@@ -618,7 +618,7 @@
    "id": "pack-cine-en-casa",
    "imagen": "./img/pack-cine-en-casa.png",
    "nombre": "Pack cine en casa (proyector + barra de sonido + soporte)",
-   "precio_minorista": null,
+   "precio_minorista": 785.99,
    "unidad": "1 pack"
   },
   {
@@ -627,7 +627,7 @@
    "id": "pack-starlink-mesh",
    "imagen": "./img/pack-starlink-mesh.png",
    "nombre": "Pack Starlink + mesh WiFi",
-   "precio_minorista": null,
+   "precio_minorista": 607.99,
    "unidad": "1 pack"
   },
   {
@@ -636,7 +636,7 @@
    "id": "pack-respaldo-teletrabajo",
    "imagen": "./img/pack-respaldo-teletrabajo.png",
    "nombre": "Pack respaldo teletrabajo (power station + UPS)",
-   "precio_minorista": null,
+   "precio_minorista": 417.99,
    "unidad": "1 pack"
   },
   {
@@ -645,7 +645,7 @@
    "id": "pack-respaldo-camping",
    "imagen": "./img/pack-respaldo-camping.png",
    "nombre": "Pack respaldo camping (power station + panel plegable)",
-   "precio_minorista": null,
+   "precio_minorista": 718.99,
    "unidad": "1 pack"
   },
   {
@@ -654,7 +654,7 @@
    "id": "pack-respaldo-casa",
    "imagen": "./img/pack-respaldo-casa.png",
    "nombre": "Pack respaldo de casa (nevera / router)",
-   "precio_minorista": null,
+   "precio_minorista": 955.99,
    "unidad": "1 pack"
   },
   {
@@ -663,7 +663,7 @@
    "id": "pack-detailing-auto",
    "imagen": "./img/pack-detailing-auto.png",
    "nombre": "Pack detailing de auto (pulidora + aspiradora + lanza de espuma)",
-   "precio_minorista": null,
+   "precio_minorista": 158.95,
    "unidad": "1 pack"
   },
   {
@@ -672,7 +672,7 @@
    "id": "pack-jardin-smart",
    "imagen": "./img/pack-jardin-smart.png",
    "nombre": "Pack jardín smart (riego + estación meteo + iluminación solar)",
-   "precio_minorista": null,
+   "precio_minorista": 339.9,
    "unidad": "1 pack"
   },
   {
@@ -681,7 +681,7 @@
    "id": "bombilla-horno-industrial-300c",
    "imagen": "./img/bombilla-horno-industrial-300c.png",
    "nombre": "Bombilla de horno industrial E14/E27 300 °C",
-   "precio_minorista": null,
+   "precio_minorista": 2.95,
    "unidad": "1 unidad"
   },
   {
@@ -690,7 +690,7 @@
    "id": "junta-horno-frigorifico-profesional",
    "imagen": "./img/junta-horno-frigorifico-profesional.png",
    "nombre": "Junta de goma de horno y frigorífico profesional",
-   "precio_minorista": null,
+   "precio_minorista": 13.99,
    "unidad": "1 junta"
   },
   {
@@ -699,7 +699,7 @@
    "id": "resistencia-termostato-horeca",
    "imagen": "./img/resistencia-termostato-horeca.png",
    "nombre": "Resistencia / termostato para horno, freidora y plancha profesional",
-   "precio_minorista": null,
+   "precio_minorista": 45.99,
    "unidad": "1 unidad"
   },
   {
@@ -708,7 +708,7 @@
    "id": "filtro-campana-extractora-profesional",
    "imagen": "./img/filtro-campana-extractora-profesional.png",
    "nombre": "Filtro y piezas de campana extractora profesional",
-   "precio_minorista": null,
+   "precio_minorista": 19.95,
    "unidad": "1 unidad"
   },
   {
@@ -717,7 +717,7 @@
    "id": "pieza-lavavajillas-industrial",
    "imagen": "./img/pieza-lavavajillas-industrial.png",
    "nombre": "Pieza de lavavajillas industrial",
-   "precio_minorista": null,
+   "precio_minorista": 37.9,
    "unidad": "1 unidad"
   },
   {
@@ -726,7 +726,7 @@
    "id": "kit-juntas-cafetera-profesional",
    "imagen": "./img/kit-juntas-cafetera-profesional.png",
    "nombre": "Kit de juntas y filtros para cafetera profesional",
-   "precio_minorista": null,
+   "precio_minorista": 24.9,
    "unidad": "1 kit"
   },
   {
@@ -735,7 +735,7 @@
    "id": "pieza-frio-profesional",
    "imagen": "./img/pieza-frio-profesional.png",
    "nombre": "Pieza de frío profesional (cámara, vitrina, congelador)",
-   "precio_minorista": null,
+   "precio_minorista": 32.9,
    "unidad": "1 unidad"
   },
   {
@@ -744,7 +744,7 @@
    "id": "pieza-lavanderia-profesional",
    "imagen": "./img/pieza-lavanderia-profesional.png",
    "nombre": "Pieza de lavandería profesional",
-   "precio_minorista": null,
+   "precio_minorista": 43.95,
    "unidad": "1 unidad"
   },
   {
@@ -753,7 +753,7 @@
    "id": "pieza-panaderia-pizzeria",
    "imagen": "./img/pieza-panaderia-pizzeria.png",
    "nombre": "Pieza de panadería y pizzería",
-   "precio_minorista": null,
+   "precio_minorista": 79.99,
    "unidad": "1 unidad"
   },
   {
@@ -762,7 +762,7 @@
    "id": "lampara-tubo-especial-horeca",
    "imagen": "./img/lampara-tubo-especial-horeca.png",
    "nombre": "Lámpara / tubo especial para hostelería",
-   "precio_minorista": null,
+   "precio_minorista": 1.95,
    "unidad": "1 unidad"
   },
   {
@@ -771,7 +771,7 @@
    "id": "pieza-preparacion-horeca",
    "imagen": "./img/pieza-preparacion-horeca.png",
    "nombre": "Pieza de preparación (cuchilla, correa, junta)",
-   "precio_minorista": null,
+   "precio_minorista": 87.99,
    "unidad": "1 unidad"
   },
   {
@@ -780,7 +780,7 @@
    "id": "filtro-agua-cartucho-horeca",
    "imagen": "./img/filtro-agua-cartucho-horeca.png",
    "nombre": "Filtro de agua / cartucho para cafetera y horno mixto",
-   "precio_minorista": null,
+   "precio_minorista": 104.9,
    "unidad": "1 unidad"
   },
   {
@@ -798,7 +798,7 @@
    "categoria": "iluminacion-horeca",
    "unidad": "1 unidad",
    "descripcion": "Lámpara de mesa LED recargable sin cable, para restaurantes y terrazas. Marca Securit, habitual en hostelería. Luz cálida, autonomía para el servicio completo. Incluye asesoría y guía de carga. Precio a confirmar.",
-   "precio_minorista": null,
+   "precio_minorista": 59.9,
    "imagen": "./img/lampara-mesa-led-recargable-securit.png"
   },
   {
@@ -807,7 +807,7 @@
    "categoria": "iluminacion-horeca",
    "unidad": "1 unidad",
    "descripcion": "Lámpara de mesa LED moderna con control táctil y puerto USB de carga. Intensidad regulable al tacto. Para mesa de trabajo, recepción o dormitorio. Incluye asesoría y guía. Precio a confirmar.",
-   "precio_minorista": null,
+   "precio_minorista": 38.99,
    "imagen": "./img/lampara-mesa-tactil-usb-vtac.png"
   },
   {
@@ -816,7 +816,7 @@
    "categoria": "red-oficina",
    "unidad": "1 unidad",
    "descripcion": "Monitor LED de 24\" para oficina y teletrabajo. Panel Full HD, marco fino, conexión HDMI. Solo electrónica de oficina, sin muebles. Incluye asesoría de compatibilidad y guía. Precio a confirmar.",
-   "precio_minorista": null,
+   "precio_minorista": 70.9,
    "imagen": "./img/monitor-oficina-led-24-bigbuy.png"
   },
   {
@@ -825,7 +825,7 @@
    "categoria": "pantallas-av",
    "unidad": "1 unidad",
    "descripcion": "Soporte de techo para proyector, brazo telescópico 380–580 mm, hasta 13 kg. Ajuste de inclinación y giro. Incluye asesoría de montaje y guía. Precio a confirmar.",
-   "precio_minorista": null,
+   "precio_minorista": 15.9,
    "imagen": "./img/soporte-proyector-gembird-cm-b-01.png"
   },
   {
@@ -834,7 +834,7 @@
    "categoria": "pantallas-av",
    "unidad": "1 unidad",
    "descripcion": "Soporte de techo para proyector, brazo telescópico 575–825 mm, hasta 20 kg. Para proyectores grandes de sala y aula. Incluye asesoría de montaje y guía. Precio a confirmar.",
-   "precio_minorista": null,
+   "precio_minorista": 18.9,
    "imagen": "./img/soporte-proyector-aisens-cp02tsre-051.png"
   },
   {
@@ -843,7 +843,7 @@
    "categoria": "pantallas-av",
    "unidad": "1 unidad",
    "descripcion": "Soporte de pared para proyector, brazo articulado, hasta 15 kg. Para salas pequeñas y oficinas. Incluye asesoría de montaje y guía. Precio a confirmar.",
-   "precio_minorista": null,
+   "precio_minorista": 64.99,
    "imagen": "./img/soporte-proyector-maclean-mc-945.png"
   },
   {
@@ -852,7 +852,7 @@
    "categoria": "pantallas-av",
    "unidad": "1 unidad",
    "descripcion": "Proyector compacto Full HD para casa, oficina y eventos pequeños. Imagen nítida hasta 100\". Plug-and-play. Incluye asesoría y guía de uso. Precio a confirmar.",
-   "precio_minorista": null,
+   "precio_minorista": 199.99,
    "imagen": "./img/proyector-wanbo-full-hd.png"
   },
   {
@@ -861,7 +861,7 @@
    "categoria": "pantallas-av",
    "unidad": "1 unidad",
    "descripcion": "Pantalla de proyección enrollable 16:9, carcasa metálica blanca para pared o techo. Superficie mate antirreflejos. Incluye asesoría y guía de montaje. Precio a confirmar.",
-   "precio_minorista": null,
+   "precio_minorista": 42.9,
    "imagen": "./img/pantalla-proyeccion-vidaxl-enrollable-16-9.png"
   },
   {
@@ -870,7 +870,7 @@
    "categoria": "pantallas-av",
    "unidad": "1 unidad",
    "descripcion": "Pantalla de proyección con trípode, formato 1:1 de 81\". Plegable y transportable, para presentaciones y eventos. Incluye asesoría y guía. Precio a confirmar.",
-   "precio_minorista": null,
+   "precio_minorista": 64.99,
    "imagen": "./img/pantalla-proyeccion-tripode-vidaxl-81.png"
   },
   {
@@ -879,7 +879,7 @@
    "categoria": "pantallas-av",
    "unidad": "1 unidad",
    "descripcion": "Simulador de golf profesional: estructura con pantalla de impacto multicapa 4K e ignífuga B1, 2,6×2,5×1,5 m. Producto de nicho por distribuidor especializado (no dropshipping general); el proyector y el software se venden aparte. Incluye asesoría completa. Precio a confirmar.",
-   "precio_minorista": null,
+   "precio_minorista": 1549.99,
    "imagen": "./img/simulador-golf-celexon-fairway.png"
   },
   {
@@ -888,7 +888,7 @@
    "categoria": "menu-boards",
    "unidad": "1 unidad",
    "descripcion": "Caja de luz LED para menú de restaurante, marco de aluminio, panel iluminado uniforme. Para interior. Incluye asesoría y guía de montaje. Precio a confirmar.",
-   "precio_minorista": null,
+   "precio_minorista": 66.99,
    "imagen": "./img/menu-board-led-convex.png"
   },
   {
@@ -897,7 +897,7 @@
    "categoria": "menu-boards",
    "unidad": "1 unidad",
    "descripcion": "Marco LED doble cara para menú, marco de aluminio, dos caras iluminadas. Para interior y escaparate. Incluye asesoría y guía de montaje. Precio a confirmar.",
-   "precio_minorista": null,
+   "precio_minorista": 98.99,
    "imagen": "./img/menu-board-led-simple.png"
   },
   {
@@ -906,7 +906,7 @@
    "categoria": "menu-boards",
    "unidad": "1 unidad",
    "descripcion": "Muro LED de gran formato para menú y señalización, panel iluminado uniforme, perfil fino. Para interior. Incluye asesoría y guía de montaje. Precio a confirmar.",
-   "precio_minorista": null,
+   "precio_minorista": 254.99,
    "imagen": "./img/menu-board-led-box.png"
   },
   {
@@ -915,7 +915,7 @@
    "categoria": "menu-boards",
    "unidad": "1 unidad",
    "descripcion": "Pared plegable LED para menú y señalización, paneles articulados que se abren tipo menú. Para interior y escaparate. Incluye asesoría y guía. Precio a confirmar.",
-   "precio_minorista": null,
+   "precio_minorista": 249.9,
    "imagen": "./img/menu-board-plegable-pano.png"
   }
  ]
