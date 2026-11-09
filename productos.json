@@ -3,7 +3,7 @@
   "categoria": "energia",
   "descripcion": "El producto estrella. Hasta 799 W se enchufa sin declaración ni aprobación; desde 800 W hay que declarar y que el gestor de red lo apruebe. Produce 700–900 kWh/año. Precio de referencia en LU ~629 € instalado (el kit solo, a confirmar). Incluye asesoría de orientación y guía de conexión; se recomienda disyuntor diferencial y enchufe Wieland. Solo material, sin instalación.",
   "id": "kit-solar-balcon-799w",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/kit-solar-balcon-799w.png",
   "nombre": "Kit solar de balcón 799 W",
   "precio_minorista": null,
   "unidad": "1 kit"
@@ -12,7 +12,7 @@
   "categoria": "energia",
   "descripcion": "Batería portátil (EcoFlow, Jackery o Bluetti). Combina con el kit solar; camping, cortes de luz y respaldo en casa. Plug-and-play. Incluye asesoría de capacidad y guía de uso.",
   "id": "power-station-1000wh",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/power-station-1000wh.png",
   "nombre": "Power station portátil ~1000 Wh",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -21,7 +21,7 @@
   "categoria": "energia",
   "descripcion": "Batería portátil compacta (EcoFlow, Jackery o Bluetti) para fines de semana, trabajo fuera de casa y respaldo básico. Plug-and-play. Incluye asesoría de capacidad y guía de uso.",
   "id": "power-station-500wh",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/power-station-500wh.png",
   "nombre": "Power station portátil ~500 Wh",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -30,7 +30,7 @@
   "categoria": "energia",
   "descripcion": "Panel plegable para cargar la power station fuera de casa o en el balcón. Plug-and-play. Incluye asesoría de compatibilidad y guía de uso.",
   "id": "panel-solar-portatil-200w",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/panel-solar-portatil-200w.png",
   "nombre": "Panel solar portátil plegable ~200 W",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -633,7 +633,7 @@
   "categoria": "energia",
   "descripcion": "Power station + UPS + guía de autonomía: qué enchufar a cada cosa. Para cortes de luz y teletrabajo. Plug-and-play.",
   "id": "pack-respaldo-teletrabajo",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/pack-respaldo-teletrabajo.png",
   "nombre": "Pack respaldo teletrabajo (power station + UPS)",
   "precio_minorista": null,
   "unidad": "1 pack"
@@ -642,7 +642,7 @@
   "categoria": "energia",
   "descripcion": "Power station + panel solar plegable + guía de autonomía para camping y fines de semana fuera de casa. Plug-and-play.",
   "id": "pack-respaldo-camping",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/pack-respaldo-camping.png",
   "nombre": "Pack respaldo camping (power station + panel plegable)",
   "precio_minorista": null,
   "unidad": "1 pack"
@@ -651,7 +651,7 @@
   "categoria": "energia",
   "descripcion": "Power station + panel plegable + UPS + guía de autonomía para mantener nevera y router en cortes de luz. Plug-and-play.",
   "id": "pack-respaldo-casa",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/pack-respaldo-casa.png",
   "nombre": "Pack respaldo de casa (nevera / router)",
   "precio_minorista": null,
   "unidad": "1 pack"
