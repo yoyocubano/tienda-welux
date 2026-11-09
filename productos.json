@@ -156,7 +156,7 @@
   "categoria": "pantallas-av",
   "descripcion": "Pantalla con asistente: enchufe y WiFi. Cocina, dormitorio o negocio. Incluye asesoría y guía de configuración.",
   "id": "smart-display",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/smart-display.png",
   "nombre": "Smart display (Echo Show / Nest Hub)",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -165,7 +165,7 @@
   "categoria": "pantallas-av",
   "descripcion": "Marco de fotos con WiFi: se configura desde el móvil, ideal como regalo. Plug-and-play. Incluye guía de configuración.",
   "id": "marco-fotos-wifi",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/marco-fotos-wifi.png",
   "nombre": "Marco de fotos digital WiFi",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -174,7 +174,7 @@
   "categoria": "pantallas-av",
   "descripcion": "Segunda pantalla para el portátil: un solo cable USB-C, sin instalación. Ideal para teletrabajo. Incluye asesoría de compatibilidad y guía.",
   "id": "monitor-portatil-usbc",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/monitor-portatil-usbc.png",
   "nombre": "Monitor portátil USB-C",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -183,7 +183,7 @@
   "categoria": "pantallas-av",
   "descripcion": "Proyector con Android TV integrado: cine en casa sin instalar nada. Incluye asesoría de montaje y guía de configuración.",
   "id": "proyector-smart-portatil",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/proyector-smart-portatil.png",
   "nombre": "Proyector smart portátil (Android TV)",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -192,7 +192,7 @@
   "categoria": "pantallas-av",
   "descripcion": "Televisor inteligente como material audiovisual: venta + entrega + guía. El montaje en pared con soporte lo hace el cliente o un tercero, no Welux.",
   "id": "smart-tv-43",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/smart-tv-43.png",
   "nombre": "Smart TV 43\" (material AV)",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -201,7 +201,7 @@
   "categoria": "pantallas-av",
   "descripcion": "Pantalla + stick o mini-PC para menús, escaparates y salas de espera. Encaja con el lado digital de Welux (pantalla + contenido). Incluye asesoría de contenido y guía de puesta en marcha.",
   "id": "pantalla-senalizacion-negocio",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/pantalla-senalizacion-negocio.png",
   "nombre": "Pantalla de señalización digital para negocios",
   "precio_minorista": null,
   "unidad": "1 kit"
@@ -210,7 +210,7 @@
   "categoria": "pantallas-av",
   "descripcion": "Dron con cámara para foto y vídeo: material audiovisual. Bienes raíces, eventos y creadores. Incluye asesoría de modelo y guía de inicio. Respeta la normativa de drones de Luxemburgo.",
   "id": "dron-camara-4k",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/dron-camara-4k.png",
   "nombre": "Dron con cámara 4K",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -219,7 +219,7 @@
   "categoria": "pantallas-av",
   "descripcion": "Cámara de acción con estabilizador para vídeo en movimiento. Material audiovisual. Incluye asesoría y guía de uso.",
   "id": "camara-accion-gimbal",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/camara-accion-gimbal.png",
   "nombre": "Cámara de acción + gimbal",
   "precio_minorista": null,
   "unidad": "1 kit"
@@ -228,7 +228,7 @@
   "categoria": "pantallas-av",
   "descripcion": "Internet por satélite plug-and-play: zonas rurales y segundas residencias. Incluye asesoría de cobertura y guía de puesta en marcha.",
   "id": "kit-starlink",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/kit-starlink.png",
   "nombre": "Kit Starlink (antena + router)",
   "precio_minorista": null,
   "unidad": "1 kit"
@@ -606,7 +606,7 @@
   "categoria": "pantallas-av",
   "descripcion": "Barra de sonido para TV o proyector + guía de montaje y configuración. El montaje con taladro lo hace el cliente o un tercero, no Welux. Venta de material AV + guía, sin instalar.",
   "id": "barra-sonido-guia",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/barra-sonido-guia.png",
   "nombre": "Barra de sonido con guía de configuración",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -615,7 +615,7 @@
   "categoria": "pantallas-av",
   "descripcion": "Proyector smart + barra de sonido + soporte + guía de montaje y configuración. El tramo medio que Cinémotion no cubre (solo lujo a medida con obra). El montaje lo hace el cliente o un tercero, no Welux.",
   "id": "pack-cine-en-casa",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/pack-cine-en-casa.png",
   "nombre": "Pack cine en casa (proyector + barra de sonido + soporte)",
   "precio_minorista": null,
   "unidad": "1 pack"
