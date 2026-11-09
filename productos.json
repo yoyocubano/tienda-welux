@@ -1,785 +1,787 @@
-[
- {
-  "categoria": "energia",
-  "descripcion": "El producto estrella. Hasta 799 W se enchufa sin declaración ni aprobación; desde 800 W hay que declarar y que el gestor de red lo apruebe. Produce 700–900 kWh/año. Precio de referencia en LU ~629 € instalado (el kit solo, a confirmar). Incluye asesoría de orientación y guía de conexión; se recomienda disyuntor diferencial y enchufe Wieland. Solo material, sin instalación.",
-  "id": "kit-solar-balcon-799w",
-  "imagen": "./img/kit-solar-balcon-799w.png",
-  "nombre": "Kit solar de balcón 799 W",
-  "precio_minorista": null,
-  "unidad": "1 kit"
- },
- {
-  "categoria": "energia",
-  "descripcion": "Batería portátil (EcoFlow, Jackery o Bluetti). Combina con el kit solar; camping, cortes de luz y respaldo en casa. Plug-and-play. Incluye asesoría de capacidad y guía de uso.",
-  "id": "power-station-1000wh",
-  "imagen": "./img/power-station-1000wh.png",
-  "nombre": "Power station portátil ~1000 Wh",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "energia",
-  "descripcion": "Batería portátil compacta (EcoFlow, Jackery o Bluetti) para fines de semana, trabajo fuera de casa y respaldo básico. Plug-and-play. Incluye asesoría de capacidad y guía de uso.",
-  "id": "power-station-500wh",
-  "imagen": "./img/power-station-500wh.png",
-  "nombre": "Power station portátil ~500 Wh",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "energia",
-  "descripcion": "Panel plegable para cargar la power station fuera de casa o en el balcón. Plug-and-play. Incluye asesoría de compatibilidad y guía de uso.",
-  "id": "panel-solar-portatil-200w",
-  "imagen": "./img/panel-solar-portatil-200w.png",
-  "nombre": "Panel solar portátil plegable ~200 W",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "persianas-calefaccion",
-  "descripcion": "Motor tubular para persiana enrollable grande (salón). Precedente: Jean Paul Baustert (03/10/2026). Precio de compra en Hornbach 56,45 €; precio de venta a confirmar. Incluye informe de compatibilidad y guía de instalación paso a paso. El cliente o un tercero lo instala.",
-  "id": "motor-schellenberg-15nm",
-  "imagen": "./img/motor-schellenberg-15nm.png",
-  "nombre": "Motor tubular Schellenberg 15 Nm",
-  "precio_minorista": null,
-  "unidad": "1 motor"
- },
- {
-  "categoria": "persianas-calefaccion",
-  "descripcion": "Motor tubular para persiana enrollable (puerta de jardín y grandes ventanales). Incluye informe de compatibilidad y guía de instalación paso a paso. El cliente o un tercero lo instala.",
-  "id": "motor-aron-20nm",
-  "imagen": "./img/motor-aron-20nm.png",
-  "nombre": "Motor tubular ARON 20 Nm",
-  "precio_minorista": null,
-  "unidad": "1 motor"
- },
- {
-  "categoria": "persianas-calefaccion",
-  "descripcion": "Mando o interruptor compatible con motores tubulares de persiana. Plug-and-play. Incluye asesoría de compatibilidad y guía de emparejamiento.",
-  "id": "mando-persiana",
-  "imagen": "./img/mando-persiana.png",
-  "nombre": "Mando a distancia para motor de persiana",
-  "precio_minorista": null,
-  "unidad": "1 mando"
- },
- {
-  "categoria": "persianas-calefaccion",
-  "descripcion": "Calefacción de apoyo en invierno, se enchufa y listo. Solo como material, sin instalación. Incluye cálculo de potencia y guía de colocación.",
-  "id": "panel-calefactor-infrarrojo",
-  "imagen": "./img/panel-calefactor-infrarrojo.png",
-  "nombre": "Panel calefactor infrarrojo plug-and-play",
-  "precio_minorista": null,
-  "unidad": "1 panel"
- },
- {
-  "categoria": "persianas-calefaccion",
-  "descripcion": "Panel calefactor eléctrico enchufable con termostato para una habitación. Solo como material, sin instalación. Incluye cálculo de potencia y guía de colocación.",
-  "id": "panel-calefactor-600w",
-  "imagen": "./img/panel-calefactor-600w.png",
-  "nombre": "Panel calefactor 600 W con termostato",
-  "precio_minorista": null,
-  "unidad": "1 panel"
- },
- {
-  "categoria": "smart-home",
-  "descripcion": "Enchufe smart con app y control por voz: enchufe y listo. Incluye asesoría de compatibilidad y guía de configuración.",
-  "id": "enchufe-smart",
-  "imagen": "./img/enchufe-smart.png",
-  "nombre": "Enchufe inteligente (Shelly / Tapo)",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "smart-home",
-  "descripcion": "Bombillas y tira LED inteligentes (Hue, Tapo o Govee): se enroscan o se pegan, sin cableado. Incluye asesoría de iluminación y guía de configuración.",
-  "id": "pack-bombillas-led-smart",
-  "imagen": "./img/pack-bombillas-led-smart.png",
-  "nombre": "Pack bombillas smart + tira LED",
-  "precio_minorista": null,
-  "unidad": "1 pack"
- },
- {
-  "categoria": "smart-home",
-  "descripcion": "Cámara de seguridad WiFi a batería o con panel solar (Eufy, Arlo o Tapo): sin cablear. Incluye asesoría de colocación y guía de configuración.",
-  "id": "camara-wifi-bateria",
-  "imagen": "./img/camara-wifi-bateria.png",
-  "nombre": "Cámara WiFi de batería o solar",
-  "precio_minorista": null,
-  "unidad": "1 cámara"
- },
- {
-  "categoria": "smart-home",
-  "descripcion": "Videoportero a batería (Ring o Eufy): sin cableado fijo. Incluye asesoría de compatibilidad y guía de configuración.",
-  "id": "videoportero-bateria",
-  "imagen": "./img/videoportero-bateria.png",
-  "nombre": "Videoportero de batería",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "smart-home",
-  "descripcion": "Válvula inteligente que se enrosca en el radiador, sin cableado. Control de calefacción por habitación desde la app. Incluye asesoría de compatibilidad y guía de instalación.",
-  "id": "valvula-termostatica-radiador",
-  "imagen": "./img/valvula-termostatica-radiador.png",
-  "nombre": "Válvula termostática smart de radiador",
-  "precio_minorista": null,
-  "unidad": "1 válvula"
- },
- {
-  "categoria": "smart-home",
-  "descripcion": "Cerradura inteligente que se monta sobre el cilindro existente, sin cambiar la cerradura. DIY. Incluye asesoría de compatibilidad y guía de montaje.",
-  "id": "cerradura-smart-nuki",
-  "imagen": "./img/cerradura-smart-nuki.png",
-  "nombre": "Cerradura smart retrofit (Nuki)",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "smart-home",
-  "descripcion": "Sensores de puerta/ventana, movimiento, temperatura y fugas de agua: adhesivo y batería. Incluye asesoría y guía de configuración.",
-  "id": "pack-sensores-hogar",
-  "imagen": "./img/pack-sensores-hogar.png",
-  "nombre": "Pack sensores de hogar smart",
-  "precio_minorista": null,
-  "unidad": "1 pack"
- },
- {
-  "categoria": "smart-home",
-  "descripcion": "Altavoz con asistente: enchufe y WiFi. Música, control del hogar y rutinas. Incluye asesoría y guía de configuración.",
-  "id": "altavoz-smart",
-  "imagen": "./img/altavoz-smart.png",
-  "nombre": "Altavoz inteligente (Echo / Nest Audio)",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "pantallas-av",
-  "descripcion": "Pantalla con asistente: enchufe y WiFi. Cocina, dormitorio o negocio. Incluye asesoría y guía de configuración.",
-  "id": "smart-display",
-  "imagen": "./img/smart-display.png",
-  "nombre": "Smart display (Echo Show / Nest Hub)",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "pantallas-av",
-  "descripcion": "Marco de fotos con WiFi: se configura desde el móvil, ideal como regalo. Plug-and-play. Incluye guía de configuración.",
-  "id": "marco-fotos-wifi",
-  "imagen": "./img/marco-fotos-wifi.png",
-  "nombre": "Marco de fotos digital WiFi",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "pantallas-av",
-  "descripcion": "Segunda pantalla para el portátil: un solo cable USB-C, sin instalación. Ideal para teletrabajo. Incluye asesoría de compatibilidad y guía.",
-  "id": "monitor-portatil-usbc",
-  "imagen": "./img/monitor-portatil-usbc.png",
-  "nombre": "Monitor portátil USB-C",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "pantallas-av",
-  "descripcion": "Proyector con Android TV integrado: cine en casa sin instalar nada. Incluye asesoría de montaje y guía de configuración.",
-  "id": "proyector-smart-portatil",
-  "imagen": "./img/proyector-smart-portatil.png",
-  "nombre": "Proyector smart portátil (Android TV)",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "pantallas-av",
-  "descripcion": "Televisor inteligente como material audiovisual: venta + entrega + guía. El montaje en pared con soporte lo hace el cliente o un tercero, no Welux.",
-  "id": "smart-tv-43",
-  "imagen": "./img/smart-tv-43.png",
-  "nombre": "Smart TV 43\" (material AV)",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "pantallas-av",
-  "descripcion": "Pantalla + stick o mini-PC para menús, escaparates y salas de espera. Encaja con el lado digital de Welux (pantalla + contenido). Incluye asesoría de contenido y guía de puesta en marcha.",
-  "id": "pantalla-senalizacion-negocio",
-  "imagen": "./img/pantalla-senalizacion-negocio.png",
-  "nombre": "Pantalla de señalización digital para negocios",
-  "precio_minorista": null,
-  "unidad": "1 kit"
- },
- {
-  "categoria": "pantallas-av",
-  "descripcion": "Dron con cámara para foto y vídeo: material audiovisual. Bienes raíces, eventos y creadores. Incluye asesoría de modelo y guía de inicio. Respeta la normativa de drones de Luxemburgo.",
-  "id": "dron-camara-4k",
-  "imagen": "./img/dron-camara-4k.png",
-  "nombre": "Dron con cámara 4K",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "pantallas-av",
-  "descripcion": "Cámara de acción con estabilizador para vídeo en movimiento. Material audiovisual. Incluye asesoría y guía de uso.",
-  "id": "camara-accion-gimbal",
-  "imagen": "./img/camara-accion-gimbal.png",
-  "nombre": "Cámara de acción + gimbal",
-  "precio_minorista": null,
-  "unidad": "1 kit"
- },
- {
-  "categoria": "pantallas-av",
-  "descripcion": "Internet por satélite plug-and-play: zonas rurales y segundas residencias. Incluye asesoría de cobertura y guía de puesta en marcha.",
-  "id": "kit-starlink",
-  "imagen": "./img/kit-starlink.png",
-  "nombre": "Kit Starlink (antena + router)",
-  "precio_minorista": null,
-  "unidad": "1 kit"
- },
- {
-  "categoria": "red-oficina",
-  "descripcion": "WiFi de malla para toda la casa (Deco, Nest Wifi o Eero): enchufe y app. Incluye asesoría de cobertura y guía de configuración.",
-  "id": "mesh-wifi-3-nodos",
-  "imagen": "./img/mesh-wifi-3-nodos.png",
-  "nombre": "Sistema mesh WiFi (3 nodos)",
-  "precio_minorista": null,
-  "unidad": "1 sistema"
- },
- {
-  "categoria": "red-oficina",
-  "descripcion": "Internet por el enchufe: lleva la red a donde no llega el WiFi. Plug-and-play. Incluye asesoría y guía de configuración.",
-  "id": "kit-powerline-plc",
-  "imagen": "./img/kit-powerline-plc.png",
-  "nombre": "Kit adaptadores powerline (PLC)",
-  "precio_minorista": null,
-  "unidad": "1 kit"
- },
- {
-  "categoria": "red-oficina",
-  "descripcion": "Amplía la cobertura WiFi en casa o en la oficina. Enchufe y app. Incluye asesoría de colocación y guía de configuración.",
-  "id": "repetidor-wifi",
-  "imagen": "./img/repetidor-wifi.png",
-  "nombre": "Repetidor / extensor WiFi",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "red-oficina",
-  "descripcion": "Base USB-C con puertos, carga y salida de vídeo: un cable y a trabajar. Plug-and-play. Incluye asesoría de compatibilidad y guía.",
-  "id": "dock-usbc",
-  "imagen": "./img/dock-usbc.png",
-  "nombre": "Dock USB-C para oficina en casa",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "red-oficina",
-  "descripcion": "Cámara web 4K con micrófono para videollamadas y directos. Plug-and-play por USB. Incluye guía de configuración.",
-  "id": "webcam-4k",
-  "imagen": "./img/webcam-4k.png",
-  "nombre": "Webcam 4K para teletrabajo y streaming",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "red-oficina",
-  "descripcion": "Luz LED de estudio para videollamadas y streaming: se monta en el escritorio y se controla desde la app. Plug-and-play. Incluye guía de uso.",
-  "id": "luz-streaming",
-  "imagen": "./img/luz-streaming.png",
-  "nombre": "Luz de streaming (Elgato Key Light o similar)",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "jardin",
-  "descripcion": "Controlador de riego a batería + sensor de humedad del suelo: programa el riego desde la app. Plug-and-play, sin obra. Incluye asesoría y guía de instalación.",
-  "id": "riego-smart-jardin",
-  "imagen": "./img/riego-smart-jardin.png",
-  "nombre": "Riego smart de jardín",
-  "precio_minorista": null,
-  "unidad": "1 kit"
- },
- {
-  "categoria": "guias",
-  "descripcion": "Informe de compatibilidad + guía de instalación paso a paso para motores tubulares de persiana. El modelo Jean Paul, convertido en producto digital. Se envía por correo tras la compra.",
-  "id": "guia-pdf-motor-persiana",
-  "imagen": "./img/guia-pdf-motor-persiana.png",
-  "nombre": "Guía PDF: motor de persiana (informe + instalación)",
-  "precio_minorista": null,
-  "unidad": "1 guía digital"
- },
- {
-  "categoria": "guias",
-  "descripcion": "Guía completa del kit solar de balcón 799 W: orientación, conexión, enchufe Wieland y qué declarar (y qué no). Se envía por correo tras la compra.",
-  "id": "guia-pdf-kit-solar",
-  "imagen": "./img/guia-pdf-kit-solar.png",
-  "nombre": "Guía PDF: kit solar de balcón",
-  "precio_minorista": null,
-  "unidad": "1 guía digital"
- },
- {
-  "categoria": "guias",
-  "descripcion": "Cálculo de potencia + guía de colocación de paneles calefactores plug-and-play. Se envía por correo tras la compra.",
-  "id": "guia-pdf-panel-calefactor",
-  "imagen": "./img/guia-pdf-panel-calefactor.png",
-  "nombre": "Guía PDF: panel calefactor",
-  "precio_minorista": null,
-  "unidad": "1 guía digital"
- },
- {
-  "categoria": "guias",
-  "descripcion": "Guía de iluminación inteligente para casa o negocio: qué comprar, compatibilidad y configuración. Se envía por correo tras la compra.",
-  "id": "guia-pdf-iluminacion-smart",
-  "imagen": "./img/guia-pdf-iluminacion-smart.png",
-  "nombre": "Guía PDF: iluminación smart",
-  "precio_minorista": null,
-  "unidad": "1 guía digital"
- },
- {
-  "categoria": "limpieza-profesional",
-  "descripcion": "Limpieza a presión de terrazas, fachadas, coches y patios (Kärcher o similar). Incluye asesoría de boquillas y presión, y guía de uso.",
-  "id": "hidrolimpiadora",
-  "imagen": "./img/hidrolimpiadora.png",
-  "nombre": "Hidrolimpiadora (Kärcher o similar)",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "limpieza-profesional",
-  "descripcion": "Limpieza profunda de alfombras, sofás, colchones e interiores de coche (Kärcher Puzzi, Bissell o similar). Incluye asesoría de uso y guía de limpieza profunda.",
-  "id": "extractor-alfombras-tapiceria",
-  "imagen": "./img/extractor-alfombras-tapiceria.png",
-  "nombre": "Extractor / limpiador de alfombras y tapicería",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "limpieza-profesional",
-  "descripcion": "Limpia suelos, baños y cocinas con vapor, sin químicos. Incluye asesoría de accesorios y guía de uso.",
-  "id": "limpiador-vapor",
-  "imagen": "./img/limpiador-vapor.png",
-  "nombre": "Limpiador a vapor",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "limpieza-profesional",
-  "descripcion": "Para obra, garaje y taller: aspira polvo, serrín y líquidos. Incluye asesoría de filtros y guía de uso.",
-  "id": "aspiradora-industrial-humedo-seco",
-  "imagen": "./img/aspiradora-industrial-humedo-seco.png",
-  "nombre": "Aspiradora industrial húmedo/seco",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "limpieza-profesional",
-  "descripcion": "Pule y abrillanta suelos duros. Incluye asesoría de discos y guía de uso.",
-  "id": "pulidora-suelos",
-  "imagen": "./img/pulidora-suelos.png",
-  "nombre": "Pulidora / abrillantadora de suelos",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "limpieza-profesional",
-  "descripcion": "Pulido de carrocería para quitar marcas y devolver el brillo. Equipo de detailing, sin químicos. Incluye asesoría de pads y guía de pulido.",
-  "id": "pulidora-orbital-auto",
-  "imagen": "./img/pulidora-orbital-auto.png",
-  "nombre": "Pulidora orbital para detailing de coche",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "limpieza-profesional",
-  "descripcion": "Limpieza interior del coche: asientos, alfombrillas y maletero. Incluye asesoría de boquillas y guía de uso.",
-  "id": "aspiradora-coche",
-  "imagen": "./img/aspiradora-coche.png",
-  "nombre": "Aspiradora de coche para detailing",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "limpieza-profesional",
-  "descripcion": "Espuma de prelavado para el coche, se acopla a la hidrolimpiadora. Equipo, sin químicos. Incluye guía de uso.",
-  "id": "lanza-espuma-hidrolimpiadora",
-  "imagen": "./img/lanza-espuma-hidrolimpiadora.png",
-  "nombre": "Lanza de espuma para hidrolimpiadora",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "limpieza-profesional",
-  "descripcion": "Para estufas, chimeneas y barbacoas: aspira ceniza fría sin ensuciar. Incluye guía de uso.",
-  "id": "aspiradora-cenizas",
-  "imagen": "./img/aspiradora-cenizas.png",
-  "nombre": "Aspiradora de cenizas",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "herramientas-tecnica",
-  "descripcion": "Iluminación portátil para obra, garaje y taller, con batería recargable. Incluye guía de uso.",
-  "id": "luz-trabajo-led-recargable",
-  "imagen": "./img/luz-trabajo-led-recargable.png",
-  "nombre": "Luz de trabajo LED recargable",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "herramientas-tecnica",
-  "descripcion": "Mide distancias y superficies al instante: reformas, inmobiliarias y mediciones. Incluye guía de uso.",
-  "id": "medidor-laser-distancia",
-  "imagen": "./img/medidor-laser-distancia.png",
-  "nombre": "Medidor láser de distancia",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "herramientas-tecnica",
-  "descripcion": "Ve dentro de tuberías, muros y motores: para fontaneros, electricistas y mecánicos. Incluye guía de uso.",
-  "id": "camara-inspeccion-endoscopica",
-  "imagen": "./img/camara-inspeccion-endoscopica.png",
-  "nombre": "Cámara de inspección endoscópica",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "herramientas-tecnica",
-  "descripcion": "Para makers, prototipos y repuestos: imprime piezas en casa. Incluye asesoría de modelo y filamento, y guía de inicio.",
-  "id": "impresora-3d",
-  "imagen": "./img/impresora-3d.png",
-  "nombre": "Impresora 3D",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "herramientas-tecnica",
-  "descripcion": "Temperatura, humedad, lluvia y viento en casa y jardín, con app. Incluye guía de configuración.",
-  "id": "estacion-meteorologica-smart",
-  "imagen": "./img/estacion-meteorologica-smart.png",
-  "nombre": "Estación meteorológica smart",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "herramientas-tecnica",
-  "descripcion": "Luces solares para jardín y terraza: se clavan y listo, sin cableado. Incluye guía de colocación.",
-  "id": "iluminacion-solar-jardin",
-  "imagen": "./img/iluminacion-solar-jardin.png",
-  "nombre": "Iluminación solar de jardín",
-  "precio_minorista": null,
-  "unidad": "1 kit"
- },
- {
-  "categoria": "herramientas-tecnica",
-  "descripcion": "Detector de humo y monóxido de carbono a batería, con WiFi y aviso al móvil. Incluye guía de instalación.",
-  "id": "detector-humo-co-smart",
-  "imagen": "./img/detector-humo-co-smart.png",
-  "nombre": "Detector de humo y CO smart",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "herramientas-tecnica",
-  "descripcion": "Carga el coche eléctrico desde un enchufe normal, sin instalar wallbox. El wallbox fijo no entra. Incluye asesoría de compatibilidad y guía de uso.",
-  "id": "cargador-ev-portatil",
-  "imagen": "./img/cargador-ev-portatil.png",
-  "nombre": "Cargador EV portátil",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "herramientas-tecnica",
-  "descripcion": "Comunicación en eventos, obras y rodajes. Material técnico de eventos. Incluye guía de uso.",
-  "id": "walkie-talkies-eventos",
-  "imagen": "./img/walkie-talkies-eventos.png",
-  "nombre": "Walkie-talkies / radios para eventos",
-  "precio_minorista": null,
-  "unidad": "1 pack (2 unidades)"
- },
- {
-  "categoria": "herramientas-tecnica",
-  "descripcion": "Protege ordenador y router en cortes de luz: respaldo para oficina y casa. Incluye asesoría de autonomía y guía de uso.",
-  "id": "ups-respaldo",
-  "imagen": "./img/ups-respaldo.png",
-  "nombre": "UPS / batería de respaldo",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "herramientas-tecnica",
-  "descripcion": "Destornilladores y herramientas de precisión para reparar móviles y ordenadores. Incluye guía de uso.",
-  "id": "kit-herramientas-precision-electronica",
-  "imagen": "./img/kit-herramientas-precision-electronica.png",
-  "nombre": "Kit de herramientas de precisión para electrónica",
-  "precio_minorista": null,
-  "unidad": "1 kit"
- },
- {
-  "categoria": "herramientas-tecnica",
-  "descripcion": "Venta del soporte + guía. El montaje con taladro lo hace el cliente o un tercero, no Welux.",
-  "id": "soporte-brazo-monitor-tv",
-  "imagen": "./img/soporte-brazo-monitor-tv.png",
-  "nombre": "Soporte / brazo articulado para monitor y TV",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "herramientas-tecnica",
-  "descripcion": "Power bank con panel solar para cargar el móvil en camping y emergencias. Incluye guía de uso.",
-  "id": "cargador-solar-portatil-usb",
-  "imagen": "./img/cargador-solar-portatil-usb.png",
-  "nombre": "Cargador solar portátil USB",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "smart-home",
-  "descripcion": "Pack completo configurado para un estudio: enchufes, bombillas, cámara y mesh según el pack, con guía de configuración paso a paso por app y compatibilidad (Hue/Tapo/Shelly/Eufy/Nuki). Asesoría en español/portugués incluida. Todo enchufable, sin cableado.",
-  "id": "pack-smart-home-estudio",
-  "imagen": "./img/pack-smart-home-estudio.png",
-  "nombre": "Pack smart home — estudio (1 habitación)",
-  "precio_minorista": null,
-  "unidad": "1 pack"
- },
- {
-  "categoria": "smart-home",
-  "descripcion": "Pack completo configurado para un piso de 2 habitaciones: enchufes, bombillas, cámara y mesh según el pack, con guía de configuración paso a paso por app y compatibilidad (Hue/Tapo/Shelly/Eufy/Nuki). Asesoría en español/portugués incluida. Todo enchufable, sin cableado.",
-  "id": "pack-smart-home-piso",
-  "imagen": "./img/pack-smart-home-piso.png",
-  "nombre": "Pack smart home — piso 2 habitaciones",
-  "precio_minorista": null,
-  "unidad": "1 pack"
- },
- {
-  "categoria": "smart-home",
-  "descripcion": "Pack completo configurado para una casa: enchufes, bombillas, cámaras, videoportero y mesh según el pack, con guía de configuración paso a paso por app y compatibilidad (Hue/Tapo/Shelly/Eufy/Nuki). Asesoría en español/portugués incluida. Todo enchufable, sin cableado.",
-  "id": "pack-smart-home-casa",
-  "imagen": "./img/pack-smart-home-casa.png",
-  "nombre": "Pack smart home — casa",
-  "precio_minorista": null,
-  "unidad": "1 pack"
- },
- {
-  "categoria": "smart-home",
-  "descripcion": "Pack completo configurado para un pequeño negocio (tienda, restaurante, oficina): enchufes, bombillas, cámaras y mesh según el pack, con guía de configuración paso a paso por app. Asesoría en español/portugués incluida. Todo enchufable, sin cableado.",
-  "id": "pack-smart-home-negocio",
-  "imagen": "./img/pack-smart-home-negocio.png",
-  "nombre": "Pack smart home — pequeño negocio",
-  "precio_minorista": null,
-  "unidad": "1 pack"
- },
- {
-  "categoria": "limpieza-profesional",
-  "descripcion": "ALQUILER por día o fin de semana + guía de uso y boquillas + depósito. En Luxemburgo nadie alquila estos equipos a particulares. Solo alquiler de material técnico; Welux no presta el servicio de limpieza.",
-  "id": "alquiler-hidrolimpiadora",
-  "imagen": "./img/alquiler-hidrolimpiadora.png",
-  "nombre": "Alquiler hidrolimpiadora — por día",
-  "precio_minorista": null,
-  "unidad": "1 día"
- },
- {
-  "categoria": "limpieza-profesional",
-  "descripcion": "ALQUILER por día o fin de semana + guía de uso + depósito. Limpieza profunda de alfombras, sofás, colchones e interiores de coche. Solo alquiler de material técnico; Welux no presta el servicio de limpieza.",
-  "id": "alquiler-extractor-alfombras",
-  "imagen": "./img/alquiler-extractor-alfombras.png",
-  "nombre": "Alquiler extractor de alfombras — por día",
-  "precio_minorista": null,
-  "unidad": "1 día"
- },
- {
-  "categoria": "limpieza-profesional",
-  "descripcion": "ALQUILER por día o fin de semana + guía de uso y accesorios + depósito. Limpia suelos, baños y cocinas con vapor, sin químicos. Solo alquiler de material técnico; Welux no presta el servicio de limpieza.",
-  "id": "alquiler-limpiador-vapor",
-  "imagen": "./img/alquiler-limpiador-vapor.png",
-  "nombre": "Alquiler limpiador a vapor — por día",
-  "precio_minorista": null,
-  "unidad": "1 día"
- },
- {
-  "categoria": "limpieza-profesional",
-  "descripcion": "ALQUILER por día o fin de semana + guía de uso y discos + depósito. Pule y abrillanta suelos duros. Solo alquiler de material técnico; Welux no presta el servicio de limpieza.",
-  "id": "alquiler-pulidora-suelos",
-  "imagen": "./img/alquiler-pulidora-suelos.png",
-  "nombre": "Alquiler pulidora de suelos — por día",
-  "precio_minorista": null,
-  "unidad": "1 día"
- },
- {
-  "categoria": "pantallas-av",
-  "descripcion": "Barra de sonido para TV o proyector + guía de montaje y configuración. El montaje con taladro lo hace el cliente o un tercero, no Welux. Venta de material AV + guía, sin instalar.",
-  "id": "barra-sonido-guia",
-  "imagen": "./img/barra-sonido-guia.png",
-  "nombre": "Barra de sonido con guía de configuración",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "pantallas-av",
-  "descripcion": "Proyector smart + barra de sonido + soporte + guía de montaje y configuración. El tramo medio que Cinémotion no cubre (solo lujo a medida con obra). El montaje lo hace el cliente o un tercero, no Welux.",
-  "id": "pack-cine-en-casa",
-  "imagen": "./img/pack-cine-en-casa.png",
-  "nombre": "Pack cine en casa (proyector + barra de sonido + soporte)",
-  "precio_minorista": null,
-  "unidad": "1 pack"
- },
- {
-  "categoria": "red-oficina",
-  "descripcion": "Kit Starlink + mesh (Deco/Nest Wifi/Eero) + guía de orientación de la antena y colocación de nodos. Para zonas rurales y segundas residencias. Plug-and-play.",
-  "id": "pack-starlink-mesh",
-  "imagen": "./img/pack-starlink-mesh.png",
-  "nombre": "Pack Starlink + mesh WiFi",
-  "precio_minorista": null,
-  "unidad": "1 pack"
- },
- {
-  "categoria": "energia",
-  "descripcion": "Power station + UPS + guía de autonomía: qué enchufar a cada cosa. Para cortes de luz y teletrabajo. Plug-and-play.",
-  "id": "pack-respaldo-teletrabajo",
-  "imagen": "./img/pack-respaldo-teletrabajo.png",
-  "nombre": "Pack respaldo teletrabajo (power station + UPS)",
-  "precio_minorista": null,
-  "unidad": "1 pack"
- },
- {
-  "categoria": "energia",
-  "descripcion": "Power station + panel solar plegable + guía de autonomía para camping y fines de semana fuera de casa. Plug-and-play.",
-  "id": "pack-respaldo-camping",
-  "imagen": "./img/pack-respaldo-camping.png",
-  "nombre": "Pack respaldo camping (power station + panel plegable)",
-  "precio_minorista": null,
-  "unidad": "1 pack"
- },
- {
-  "categoria": "energia",
-  "descripcion": "Power station + panel plegable + UPS + guía de autonomía para mantener nevera y router en cortes de luz. Plug-and-play.",
-  "id": "pack-respaldo-casa",
-  "imagen": "./img/pack-respaldo-casa.png",
-  "nombre": "Pack respaldo de casa (nevera / router)",
-  "precio_minorista": null,
-  "unidad": "1 pack"
- },
- {
-  "categoria": "limpieza-profesional",
-  "descripcion": "Pulidora orbital + aspiradora de coche + lanza de espuma para hidrolimpiadora + guía de detailing paso a paso. Equipo, sin químicos. Nadie vende este pack en LU.",
-  "id": "pack-detailing-auto",
-  "imagen": "./img/pack-detailing-auto.png",
-  "nombre": "Pack detailing de auto (pulidora + aspiradora + lanza de espuma)",
-  "precio_minorista": null,
-  "unidad": "1 pack"
- },
- {
-  "categoria": "jardin",
-  "descripcion": "Controlador de riego a batería + sensor de humedad + estación meteorológica + luces solares + guía de instalación sin cableado. Nadie arma este pack en LU.",
-  "id": "pack-jardin-smart",
-  "imagen": "./img/pack-jardin-smart.png",
-  "nombre": "Pack jardín smart (riego + estación meteo + iluminación solar)",
-  "precio_minorista": null,
-  "unidad": "1 pack"
- },
- {
-  "categoria": "repuestos-horeca",
-  "descripcion": "Bombilla de horno de alta temperatura (E14 15/25/40 W, T22/T25/G45, 300 °C) para hornos industriales de restaurantes, hoteles, panaderías y catering. Precio de compra de referencia: 1,39–7,49 € el pack de 2 en Amazon.de; 2,65–2,75 € en Hornbach Alemania. Sin stock local en Luxemburgo. Incluye asesoría de identificación por marca/modelo de horno (referencias OEM: Bosch, Smeg, Indesit...) + guía de sustitución en frío, sin tensión. Caso probado por el dueño.",
-  "id": "bombilla-horno-industrial-300c",
-  "imagen": "./img/bombilla-horno-industrial-300c.png",
-  "nombre": "Bombilla de horno industrial E14/E27 300 °C",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "repuestos-horeca",
-  "descripcion": "Junta de puerta de horno (silicona alta temperatura, por metro o referencia OEM) y junta de frigorífico/cámara por medida. Una junta gastada = pérdida de calor/frío y riesgo higiénico. Incluye asesoría de identificación por referencia o medida + guía de sustitución.",
-  "id": "junta-horno-frigorifico-profesional",
-  "imagen": "./img/junta-horno-frigorifico-profesional.png",
-  "nombre": "Junta de goma de horno y frigorífico profesional",
-  "precio_minorista": null,
-  "unidad": "1 junta"
- },
- {
-  "categoria": "repuestos-horeca",
-  "descripcion": "Resistencia, termostato de seguridad y sonda de temperatura por referencia de placa (Rational, Hobart, GGF, Moretti Forni, Diamond...) para hornos mixtos, freidoras, planchas y fours à pizza. Incluye guía de identificación. La sustitución eléctrica la hace un técnico cualificado; Welux no instala.",
-  "id": "resistencia-termostato-horeca",
-  "imagen": "./img/resistencia-termostato-horeca.png",
-  "nombre": "Resistencia / termostato para horno, freidora y plancha profesional",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "repuestos-horeca",
-  "descripcion": "Filtro metálico de campana, filtro de carbón, motor de extracción, correa y condensador de ventilador. Consumible de rotación: filtro saturado = humo, olores y riesgo de incendio. Incluye asesoría por medida/modelo de campana + guía de sustitución y de limpieza del filtro metálico.",
-  "id": "filtro-campana-extractora-profesional",
-  "imagen": "./img/filtro-campana-extractora-profesional.png",
-  "nombre": "Filtro y piezas de campana extractora profesional",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "repuestos-horeca",
-  "descripcion": "Bomba de cyclage, brazo de lavado/rinçage, electroválvula, dosificador, termostato y junta (Winterhalter, Hobart, Comenda, Silanos, DIHR, Electrolux). Sin lavavajillas no hay servicio; la pieza es barata, la espera es cara. Incluye guía de identificación por referencia. El cambio lo hace el técnico del cliente.",
-  "id": "pieza-lavavajillas-industrial",
-  "imagen": "./img/pieza-lavavajillas-industrial.png",
-  "nombre": "Pieza de lavavajillas industrial",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "repuestos-horeca",
-  "descripcion": "Juntas de grupo, duchas, filtros, bombas, válvulas y portafiltros (La Marzocco, Rancilio, ECM, Expobar, La Pavoni, Reneka...). La junta de grupo se cambia cada pocos meses. Incluye guía de sustitución por modelo de máquina.",
-  "id": "kit-juntas-cafetera-profesional",
-  "imagen": "./img/kit-juntas-cafetera-profesional.png",
-  "nombre": "Kit de juntas y filtros para cafetera profesional",
-  "precio_minorista": null,
-  "unidad": "1 kit"
- },
- {
-  "categoria": "repuestos-horeca",
-  "descripcion": "Termostato, sonda, ventilador, burlete/junta de puerta, pomo, bisagra y lámpara de cámara frigorífica. Una cámara sin frío = género perdido. Incluye guía de identificación por referencia.",
-  "id": "pieza-frio-profesional",
-  "imagen": "./img/pieza-frio-profesional.png",
-  "nombre": "Pieza de frío profesional (cámara, vitrina, congelador)",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "repuestos-horeca",
-  "descripcion": "Correa, resistencia, bomba de desagüe, junta de puerta, amortiguador y válvula (Miele Professional, Electrolux Professional, Primus, Speed Queen). Incluye guía de identificación por referencia.",
-  "id": "pieza-lavanderia-profesional",
-  "imagen": "./img/pieza-lavanderia-profesional.png",
-  "nombre": "Pieza de lavandería profesional",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "repuestos-horeca",
-  "descripcion": "Piedra refractaria, resistencia, termostato, motor de amasadora/divisora, correa y temporizador (Moretti Forni, GGF, Bongard, Italforni, Prismafood...). Incluye guía de identificación por referencia.",
-  "id": "pieza-panaderia-pizzeria",
-  "imagen": "./img/pieza-panaderia-pizzeria.png",
-  "nombre": "Pieza de panadería y pizzería",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "repuestos-horeca",
-  "descripcion": "G9 halógeno alta temperatura, lámpara para vitrina caliente, tubo para cámara frigorífica, lámpara de microondas y de salamandra. Incluye asesoría de identificación por modelo de equipo + guía. Mismo modelo que la bombilla de horno.",
-  "id": "lampara-tubo-especial-horeca",
-  "imagen": "./img/lampara-tubo-especial-horeca.png",
-  "nombre": "Lámpara / tubo especial para hostelería",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "repuestos-horeca",
-  "descripcion": "Cuchilla de Robot-Coupe/cutter, correa de trancheuse, junta de batidora/licuadora profesional y cuchilla de picadora. Incluye guía de identificación por modelo.",
-  "id": "pieza-preparacion-horeca",
-  "imagen": "./img/pieza-preparacion-horeca.png",
-  "nombre": "Pieza de preparación (cuchilla, correa, junta)",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- },
- {
-  "categoria": "repuestos-horeca",
-  "descripcion": "Cartucho filtrante y descalcificador para máquina de café y horno mixto (Brita, BWT y compatibles). Se cambia cada 3–6 meses; sin filtro, la cal mata la máquina. Incluye guía de sustitución por modelo. PENDIENTE confirmar antes de facturar que no se clasifique como consumible de limpieza: es pieza del equipo, como un filtro de aire.",
-  "id": "filtro-agua-cartucho-horeca",
-  "imagen": "./img/filtro-agua-cartucho-horeca.png",
-  "nombre": "Filtro de agua / cartucho para cafetera y horno mixto",
-  "precio_minorista": null,
-  "unidad": "1 unidad"
- }
-]
+{
+ "productos": [
+  {
+   "categoria": "energia",
+   "descripcion": "El producto estrella. Hasta 799 W se enchufa sin declaración ni aprobación; desde 800 W hay que declarar y que el gestor de red lo apruebe. Produce 700–900 kWh/año. Precio de referencia en LU ~629 € instalado (el kit solo, a confirmar). Incluye asesoría de orientación y guía de conexión; se recomienda disyuntor diferencial y enchufe Wieland. Solo material, sin instalación.",
+   "id": "kit-solar-balcon-799w",
+   "imagen": "./img/kit-solar-balcon-799w.png",
+   "nombre": "Kit solar de balcón 799 W",
+   "precio_minorista": null,
+   "unidad": "1 kit"
+  },
+  {
+   "categoria": "energia",
+   "descripcion": "Batería portátil (EcoFlow, Jackery o Bluetti). Combina con el kit solar; camping, cortes de luz y respaldo en casa. Plug-and-play. Incluye asesoría de capacidad y guía de uso.",
+   "id": "power-station-1000wh",
+   "imagen": "./img/power-station-1000wh.png",
+   "nombre": "Power station portátil ~1000 Wh",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "energia",
+   "descripcion": "Batería portátil compacta (EcoFlow, Jackery o Bluetti) para fines de semana, trabajo fuera de casa y respaldo básico. Plug-and-play. Incluye asesoría de capacidad y guía de uso.",
+   "id": "power-station-500wh",
+   "imagen": "./img/power-station-500wh.png",
+   "nombre": "Power station portátil ~500 Wh",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "energia",
+   "descripcion": "Panel plegable para cargar la power station fuera de casa o en el balcón. Plug-and-play. Incluye asesoría de compatibilidad y guía de uso.",
+   "id": "panel-solar-portatil-200w",
+   "imagen": "./img/panel-solar-portatil-200w.png",
+   "nombre": "Panel solar portátil plegable ~200 W",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "persianas-calefaccion",
+   "descripcion": "Motor tubular para persiana enrollable grande (salón). Precedente: Jean Paul Baustert (03/10/2026). Precio de compra en Hornbach 56,45 €; precio de venta a confirmar. Incluye informe de compatibilidad y guía de instalación paso a paso. El cliente o un tercero lo instala.",
+   "id": "motor-schellenberg-15nm",
+   "imagen": "./img/motor-schellenberg-15nm.png",
+   "nombre": "Motor tubular Schellenberg 15 Nm",
+   "precio_minorista": null,
+   "unidad": "1 motor"
+  },
+  {
+   "categoria": "persianas-calefaccion",
+   "descripcion": "Motor tubular para persiana enrollable (puerta de jardín y grandes ventanales). Incluye informe de compatibilidad y guía de instalación paso a paso. El cliente o un tercero lo instala.",
+   "id": "motor-aron-20nm",
+   "imagen": "./img/motor-aron-20nm.png",
+   "nombre": "Motor tubular ARON 20 Nm",
+   "precio_minorista": null,
+   "unidad": "1 motor"
+  },
+  {
+   "categoria": "persianas-calefaccion",
+   "descripcion": "Mando o interruptor compatible con motores tubulares de persiana. Plug-and-play. Incluye asesoría de compatibilidad y guía de emparejamiento.",
+   "id": "mando-persiana",
+   "imagen": "./img/mando-persiana.png",
+   "nombre": "Mando a distancia para motor de persiana",
+   "precio_minorista": null,
+   "unidad": "1 mando"
+  },
+  {
+   "categoria": "persianas-calefaccion",
+   "descripcion": "Calefacción de apoyo en invierno, se enchufa y listo. Solo como material, sin instalación. Incluye cálculo de potencia y guía de colocación.",
+   "id": "panel-calefactor-infrarrojo",
+   "imagen": "./img/panel-calefactor-infrarrojo.png",
+   "nombre": "Panel calefactor infrarrojo plug-and-play",
+   "precio_minorista": null,
+   "unidad": "1 panel"
+  },
+  {
+   "categoria": "persianas-calefaccion",
+   "descripcion": "Panel calefactor eléctrico enchufable con termostato para una habitación. Solo como material, sin instalación. Incluye cálculo de potencia y guía de colocación.",
+   "id": "panel-calefactor-600w",
+   "imagen": "./img/panel-calefactor-600w.png",
+   "nombre": "Panel calefactor 600 W con termostato",
+   "precio_minorista": null,
+   "unidad": "1 panel"
+  },
+  {
+   "categoria": "smart-home",
+   "descripcion": "Enchufe smart con app y control por voz: enchufe y listo. Incluye asesoría de compatibilidad y guía de configuración.",
+   "id": "enchufe-smart",
+   "imagen": "./img/enchufe-smart.png",
+   "nombre": "Enchufe inteligente (Shelly / Tapo)",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "smart-home",
+   "descripcion": "Bombillas y tira LED inteligentes (Hue, Tapo o Govee): se enroscan o se pegan, sin cableado. Incluye asesoría de iluminación y guía de configuración.",
+   "id": "pack-bombillas-led-smart",
+   "imagen": "./img/pack-bombillas-led-smart.png",
+   "nombre": "Pack bombillas smart + tira LED",
+   "precio_minorista": null,
+   "unidad": "1 pack"
+  },
+  {
+   "categoria": "smart-home",
+   "descripcion": "Cámara de seguridad WiFi a batería o con panel solar (Eufy, Arlo o Tapo): sin cablear. Incluye asesoría de colocación y guía de configuración.",
+   "id": "camara-wifi-bateria",
+   "imagen": "./img/camara-wifi-bateria.png",
+   "nombre": "Cámara WiFi de batería o solar",
+   "precio_minorista": null,
+   "unidad": "1 cámara"
+  },
+  {
+   "categoria": "smart-home",
+   "descripcion": "Videoportero a batería (Ring o Eufy): sin cableado fijo. Incluye asesoría de compatibilidad y guía de configuración.",
+   "id": "videoportero-bateria",
+   "imagen": "./img/videoportero-bateria.png",
+   "nombre": "Videoportero de batería",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "smart-home",
+   "descripcion": "Válvula inteligente que se enrosca en el radiador, sin cableado. Control de calefacción por habitación desde la app. Incluye asesoría de compatibilidad y guía de instalación.",
+   "id": "valvula-termostatica-radiador",
+   "imagen": "./img/valvula-termostatica-radiador.png",
+   "nombre": "Válvula termostática smart de radiador",
+   "precio_minorista": null,
+   "unidad": "1 válvula"
+  },
+  {
+   "categoria": "smart-home",
+   "descripcion": "Cerradura inteligente que se monta sobre el cilindro existente, sin cambiar la cerradura. DIY. Incluye asesoría de compatibilidad y guía de montaje.",
+   "id": "cerradura-smart-nuki",
+   "imagen": "./img/cerradura-smart-nuki.png",
+   "nombre": "Cerradura smart retrofit (Nuki)",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "smart-home",
+   "descripcion": "Sensores de puerta/ventana, movimiento, temperatura y fugas de agua: adhesivo y batería. Incluye asesoría y guía de configuración.",
+   "id": "pack-sensores-hogar",
+   "imagen": "./img/pack-sensores-hogar.png",
+   "nombre": "Pack sensores de hogar smart",
+   "precio_minorista": null,
+   "unidad": "1 pack"
+  },
+  {
+   "categoria": "smart-home",
+   "descripcion": "Altavoz con asistente: enchufe y WiFi. Música, control del hogar y rutinas. Incluye asesoría y guía de configuración.",
+   "id": "altavoz-smart",
+   "imagen": "./img/altavoz-smart.png",
+   "nombre": "Altavoz inteligente (Echo / Nest Audio)",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "pantallas-av",
+   "descripcion": "Pantalla con asistente: enchufe y WiFi. Cocina, dormitorio o negocio. Incluye asesoría y guía de configuración.",
+   "id": "smart-display",
+   "imagen": "./img/smart-display.png",
+   "nombre": "Smart display (Echo Show / Nest Hub)",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "pantallas-av",
+   "descripcion": "Marco de fotos con WiFi: se configura desde el móvil, ideal como regalo. Plug-and-play. Incluye guía de configuración.",
+   "id": "marco-fotos-wifi",
+   "imagen": "./img/marco-fotos-wifi.png",
+   "nombre": "Marco de fotos digital WiFi",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "pantallas-av",
+   "descripcion": "Segunda pantalla para el portátil: un solo cable USB-C, sin instalación. Ideal para teletrabajo. Incluye asesoría de compatibilidad y guía.",
+   "id": "monitor-portatil-usbc",
+   "imagen": "./img/monitor-portatil-usbc.png",
+   "nombre": "Monitor portátil USB-C",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "pantallas-av",
+   "descripcion": "Proyector con Android TV integrado: cine en casa sin instalar nada. Incluye asesoría de montaje y guía de configuración.",
+   "id": "proyector-smart-portatil",
+   "imagen": "./img/proyector-smart-portatil.png",
+   "nombre": "Proyector smart portátil (Android TV)",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "pantallas-av",
+   "descripcion": "Televisor inteligente como material audiovisual: venta + entrega + guía. El montaje en pared con soporte lo hace el cliente o un tercero, no Welux.",
+   "id": "smart-tv-43",
+   "imagen": "./img/smart-tv-43.png",
+   "nombre": "Smart TV 43\" (material AV)",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "pantallas-av",
+   "descripcion": "Pantalla + stick o mini-PC para menús, escaparates y salas de espera. Encaja con el lado digital de Welux (pantalla + contenido). Incluye asesoría de contenido y guía de puesta en marcha.",
+   "id": "pantalla-senalizacion-negocio",
+   "imagen": "./img/pantalla-senalizacion-negocio.png",
+   "nombre": "Pantalla de señalización digital para negocios",
+   "precio_minorista": null,
+   "unidad": "1 kit"
+  },
+  {
+   "categoria": "pantallas-av",
+   "descripcion": "Dron con cámara para foto y vídeo: material audiovisual. Bienes raíces, eventos y creadores. Incluye asesoría de modelo y guía de inicio. Respeta la normativa de drones de Luxemburgo.",
+   "id": "dron-camara-4k",
+   "imagen": "./img/dron-camara-4k.png",
+   "nombre": "Dron con cámara 4K",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "pantallas-av",
+   "descripcion": "Cámara de acción con estabilizador para vídeo en movimiento. Material audiovisual. Incluye asesoría y guía de uso.",
+   "id": "camara-accion-gimbal",
+   "imagen": "./img/camara-accion-gimbal.png",
+   "nombre": "Cámara de acción + gimbal",
+   "precio_minorista": null,
+   "unidad": "1 kit"
+  },
+  {
+   "categoria": "pantallas-av",
+   "descripcion": "Internet por satélite plug-and-play: zonas rurales y segundas residencias. Incluye asesoría de cobertura y guía de puesta en marcha.",
+   "id": "kit-starlink",
+   "imagen": "./img/kit-starlink.png",
+   "nombre": "Kit Starlink (antena + router)",
+   "precio_minorista": null,
+   "unidad": "1 kit"
+  },
+  {
+   "categoria": "red-oficina",
+   "descripcion": "WiFi de malla para toda la casa (Deco, Nest Wifi o Eero): enchufe y app. Incluye asesoría de cobertura y guía de configuración.",
+   "id": "mesh-wifi-3-nodos",
+   "imagen": "./img/mesh-wifi-3-nodos.png",
+   "nombre": "Sistema mesh WiFi (3 nodos)",
+   "precio_minorista": null,
+   "unidad": "1 sistema"
+  },
+  {
+   "categoria": "red-oficina",
+   "descripcion": "Internet por el enchufe: lleva la red a donde no llega el WiFi. Plug-and-play. Incluye asesoría y guía de configuración.",
+   "id": "kit-powerline-plc",
+   "imagen": "./img/kit-powerline-plc.png",
+   "nombre": "Kit adaptadores powerline (PLC)",
+   "precio_minorista": null,
+   "unidad": "1 kit"
+  },
+  {
+   "categoria": "red-oficina",
+   "descripcion": "Amplía la cobertura WiFi en casa o en la oficina. Enchufe y app. Incluye asesoría de colocación y guía de configuración.",
+   "id": "repetidor-wifi",
+   "imagen": "./img/repetidor-wifi.png",
+   "nombre": "Repetidor / extensor WiFi",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "red-oficina",
+   "descripcion": "Base USB-C con puertos, carga y salida de vídeo: un cable y a trabajar. Plug-and-play. Incluye asesoría de compatibilidad y guía.",
+   "id": "dock-usbc",
+   "imagen": "./img/dock-usbc.png",
+   "nombre": "Dock USB-C para oficina en casa",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "red-oficina",
+   "descripcion": "Cámara web 4K con micrófono para videollamadas y directos. Plug-and-play por USB. Incluye guía de configuración.",
+   "id": "webcam-4k",
+   "imagen": "./img/webcam-4k.png",
+   "nombre": "Webcam 4K para teletrabajo y streaming",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "red-oficina",
+   "descripcion": "Luz LED de estudio para videollamadas y streaming: se monta en el escritorio y se controla desde la app. Plug-and-play. Incluye guía de uso.",
+   "id": "luz-streaming",
+   "imagen": "./img/luz-streaming.png",
+   "nombre": "Luz de streaming (Elgato Key Light o similar)",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "jardin",
+   "descripcion": "Controlador de riego a batería + sensor de humedad del suelo: programa el riego desde la app. Plug-and-play, sin obra. Incluye asesoría y guía de instalación.",
+   "id": "riego-smart-jardin",
+   "imagen": "./img/riego-smart-jardin.png",
+   "nombre": "Riego smart de jardín",
+   "precio_minorista": null,
+   "unidad": "1 kit"
+  },
+  {
+   "categoria": "guias",
+   "descripcion": "Informe de compatibilidad + guía de instalación paso a paso para motores tubulares de persiana. El modelo Jean Paul, convertido en producto digital. Se envía por correo tras la compra.",
+   "id": "guia-pdf-motor-persiana",
+   "imagen": "./img/guia-pdf-motor-persiana.png",
+   "nombre": "Guía PDF: motor de persiana (informe + instalación)",
+   "precio_minorista": null,
+   "unidad": "1 guía digital"
+  },
+  {
+   "categoria": "guias",
+   "descripcion": "Guía completa del kit solar de balcón 799 W: orientación, conexión, enchufe Wieland y qué declarar (y qué no). Se envía por correo tras la compra.",
+   "id": "guia-pdf-kit-solar",
+   "imagen": "./img/guia-pdf-kit-solar.png",
+   "nombre": "Guía PDF: kit solar de balcón",
+   "precio_minorista": null,
+   "unidad": "1 guía digital"
+  },
+  {
+   "categoria": "guias",
+   "descripcion": "Cálculo de potencia + guía de colocación de paneles calefactores plug-and-play. Se envía por correo tras la compra.",
+   "id": "guia-pdf-panel-calefactor",
+   "imagen": "./img/guia-pdf-panel-calefactor.png",
+   "nombre": "Guía PDF: panel calefactor",
+   "precio_minorista": null,
+   "unidad": "1 guía digital"
+  },
+  {
+   "categoria": "guias",
+   "descripcion": "Guía de iluminación inteligente para casa o negocio: qué comprar, compatibilidad y configuración. Se envía por correo tras la compra.",
+   "id": "guia-pdf-iluminacion-smart",
+   "imagen": "./img/guia-pdf-iluminacion-smart.png",
+   "nombre": "Guía PDF: iluminación smart",
+   "precio_minorista": null,
+   "unidad": "1 guía digital"
+  },
+  {
+   "categoria": "limpieza-profesional",
+   "descripcion": "Limpieza a presión de terrazas, fachadas, coches y patios (Kärcher o similar). Incluye asesoría de boquillas y presión, y guía de uso.",
+   "id": "hidrolimpiadora",
+   "imagen": "./img/hidrolimpiadora.png",
+   "nombre": "Hidrolimpiadora (Kärcher o similar)",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "limpieza-profesional",
+   "descripcion": "Limpieza profunda de alfombras, sofás, colchones e interiores de coche (Kärcher Puzzi, Bissell o similar). Incluye asesoría de uso y guía de limpieza profunda.",
+   "id": "extractor-alfombras-tapiceria",
+   "imagen": "./img/extractor-alfombras-tapiceria.png",
+   "nombre": "Extractor / limpiador de alfombras y tapicería",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "limpieza-profesional",
+   "descripcion": "Limpia suelos, baños y cocinas con vapor, sin químicos. Incluye asesoría de accesorios y guía de uso.",
+   "id": "limpiador-vapor",
+   "imagen": "./img/limpiador-vapor.png",
+   "nombre": "Limpiador a vapor",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "limpieza-profesional",
+   "descripcion": "Para obra, garaje y taller: aspira polvo, serrín y líquidos. Incluye asesoría de filtros y guía de uso.",
+   "id": "aspiradora-industrial-humedo-seco",
+   "imagen": "./img/aspiradora-industrial-humedo-seco.png",
+   "nombre": "Aspiradora industrial húmedo/seco",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "limpieza-profesional",
+   "descripcion": "Pule y abrillanta suelos duros. Incluye asesoría de discos y guía de uso.",
+   "id": "pulidora-suelos",
+   "imagen": "./img/pulidora-suelos.png",
+   "nombre": "Pulidora / abrillantadora de suelos",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "limpieza-profesional",
+   "descripcion": "Pulido de carrocería para quitar marcas y devolver el brillo. Equipo de detailing, sin químicos. Incluye asesoría de pads y guía de pulido.",
+   "id": "pulidora-orbital-auto",
+   "imagen": "./img/pulidora-orbital-auto.png",
+   "nombre": "Pulidora orbital para detailing de coche",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "limpieza-profesional",
+   "descripcion": "Limpieza interior del coche: asientos, alfombrillas y maletero. Incluye asesoría de boquillas y guía de uso.",
+   "id": "aspiradora-coche",
+   "imagen": "./img/aspiradora-coche.png",
+   "nombre": "Aspiradora de coche para detailing",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "limpieza-profesional",
+   "descripcion": "Espuma de prelavado para el coche, se acopla a la hidrolimpiadora. Equipo, sin químicos. Incluye guía de uso.",
+   "id": "lanza-espuma-hidrolimpiadora",
+   "imagen": "./img/lanza-espuma-hidrolimpiadora.png",
+   "nombre": "Lanza de espuma para hidrolimpiadora",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "limpieza-profesional",
+   "descripcion": "Para estufas, chimeneas y barbacoas: aspira ceniza fría sin ensuciar. Incluye guía de uso.",
+   "id": "aspiradora-cenizas",
+   "imagen": "./img/aspiradora-cenizas.png",
+   "nombre": "Aspiradora de cenizas",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "herramientas-tecnica",
+   "descripcion": "Iluminación portátil para obra, garaje y taller, con batería recargable. Incluye guía de uso.",
+   "id": "luz-trabajo-led-recargable",
+   "imagen": "./img/luz-trabajo-led-recargable.png",
+   "nombre": "Luz de trabajo LED recargable",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "herramientas-tecnica",
+   "descripcion": "Mide distancias y superficies al instante: reformas, inmobiliarias y mediciones. Incluye guía de uso.",
+   "id": "medidor-laser-distancia",
+   "imagen": "./img/medidor-laser-distancia.png",
+   "nombre": "Medidor láser de distancia",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "herramientas-tecnica",
+   "descripcion": "Ve dentro de tuberías, muros y motores: para fontaneros, electricistas y mecánicos. Incluye guía de uso.",
+   "id": "camara-inspeccion-endoscopica",
+   "imagen": "./img/camara-inspeccion-endoscopica.png",
+   "nombre": "Cámara de inspección endoscópica",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "herramientas-tecnica",
+   "descripcion": "Para makers, prototipos y repuestos: imprime piezas en casa. Incluye asesoría de modelo y filamento, y guía de inicio.",
+   "id": "impresora-3d",
+   "imagen": "./img/impresora-3d.png",
+   "nombre": "Impresora 3D",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "herramientas-tecnica",
+   "descripcion": "Temperatura, humedad, lluvia y viento en casa y jardín, con app. Incluye guía de configuración.",
+   "id": "estacion-meteorologica-smart",
+   "imagen": "./img/estacion-meteorologica-smart.png",
+   "nombre": "Estación meteorológica smart",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "herramientas-tecnica",
+   "descripcion": "Luces solares para jardín y terraza: se clavan y listo, sin cableado. Incluye guía de colocación.",
+   "id": "iluminacion-solar-jardin",
+   "imagen": "./img/iluminacion-solar-jardin.png",
+   "nombre": "Iluminación solar de jardín",
+   "precio_minorista": null,
+   "unidad": "1 kit"
+  },
+  {
+   "categoria": "herramientas-tecnica",
+   "descripcion": "Detector de humo y monóxido de carbono a batería, con WiFi y aviso al móvil. Incluye guía de instalación.",
+   "id": "detector-humo-co-smart",
+   "imagen": "./img/detector-humo-co-smart.png",
+   "nombre": "Detector de humo y CO smart",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "herramientas-tecnica",
+   "descripcion": "Carga el coche eléctrico desde un enchufe normal, sin instalar wallbox. El wallbox fijo no entra. Incluye asesoría de compatibilidad y guía de uso.",
+   "id": "cargador-ev-portatil",
+   "imagen": "./img/cargador-ev-portatil.png",
+   "nombre": "Cargador EV portátil",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "herramientas-tecnica",
+   "descripcion": "Comunicación en eventos, obras y rodajes. Material técnico de eventos. Incluye guía de uso.",
+   "id": "walkie-talkies-eventos",
+   "imagen": "./img/walkie-talkies-eventos.png",
+   "nombre": "Walkie-talkies / radios para eventos",
+   "precio_minorista": null,
+   "unidad": "1 pack (2 unidades)"
+  },
+  {
+   "categoria": "herramientas-tecnica",
+   "descripcion": "Protege ordenador y router en cortes de luz: respaldo para oficina y casa. Incluye asesoría de autonomía y guía de uso.",
+   "id": "ups-respaldo",
+   "imagen": "./img/ups-respaldo.png",
+   "nombre": "UPS / batería de respaldo",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "herramientas-tecnica",
+   "descripcion": "Destornilladores y herramientas de precisión para reparar móviles y ordenadores. Incluye guía de uso.",
+   "id": "kit-herramientas-precision-electronica",
+   "imagen": "./img/kit-herramientas-precision-electronica.png",
+   "nombre": "Kit de herramientas de precisión para electrónica",
+   "precio_minorista": null,
+   "unidad": "1 kit"
+  },
+  {
+   "categoria": "herramientas-tecnica",
+   "descripcion": "Venta del soporte + guía. El montaje con taladro lo hace el cliente o un tercero, no Welux.",
+   "id": "soporte-brazo-monitor-tv",
+   "imagen": "./img/soporte-brazo-monitor-tv.png",
+   "nombre": "Soporte / brazo articulado para monitor y TV",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "herramientas-tecnica",
+   "descripcion": "Power bank con panel solar para cargar el móvil en camping y emergencias. Incluye guía de uso.",
+   "id": "cargador-solar-portatil-usb",
+   "imagen": "./img/cargador-solar-portatil-usb.png",
+   "nombre": "Cargador solar portátil USB",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "smart-home",
+   "descripcion": "Pack completo configurado para un estudio: enchufes, bombillas, cámara y mesh según el pack, con guía de configuración paso a paso por app y compatibilidad (Hue/Tapo/Shelly/Eufy/Nuki). Asesoría en español/portugués incluida. Todo enchufable, sin cableado.",
+   "id": "pack-smart-home-estudio",
+   "imagen": "./img/pack-smart-home-estudio.png",
+   "nombre": "Pack smart home — estudio (1 habitación)",
+   "precio_minorista": null,
+   "unidad": "1 pack"
+  },
+  {
+   "categoria": "smart-home",
+   "descripcion": "Pack completo configurado para un piso de 2 habitaciones: enchufes, bombillas, cámara y mesh según el pack, con guía de configuración paso a paso por app y compatibilidad (Hue/Tapo/Shelly/Eufy/Nuki). Asesoría en español/portugués incluida. Todo enchufable, sin cableado.",
+   "id": "pack-smart-home-piso",
+   "imagen": "./img/pack-smart-home-piso.png",
+   "nombre": "Pack smart home — piso 2 habitaciones",
+   "precio_minorista": null,
+   "unidad": "1 pack"
+  },
+  {
+   "categoria": "smart-home",
+   "descripcion": "Pack completo configurado para una casa: enchufes, bombillas, cámaras, videoportero y mesh según el pack, con guía de configuración paso a paso por app y compatibilidad (Hue/Tapo/Shelly/Eufy/Nuki). Asesoría en español/portugués incluida. Todo enchufable, sin cableado.",
+   "id": "pack-smart-home-casa",
+   "imagen": "./img/pack-smart-home-casa.png",
+   "nombre": "Pack smart home — casa",
+   "precio_minorista": null,
+   "unidad": "1 pack"
+  },
+  {
+   "categoria": "smart-home",
+   "descripcion": "Pack completo configurado para un pequeño negocio (tienda, restaurante, oficina): enchufes, bombillas, cámaras y mesh según el pack, con guía de configuración paso a paso por app. Asesoría en español/portugués incluida. Todo enchufable, sin cableado.",
+   "id": "pack-smart-home-negocio",
+   "imagen": "./img/pack-smart-home-negocio.png",
+   "nombre": "Pack smart home — pequeño negocio",
+   "precio_minorista": null,
+   "unidad": "1 pack"
+  },
+  {
+   "categoria": "limpieza-profesional",
+   "descripcion": "ALQUILER por día o fin de semana + guía de uso y boquillas + depósito. En Luxemburgo nadie alquila estos equipos a particulares. Solo alquiler de material técnico; Welux no presta el servicio de limpieza.",
+   "id": "alquiler-hidrolimpiadora",
+   "imagen": "./img/alquiler-hidrolimpiadora.png",
+   "nombre": "Alquiler hidrolimpiadora — por día",
+   "precio_minorista": null,
+   "unidad": "1 día"
+  },
+  {
+   "categoria": "limpieza-profesional",
+   "descripcion": "ALQUILER por día o fin de semana + guía de uso + depósito. Limpieza profunda de alfombras, sofás, colchones e interiores de coche. Solo alquiler de material técnico; Welux no presta el servicio de limpieza.",
+   "id": "alquiler-extractor-alfombras",
+   "imagen": "./img/alquiler-extractor-alfombras.png",
+   "nombre": "Alquiler extractor de alfombras — por día",
+   "precio_minorista": null,
+   "unidad": "1 día"
+  },
+  {
+   "categoria": "limpieza-profesional",
+   "descripcion": "ALQUILER por día o fin de semana + guía de uso y accesorios + depósito. Limpia suelos, baños y cocinas con vapor, sin químicos. Solo alquiler de material técnico; Welux no presta el servicio de limpieza.",
+   "id": "alquiler-limpiador-vapor",
+   "imagen": "./img/alquiler-limpiador-vapor.png",
+   "nombre": "Alquiler limpiador a vapor — por día",
+   "precio_minorista": null,
+   "unidad": "1 día"
+  },
+  {
+   "categoria": "limpieza-profesional",
+   "descripcion": "ALQUILER por día o fin de semana + guía de uso y discos + depósito. Pule y abrillanta suelos duros. Solo alquiler de material técnico; Welux no presta el servicio de limpieza.",
+   "id": "alquiler-pulidora-suelos",
+   "imagen": "./img/alquiler-pulidora-suelos.png",
+   "nombre": "Alquiler pulidora de suelos — por día",
+   "precio_minorista": null,
+   "unidad": "1 día"
+  },
+  {
+   "categoria": "pantallas-av",
+   "descripcion": "Barra de sonido para TV o proyector + guía de montaje y configuración. El montaje con taladro lo hace el cliente o un tercero, no Welux. Venta de material AV + guía, sin instalar.",
+   "id": "barra-sonido-guia",
+   "imagen": "./img/barra-sonido-guia.png",
+   "nombre": "Barra de sonido con guía de configuración",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "pantallas-av",
+   "descripcion": "Proyector smart + barra de sonido + soporte + guía de montaje y configuración. El tramo medio que Cinémotion no cubre (solo lujo a medida con obra). El montaje lo hace el cliente o un tercero, no Welux.",
+   "id": "pack-cine-en-casa",
+   "imagen": "./img/pack-cine-en-casa.png",
+   "nombre": "Pack cine en casa (proyector + barra de sonido + soporte)",
+   "precio_minorista": null,
+   "unidad": "1 pack"
+  },
+  {
+   "categoria": "red-oficina",
+   "descripcion": "Kit Starlink + mesh (Deco/Nest Wifi/Eero) + guía de orientación de la antena y colocación de nodos. Para zonas rurales y segundas residencias. Plug-and-play.",
+   "id": "pack-starlink-mesh",
+   "imagen": "./img/pack-starlink-mesh.png",
+   "nombre": "Pack Starlink + mesh WiFi",
+   "precio_minorista": null,
+   "unidad": "1 pack"
+  },
+  {
+   "categoria": "energia",
+   "descripcion": "Power station + UPS + guía de autonomía: qué enchufar a cada cosa. Para cortes de luz y teletrabajo. Plug-and-play.",
+   "id": "pack-respaldo-teletrabajo",
+   "imagen": "./img/pack-respaldo-teletrabajo.png",
+   "nombre": "Pack respaldo teletrabajo (power station + UPS)",
+   "precio_minorista": null,
+   "unidad": "1 pack"
+  },
+  {
+   "categoria": "energia",
+   "descripcion": "Power station + panel solar plegable + guía de autonomía para camping y fines de semana fuera de casa. Plug-and-play.",
+   "id": "pack-respaldo-camping",
+   "imagen": "./img/pack-respaldo-camping.png",
+   "nombre": "Pack respaldo camping (power station + panel plegable)",
+   "precio_minorista": null,
+   "unidad": "1 pack"
+  },
+  {
+   "categoria": "energia",
+   "descripcion": "Power station + panel plegable + UPS + guía de autonomía para mantener nevera y router en cortes de luz. Plug-and-play.",
+   "id": "pack-respaldo-casa",
+   "imagen": "./img/pack-respaldo-casa.png",
+   "nombre": "Pack respaldo de casa (nevera / router)",
+   "precio_minorista": null,
+   "unidad": "1 pack"
+  },
+  {
+   "categoria": "limpieza-profesional",
+   "descripcion": "Pulidora orbital + aspiradora de coche + lanza de espuma para hidrolimpiadora + guía de detailing paso a paso. Equipo, sin químicos. Nadie vende este pack en LU.",
+   "id": "pack-detailing-auto",
+   "imagen": "./img/pack-detailing-auto.png",
+   "nombre": "Pack detailing de auto (pulidora + aspiradora + lanza de espuma)",
+   "precio_minorista": null,
+   "unidad": "1 pack"
+  },
+  {
+   "categoria": "jardin",
+   "descripcion": "Controlador de riego a batería + sensor de humedad + estación meteorológica + luces solares + guía de instalación sin cableado. Nadie arma este pack en LU.",
+   "id": "pack-jardin-smart",
+   "imagen": "./img/pack-jardin-smart.png",
+   "nombre": "Pack jardín smart (riego + estación meteo + iluminación solar)",
+   "precio_minorista": null,
+   "unidad": "1 pack"
+  },
+  {
+   "categoria": "repuestos-horeca",
+   "descripcion": "Bombilla de horno de alta temperatura (E14 15/25/40 W, T22/T25/G45, 300 °C) para hornos industriales de restaurantes, hoteles, panaderías y catering. Precio de compra de referencia: 1,39–7,49 € el pack de 2 en Amazon.de; 2,65–2,75 € en Hornbach Alemania. Sin stock local en Luxemburgo. Incluye asesoría de identificación por marca/modelo de horno (referencias OEM: Bosch, Smeg, Indesit...) + guía de sustitución en frío, sin tensión. Caso probado por el dueño.",
+   "id": "bombilla-horno-industrial-300c",
+   "imagen": "./img/bombilla-horno-industrial-300c.png",
+   "nombre": "Bombilla de horno industrial E14/E27 300 °C",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "repuestos-horeca",
+   "descripcion": "Junta de puerta de horno (silicona alta temperatura, por metro o referencia OEM) y junta de frigorífico/cámara por medida. Una junta gastada = pérdida de calor/frío y riesgo higiénico. Incluye asesoría de identificación por referencia o medida + guía de sustitución.",
+   "id": "junta-horno-frigorifico-profesional",
+   "imagen": "./img/junta-horno-frigorifico-profesional.png",
+   "nombre": "Junta de goma de horno y frigorífico profesional",
+   "precio_minorista": null,
+   "unidad": "1 junta"
+  },
+  {
+   "categoria": "repuestos-horeca",
+   "descripcion": "Resistencia, termostato de seguridad y sonda de temperatura por referencia de placa (Rational, Hobart, GGF, Moretti Forni, Diamond...) para hornos mixtos, freidoras, planchas y fours à pizza. Incluye guía de identificación. La sustitución eléctrica la hace un técnico cualificado; Welux no instala.",
+   "id": "resistencia-termostato-horeca",
+   "imagen": "./img/resistencia-termostato-horeca.png",
+   "nombre": "Resistencia / termostato para horno, freidora y plancha profesional",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "repuestos-horeca",
+   "descripcion": "Filtro metálico de campana, filtro de carbón, motor de extracción, correa y condensador de ventilador. Consumible de rotación: filtro saturado = humo, olores y riesgo de incendio. Incluye asesoría por medida/modelo de campana + guía de sustitución y de limpieza del filtro metálico.",
+   "id": "filtro-campana-extractora-profesional",
+   "imagen": "./img/filtro-campana-extractora-profesional.png",
+   "nombre": "Filtro y piezas de campana extractora profesional",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "repuestos-horeca",
+   "descripcion": "Bomba de cyclage, brazo de lavado/rinçage, electroválvula, dosificador, termostato y junta (Winterhalter, Hobart, Comenda, Silanos, DIHR, Electrolux). Sin lavavajillas no hay servicio; la pieza es barata, la espera es cara. Incluye guía de identificación por referencia. El cambio lo hace el técnico del cliente.",
+   "id": "pieza-lavavajillas-industrial",
+   "imagen": "./img/pieza-lavavajillas-industrial.png",
+   "nombre": "Pieza de lavavajillas industrial",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "repuestos-horeca",
+   "descripcion": "Juntas de grupo, duchas, filtros, bombas, válvulas y portafiltros (La Marzocco, Rancilio, ECM, Expobar, La Pavoni, Reneka...). La junta de grupo se cambia cada pocos meses. Incluye guía de sustitución por modelo de máquina.",
+   "id": "kit-juntas-cafetera-profesional",
+   "imagen": "./img/kit-juntas-cafetera-profesional.png",
+   "nombre": "Kit de juntas y filtros para cafetera profesional",
+   "precio_minorista": null,
+   "unidad": "1 kit"
+  },
+  {
+   "categoria": "repuestos-horeca",
+   "descripcion": "Termostato, sonda, ventilador, burlete/junta de puerta, pomo, bisagra y lámpara de cámara frigorífica. Una cámara sin frío = género perdido. Incluye guía de identificación por referencia.",
+   "id": "pieza-frio-profesional",
+   "imagen": "./img/pieza-frio-profesional.png",
+   "nombre": "Pieza de frío profesional (cámara, vitrina, congelador)",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "repuestos-horeca",
+   "descripcion": "Correa, resistencia, bomba de desagüe, junta de puerta, amortiguador y válvula (Miele Professional, Electrolux Professional, Primus, Speed Queen). Incluye guía de identificación por referencia.",
+   "id": "pieza-lavanderia-profesional",
+   "imagen": "./img/pieza-lavanderia-profesional.png",
+   "nombre": "Pieza de lavandería profesional",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "repuestos-horeca",
+   "descripcion": "Piedra refractaria, resistencia, termostato, motor de amasadora/divisora, correa y temporizador (Moretti Forni, GGF, Bongard, Italforni, Prismafood...). Incluye guía de identificación por referencia.",
+   "id": "pieza-panaderia-pizzeria",
+   "imagen": "./img/pieza-panaderia-pizzeria.png",
+   "nombre": "Pieza de panadería y pizzería",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "repuestos-horeca",
+   "descripcion": "G9 halógeno alta temperatura, lámpara para vitrina caliente, tubo para cámara frigorífica, lámpara de microondas y de salamandra. Incluye asesoría de identificación por modelo de equipo + guía. Mismo modelo que la bombilla de horno.",
+   "id": "lampara-tubo-especial-horeca",
+   "imagen": "./img/lampara-tubo-especial-horeca.png",
+   "nombre": "Lámpara / tubo especial para hostelería",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "repuestos-horeca",
+   "descripcion": "Cuchilla de Robot-Coupe/cutter, correa de trancheuse, junta de batidora/licuadora profesional y cuchilla de picadora. Incluye guía de identificación por modelo.",
+   "id": "pieza-preparacion-horeca",
+   "imagen": "./img/pieza-preparacion-horeca.png",
+   "nombre": "Pieza de preparación (cuchilla, correa, junta)",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  },
+  {
+   "categoria": "repuestos-horeca",
+   "descripcion": "Cartucho filtrante y descalcificador para máquina de café y horno mixto (Brita, BWT y compatibles). Se cambia cada 3–6 meses; sin filtro, la cal mata la máquina. Incluye guía de sustitución por modelo. PENDIENTE confirmar antes de facturar que no se clasifique como consumible de limpieza: es pieza del equipo, como un filtro de aire.",
+   "id": "filtro-agua-cartucho-horeca",
+   "imagen": "./img/filtro-agua-cartucho-horeca.png",
+   "nombre": "Filtro de agua / cartucho para cafetera y horno mixto",
+   "precio_minorista": null,
+   "unidad": "1 unidad"
+  }
+ ]
+}

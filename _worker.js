@@ -38,7 +38,7 @@ async function handleCheckout(request, env) {
   try {
     const catRes = await env.ASSETS.fetch(new URL("/productos.json", request.url));
     if (!catRes.ok) throw new Error("catalogo " + catRes.status);
-    catalogo = (await catRes.json()).productos || [];
+    const _cj = await catRes.json(); catalogo = Array.isArray(_cj) ? _cj : (_cj.productos || []);
   } catch {
     return json({ error: "catalogo_no_disponible" }, 500);
   }

@@ -155,7 +155,7 @@ function aplicarAjustes(){
   save('welux-theme', theme); save('welux-text', document.getElementById('textSel').value);
 }
 async function cargar(){
-  try{ const r = await fetch('./productos.json'); const j = await r.json(); PRODUCTOS = j.productos || []; }catch(e){ PRODUCTOS = []; }
+  try{ const r = await fetch('./productos.json'); const j = await r.json(); PRODUCTOS = Array.isArray(j) ? j : (j.productos || []); }catch(e){ PRODUCTOS = []; }
   const th = load('welux-theme','claro'); document.getElementById('themeSel').value = th; document.body.classList.toggle('dark', th==='oscuro');
   const tx = load('welux-text','normal'); document.getElementById('textSel').value = tx; document.body.classList.toggle('bigtext', tx==='grande');
   render();
