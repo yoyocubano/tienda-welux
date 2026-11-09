@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tienda-welux.pages.dev/sitemap.xml

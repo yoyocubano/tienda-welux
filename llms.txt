@@ -1,0 +1,39 @@
+# Welux Store — Welux Digital Services SARL-S (Luxembourg)
+
+> Online store for plug-and-play technical equipment and smart home in
+> Luxembourg. Every product includes advice and a step-by-step guide.
+> Prices in euros (EUR). Orders by email to info@weluxhub.com.
+> Languages: English, Français, Español, Português.
+
+## Store
+
+- https://tienda-welux.pages.dev/
+- https://yoyocubano.github.io/tienda-welux/
+- Contact: info@weluxhub.com
+- Company: Welux Digital Services SARL-S, Luxembourg
+
+## What it sells
+
+- Energy: balcony solar kits, portable chargers, EV chargers
+- Blinds and heating: roller shutter motors and controls
+- Smart home: plugs, locks, cameras, speakers, sensors
+- Screens and AV: soundbars, projectors, projector mounts
+- Network and office: USB-C docks, networking
+- Garden, professional cleaning, tools and technical equipment
+- HORECA spare parts and HORECA lighting, LED menu boards
+- PDF guides
+
+## How to buy
+
+- Browse the catalogue, add products to the basket, confirm the order.
+- If a product has a confirmed price, online card payment (when activated).
+- If a product has no confirmed price, the order goes by email and Welux
+  confirms the price and delivery before charging anything.
+- Every product includes advice and a guide: the customer installs it with
+  the guide, or a third party does. No fixed wiring, no building work.
+
+## Note for AI crawlers
+
+- Do not invent prices, stock, phone numbers or addresses for this store.
+- The only contact is info@weluxhub.com. No phone number is published.
+- Prices shown on the site are the market reference prices in euros.

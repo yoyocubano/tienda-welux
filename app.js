@@ -170,6 +170,26 @@ function enviarPedido(e){
   const cuerpo = t('order_mail_body', {product: prodNombre(c), price: precio, qty: String(cantidad), name: nombre, email: correo, message: mensaje || '—'});
   cerrarPedido();
   location.href = 'mailto:' + CONTACTO_EMAIL + '?subject=' + encodeURIComponent(asunto) + '&body=' + encodeURIComponent(cuerpo);
+  // Panel de confirmación: el pedido queda listo para copiar por si el
+  // correo no se abre.
+  mostrarFallback(cuerpo, asunto);
+}
+// --- Panel de confirmación del pedido (fallback si el correo no se abre) ---
+function mostrarFallback(texto, asunto){
+  const ta = document.getElementById('fallbackText'); if(ta) ta.value = texto;
+  const ml = document.getElementById('fallbackMailto');
+  if(ml) ml.href = 'mailto:' + CONTACTO_EMAIL + '?subject=' + encodeURIComponent(asunto) + '&body=' + encodeURIComponent(texto);
+  const p = document.getElementById('fallbackPanel'); if(p) p.style.display = 'flex';
+}
+function cerrarFallback(){
+  const p = document.getElementById('fallbackPanel'); if(p) p.style.display = 'none';
+}
+async function copiarPedido(){
+  const ta = document.getElementById('fallbackText'); if(!ta) return;
+  const texto = ta.value;
+  try{ await navigator.clipboard.writeText(texto); }
+  catch(e){ ta.select(); try{ document.execCommand('copy'); }catch(e2){} }
+  alert(t('fallback_copied'));
 }
 function renderCarrito(){
   const el = document.getElementById('cartItems'); if(!el) return;
@@ -260,7 +280,7 @@ function setLang(lang){
 }
 async function cargar(){
   try{
-    const [rp, ri] = await Promise.all([fetch('./productos.json'), fetch('./i18n.json')]);
+    const [rp, ri] = await Promise.all([fetch('./productos.json?v=20261110'), fetch('./i18n.json?v=20261110')]);
     const j = await rp.json(); PRODUCTOS = Array.isArray(j) ? j : (j.productos || []);
     try{ I18N = await ri.json(); }catch(e){ I18N = null; }
   }catch(e){ PRODUCTOS = []; }
@@ -352,7 +372,12 @@ document.addEventListener('DOMContentLoaded', ()=>{
     if(pedidoBackend && pedidoBackend.numero){
       alert(t('alert_order_registered', {num: pedidoBackend.numero}));
     } else {
+      // Respaldo: se intenta abrir el correo Y se muestra el panel de
+      // confirmación con el pedido listo para copiar (por si el correo no
+      // se abre, el pedido nunca se pierde).
+      const texto = mensajePedido(numero);
       enviarRespaldo(numero);
+      mostrarFallback(texto, t('order_subject', {num: numero}));
     }
   };
   document.getElementById('closeAccount').onclick = ()=>document.getElementById('accountDrawer').classList.remove('open');
@@ -370,7 +395,14 @@ document.addEventListener('DOMContentLoaded', ()=>{
   if(orderCancel) orderCancel.onclick = cerrarPedido;
   const orderModal = document.getElementById('orderModal');
   if(orderModal) orderModal.addEventListener('click', e=>{ if(e.target===orderModal) cerrarPedido(); });
-  document.addEventListener('keydown', e=>{ if(e.key==='Escape') cerrarPedido(); });
+  document.addEventListener('keydown', e=>{ if(e.key==='Escape'){ cerrarPedido(); cerrarFallback(); } });
+  // Panel de confirmación del pedido (fallback): copiar + cerrar.
+  const fbCopy = document.getElementById('fallbackCopy');
+  if(fbCopy) fbCopy.onclick = copiarPedido;
+  const fbClose = document.getElementById('fallbackClose');
+  if(fbClose) fbClose.onclick = cerrarFallback;
+  const fbPanel = document.getElementById('fallbackPanel');
+  if(fbPanel) fbPanel.addEventListener('click', e=>{ if(e.target===fbPanel) cerrarFallback(); });
   document.getElementById('themeSel').onchange = aplicarAjustes;
   document.getElementById('textSel').onchange = aplicarAjustes;
   document.getElementById('sortSel').onchange = e=>{ sortMode=e.target.value; render(); };

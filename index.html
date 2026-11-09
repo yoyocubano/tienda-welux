@@ -12,7 +12,10 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Welux Store — Welux Digital Services">
 <meta name="twitter:description" content="Plug-and-play technical equipment and smart home in Luxembourg. Advice and guide included with every product.">
-<link rel="stylesheet" href="styles.css?v=20261109-welux">
+<!-- Google Analytics 4 — Welux (G-NB3PES4ZGQ) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NB3PES4ZGQ"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-NB3PES4ZGQ');</script>
+<link rel="stylesheet" href="styles.css?v=20261110">
 </head>
 <body>
 <header>
@@ -129,6 +132,17 @@
     </form>
   </div>
 </div>
-<script src="app.js"></script>
+<div id="fallbackPanel" class="orderModal" role="dialog" aria-modal="true" aria-labelledby="fallbackTitle" style="display:none">
+  <div class="orderCard">
+    <h2 id="fallbackTitle" data-i18n="fallback_title">Your order is ready to send</h2>
+    <p data-i18n="fallback_text">If your email app didn't open, copy the order below and send it to info@weluxhub.com. We confirm the price and delivery before charging anything.</p>
+    <textarea id="fallbackText" readonly rows="8" aria-label="Order text"></textarea>
+    <p><span data-i18n="fallback_email_label">Send it to:</span> <a href="mailto:info@weluxhub.com">info@weluxhub.com</a></p>
+    <button type="button" class="add" id="fallbackCopy" data-i18n="fallback_copy">Copy order</button>
+    <a class="add" id="fallbackMailto" href="mailto:info@weluxhub.com" data-i18n="fallback_send_mail">Send by email</a>
+    <button type="button" class="add" id="fallbackClose" style="background:#fff" data-i18n="close">Close</button>
+  </div>
+</div>
+<script src="app.js?v=20261110"></script>
 </body>
 </html>

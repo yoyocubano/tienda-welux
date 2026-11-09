@@ -27,7 +27,11 @@ body.dark{background:#131a22;color:#eee}body.dark .card,body.dark .hero-text,bod
 body.bigtext{font-size:18px}body.bigtext .card p{font-size:16px}
 
 /* ===== Selector de idioma (globo 🌐) ===== */
-.langWrap{position:relative}
+/* El globo queda POR ENCIMA del modal de pedido (z-index 70): con el modal
+   abierto se puede seguir cambiando de idioma, y el modal se re-traduce en
+   vivo (applyLanguage + lineaPedido). Sin esto el overlay del modal tapaba
+   el botón y no había forma de cambiar de idioma desde el formulario. */
+.langWrap{position:relative;z-index:80}
 .langBtn{background:#fff;color:#14213d;border:0;border-radius:8px;padding:12px 14px;font-weight:700;cursor:pointer;min-height:48px}
 .langBtn:hover{box-shadow:0 3px 8px rgba(0,0,0,.25)}
 .langMenu{position:absolute;right:0;top:calc(100% + 6px);background:#fff;color:#14213d;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.25);min-width:190px;display:none;z-index:60;overflow:hidden}

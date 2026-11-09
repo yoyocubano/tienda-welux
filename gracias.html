@@ -4,22 +4,45 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>¡Gracias por tu compra! — Tienda Welux</title>
+<meta name="description" content="Tienda Welux: gracias por tu compra. Te contactaremos para coordinar la entrega en Luxemburgo.">
 <link rel="icon" type="image/svg+xml" href="./img/logo-welux.svg">
-<link rel="stylesheet" href="styles.css">
+<!-- Google Analytics 4 — Welux (G-NB3PES4ZGQ) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NB3PES4ZGQ"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-NB3PES4ZGQ');</script>
+<link rel="stylesheet" href="styles.css?v=20261110">
 </head>
 <body>
 <main style="max-width:640px;margin:0 auto;padding:48px 20px;text-align:center">
   <img src="./img/logo-welux.svg" alt="Welux Digital Services" style="width:180px;object-fit:contain">
-  <h1>¡Gracias por tu compra!</h1>
-  <p>Tu pago se completó en línea. Te contactaremos por el teléfono que dejaste
+  <h1 id="thxTitle">¡Gracias por tu compra!</h1>
+  <p id="thxP1">Tu pago se completó en línea. Te contactaremos por el teléfono que dejaste
      en el pago para coordinar la entrega en Luxemburgo.</p>
-  <p>Si necesitas cualquier cosa, escríbenos a
+  <p id="thxP2">Si necesitas cualquier cosa, escríbenos a
      <a href="mailto:info@weluxhub.com">info@weluxhub.com</a>.</p>
-  <p style="margin-top:32px"><a href="./">Volver a la tienda</a></p>
+  <p style="margin-top:32px"><a href="./" id="thxBack">Volver a la tienda</a></p>
 </main>
 <script>
   // La compra ya se pagó: la cesta queda vacía para la próxima visita.
   try { localStorage.removeItem('welux-cart'); } catch (e) {}
+  // Página de gracias en el idioma de la tienda (EN/FR/ES/PT).
+  (function(){
+    var T = {
+      en: {title: "Thank you for your purchase!", p1: "Your payment was completed online. We will contact you on the phone you left at checkout to arrange delivery in Luxembourg.", p2: "If you need anything, write to us at ", back: "Back to the store", docTitle: "Thank you for your purchase! — Welux Store"},
+      fr: {title: "Merci pour votre achat !", p1: "Votre paiement a été effectué en ligne. Nous vous contacterons au numéro indiqué lors du paiement pour organiser la livraison au Luxembourg.", p2: "Pour toute question, écrivez-nous à ", back: "Retour à la boutique", docTitle: "Merci pour votre achat ! — Boutique Welux"},
+      es: {title: "¡Gracias por tu compra!", p1: "Tu pago se completó en línea. Te contactaremos por el teléfono que dejaste en el pago para coordinar la entrega en Luxemburgo.", p2: "Si necesitas cualquier cosa, escríbenos a ", back: "Volver a la tienda", docTitle: "¡Gracias por tu compra! — Tienda Welux"},
+      pt: {title: "Obrigado pela sua compra!", p1: "O seu pagamento foi concluído online. Entraremos em contacto através do telefone indicado no pagamento para combinar a entrega no Luxemburgo.", p2: "Se precisar de alguma coisa, escreva-nos para ", back: "Voltar à loja", docTitle: "Obrigado pela sua compra! — Loja Welux"}
+    };
+    var lang = 'es';
+    try { var l = localStorage.getItem('welux-lang'); if (l && T[l]) lang = l; } catch (e) {}
+    var t = T[lang];
+    document.documentElement.lang = lang;
+    document.title = t.docTitle;
+    var h = document.getElementById('thxTitle'); if (h) h.textContent = t.title;
+    var p1 = document.getElementById('thxP1'); if (p1) p1.textContent = t.p1;
+    var p2 = document.getElementById('thxP2');
+    if (p2) { p2.childNodes[0].textContent = t.p2; }
+    var b = document.getElementById('thxBack'); if (b) b.textContent = t.back;
+  })();
 </script>
 </body>
 </html>

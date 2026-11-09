@@ -202,7 +202,7 @@
     "cat_smart-home": {
       "en": "Smart home",
       "fr": "Maison connectée",
-      "es": "Smart home",
+      "es": "Hogar inteligente",
       "pt": "Casa inteligente"
     },
     "cat_pantallas-av": {
@@ -806,6 +806,42 @@
       "fr": "Veuillez écrire une adresse e-mail valide.",
       "es": "Escribe un correo válido, por favor.",
       "pt": "Escreva um endereço de e-mail válido, por favor."
+    },
+    "fallback_title": {
+      "en": "Your order is ready to send",
+      "fr": "Votre commande est prête à envoyer",
+      "es": "Tu pedido está listo para enviar",
+      "pt": "O seu pedido está pronto a enviar"
+    },
+    "fallback_text": {
+      "en": "If your email app didn't open, copy the order below and send it to info@weluxhub.com. We confirm the price and delivery before charging anything.",
+      "fr": "Si votre application e-mail ne s'est pas ouverte, copiez la commande ci-dessous et envoyez-la à info@weluxhub.com. Nous confirmons le prix et la livraison avant tout paiement.",
+      "es": "Si no se abrió tu app de correo, copia el pedido de abajo y envíalo a info@weluxhub.com. Confirmamos el precio y la entrega antes de cobrar nada.",
+      "pt": "Se a sua aplicação de e-mail não abriu, copie o pedido abaixo e envie-o para info@weluxhub.com. Confirmamos o preço e a entrega antes de cobrar qualquer valor."
+    },
+    "fallback_copy": {
+      "en": "Copy order",
+      "fr": "Copier la commande",
+      "es": "Copiar pedido",
+      "pt": "Copiar pedido"
+    },
+    "fallback_copied": {
+      "en": "Order copied. Paste it in your email to info@weluxhub.com.",
+      "fr": "Commande copiée. Collez-la dans votre e-mail à info@weluxhub.com.",
+      "es": "Pedido copiado. Pégalo en tu correo a info@weluxhub.com.",
+      "pt": "Pedido copiado. Cole-o no seu e-mail para info@weluxhub.com."
+    },
+    "fallback_send_mail": {
+      "en": "Send by email",
+      "fr": "Envoyer par e-mail",
+      "es": "Enviar por correo",
+      "pt": "Enviar por e-mail"
+    },
+    "fallback_email_label": {
+      "en": "Send it to:",
+      "fr": "Envoyez-la à :",
+      "es": "Envíalo a:",
+      "pt": "Envie-o para:"
     }
   },
   "products": {
@@ -1125,7 +1161,7 @@
         "descripcion": "Écran avec assistant vocal : prise et WiFi. Cuisine, chambre ou commerce. Inclut des conseils et un guide de configuration."
       },
       "es": {
-        "nombre": "Smart display (Echo Show / Nest Hub)",
+        "nombre": "Pantalla inteligente (Echo Show / Nest Hub)",
         "descripcion": "Pantalla con asistente: enchufe y WiFi. Cocina, dormitorio o negocio. Incluye asesoría y guía de configuración."
       },
       "pt": {
