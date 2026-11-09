@@ -237,7 +237,7 @@
   "categoria": "red-oficina",
   "descripcion": "WiFi de malla para toda la casa (Deco, Nest Wifi o Eero): enchufe y app. Incluye asesoría de cobertura y guía de configuración.",
   "id": "mesh-wifi-3-nodos",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/mesh-wifi-3-nodos.png",
   "nombre": "Sistema mesh WiFi (3 nodos)",
   "precio_minorista": null,
   "unidad": "1 sistema"
@@ -246,7 +246,7 @@
   "categoria": "red-oficina",
   "descripcion": "Internet por el enchufe: lleva la red a donde no llega el WiFi. Plug-and-play. Incluye asesoría y guía de configuración.",
   "id": "kit-powerline-plc",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/kit-powerline-plc.png",
   "nombre": "Kit adaptadores powerline (PLC)",
   "precio_minorista": null,
   "unidad": "1 kit"
@@ -255,7 +255,7 @@
   "categoria": "red-oficina",
   "descripcion": "Amplía la cobertura WiFi en casa o en la oficina. Enchufe y app. Incluye asesoría de colocación y guía de configuración.",
   "id": "repetidor-wifi",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/repetidor-wifi.png",
   "nombre": "Repetidor / extensor WiFi",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -264,7 +264,7 @@
   "categoria": "red-oficina",
   "descripcion": "Base USB-C con puertos, carga y salida de vídeo: un cable y a trabajar. Plug-and-play. Incluye asesoría de compatibilidad y guía.",
   "id": "dock-usbc",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/dock-usbc.png",
   "nombre": "Dock USB-C para oficina en casa",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -273,7 +273,7 @@
   "categoria": "red-oficina",
   "descripcion": "Cámara web 4K con micrófono para videollamadas y directos. Plug-and-play por USB. Incluye guía de configuración.",
   "id": "webcam-4k",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/webcam-4k.png",
   "nombre": "Webcam 4K para teletrabajo y streaming",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -282,7 +282,7 @@
   "categoria": "red-oficina",
   "descripcion": "Luz LED de estudio para videollamadas y streaming: se monta en el escritorio y se controla desde la app. Plug-and-play. Incluye guía de uso.",
   "id": "luz-streaming",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/luz-streaming.png",
   "nombre": "Luz de streaming (Elgato Key Light o similar)",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -624,7 +624,7 @@
   "categoria": "red-oficina",
   "descripcion": "Kit Starlink + mesh (Deco/Nest Wifi/Eero) + guía de orientación de la antena y colocación de nodos. Para zonas rurales y segundas residencias. Plug-and-play.",
   "id": "pack-starlink-mesh",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/pack-starlink-mesh.png",
   "nombre": "Pack Starlink + mesh WiFi",
   "precio_minorista": null,
   "unidad": "1 pack"
