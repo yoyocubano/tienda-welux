@@ -47,10 +47,10 @@
   },
   {
    "categoria": "persianas-calefaccion",
-   "descripcion": "Motor tubular para persiana enrollable (puerta de jardín y grandes ventanales). Incluye informe de compatibilidad y guía de instalación paso a paso. El cliente o un tercero lo instala.",
-   "id": "motor-aron-20nm",
-   "imagen": "./img/motor-aron-20nm.png",
-   "nombre": "Motor tubular ARON 20 Nm",
+   "descripcion": "Motor tubular Schellenberg Maxi Standard 20 Nm, ref. 20621, eje 60 mm, hasta 34 kg, 145 W. Para persiana enrollable (puerta de jardín y grandes ventanales). Incluye informe de compatibilidad y guía de instalación paso a paso. El cliente o un tercero lo instala.",
+   "id": "motor-schellenberg-20nm-20621",
+   "imagen": "./img/motor-schellenberg-20nm-20621.png",
+   "nombre": "Motor tubular Schellenberg Maxi Standard 20 Nm (ref. 20621)",
    "precio_minorista": null,
    "unidad": "1 motor"
   },
