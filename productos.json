@@ -300,7 +300,7 @@
   "categoria": "guias",
   "descripcion": "Informe de compatibilidad + guía de instalación paso a paso para motores tubulares de persiana. El modelo Jean Paul, convertido en producto digital. Se envía por correo tras la compra.",
   "id": "guia-pdf-motor-persiana",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/guia-pdf-motor-persiana.png",
   "nombre": "Guía PDF: motor de persiana (informe + instalación)",
   "precio_minorista": null,
   "unidad": "1 guía digital"
@@ -309,7 +309,7 @@
   "categoria": "guias",
   "descripcion": "Guía completa del kit solar de balcón 799 W: orientación, conexión, enchufe Wieland y qué declarar (y qué no). Se envía por correo tras la compra.",
   "id": "guia-pdf-kit-solar",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/guia-pdf-kit-solar.png",
   "nombre": "Guía PDF: kit solar de balcón",
   "precio_minorista": null,
   "unidad": "1 guía digital"
@@ -318,7 +318,7 @@
   "categoria": "guias",
   "descripcion": "Cálculo de potencia + guía de colocación de paneles calefactores plug-and-play. Se envía por correo tras la compra.",
   "id": "guia-pdf-panel-calefactor",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/guia-pdf-panel-calefactor.png",
   "nombre": "Guía PDF: panel calefactor",
   "precio_minorista": null,
   "unidad": "1 guía digital"
@@ -327,7 +327,7 @@
   "categoria": "guias",
   "descripcion": "Guía de iluminación inteligente para casa o negocio: qué comprar, compatibilidad y configuración. Se envía por correo tras la compra.",
   "id": "guia-pdf-iluminacion-smart",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/guia-pdf-iluminacion-smart.png",
   "nombre": "Guía PDF: iluminación smart",
   "precio_minorista": null,
   "unidad": "1 guía digital"
