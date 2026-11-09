@@ -678,7 +678,7 @@
   "categoria": "repuestos-horeca",
   "descripcion": "Bombilla de horno de alta temperatura (E14 15/25/40 W, T22/T25/G45, 300 °C) para hornos industriales de restaurantes, hoteles, panaderías y catering. Precio de compra de referencia: 1,39–7,49 € el pack de 2 en Amazon.de; 2,65–2,75 € en Hornbach Alemania. Sin stock local en Luxemburgo. Incluye asesoría de identificación por marca/modelo de horno (referencias OEM: Bosch, Smeg, Indesit...) + guía de sustitución en frío, sin tensión. Caso probado por el dueño.",
   "id": "bombilla-horno-industrial-300c",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/bombilla-horno-industrial-300c.png",
   "nombre": "Bombilla de horno industrial E14/E27 300 °C",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -687,7 +687,7 @@
   "categoria": "repuestos-horeca",
   "descripcion": "Junta de puerta de horno (silicona alta temperatura, por metro o referencia OEM) y junta de frigorífico/cámara por medida. Una junta gastada = pérdida de calor/frío y riesgo higiénico. Incluye asesoría de identificación por referencia o medida + guía de sustitución.",
   "id": "junta-horno-frigorifico-profesional",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/junta-horno-frigorifico-profesional.png",
   "nombre": "Junta de goma de horno y frigorífico profesional",
   "precio_minorista": null,
   "unidad": "1 junta"
@@ -696,7 +696,7 @@
   "categoria": "repuestos-horeca",
   "descripcion": "Resistencia, termostato de seguridad y sonda de temperatura por referencia de placa (Rational, Hobart, GGF, Moretti Forni, Diamond...) para hornos mixtos, freidoras, planchas y fours à pizza. Incluye guía de identificación. La sustitución eléctrica la hace un técnico cualificado; Welux no instala.",
   "id": "resistencia-termostato-horeca",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/resistencia-termostato-horeca.png",
   "nombre": "Resistencia / termostato para horno, freidora y plancha profesional",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -705,7 +705,7 @@
   "categoria": "repuestos-horeca",
   "descripcion": "Filtro metálico de campana, filtro de carbón, motor de extracción, correa y condensador de ventilador. Consumible de rotación: filtro saturado = humo, olores y riesgo de incendio. Incluye asesoría por medida/modelo de campana + guía de sustitución y de limpieza del filtro metálico.",
   "id": "filtro-campana-extractora-profesional",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/filtro-campana-extractora-profesional.png",
   "nombre": "Filtro y piezas de campana extractora profesional",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -714,7 +714,7 @@
   "categoria": "repuestos-horeca",
   "descripcion": "Bomba de cyclage, brazo de lavado/rinçage, electroválvula, dosificador, termostato y junta (Winterhalter, Hobart, Comenda, Silanos, DIHR, Electrolux). Sin lavavajillas no hay servicio; la pieza es barata, la espera es cara. Incluye guía de identificación por referencia. El cambio lo hace el técnico del cliente.",
   "id": "pieza-lavavajillas-industrial",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/pieza-lavavajillas-industrial.png",
   "nombre": "Pieza de lavavajillas industrial",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -723,7 +723,7 @@
   "categoria": "repuestos-horeca",
   "descripcion": "Juntas de grupo, duchas, filtros, bombas, válvulas y portafiltros (La Marzocco, Rancilio, ECM, Expobar, La Pavoni, Reneka...). La junta de grupo se cambia cada pocos meses. Incluye guía de sustitución por modelo de máquina.",
   "id": "kit-juntas-cafetera-profesional",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/kit-juntas-cafetera-profesional.png",
   "nombre": "Kit de juntas y filtros para cafetera profesional",
   "precio_minorista": null,
   "unidad": "1 kit"
@@ -732,7 +732,7 @@
   "categoria": "repuestos-horeca",
   "descripcion": "Termostato, sonda, ventilador, burlete/junta de puerta, pomo, bisagra y lámpara de cámara frigorífica. Una cámara sin frío = género perdido. Incluye guía de identificación por referencia.",
   "id": "pieza-frio-profesional",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/pieza-frio-profesional.png",
   "nombre": "Pieza de frío profesional (cámara, vitrina, congelador)",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -741,7 +741,7 @@
   "categoria": "repuestos-horeca",
   "descripcion": "Correa, resistencia, bomba de desagüe, junta de puerta, amortiguador y válvula (Miele Professional, Electrolux Professional, Primus, Speed Queen). Incluye guía de identificación por referencia.",
   "id": "pieza-lavanderia-profesional",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/pieza-lavanderia-profesional.png",
   "nombre": "Pieza de lavandería profesional",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -750,7 +750,7 @@
   "categoria": "repuestos-horeca",
   "descripcion": "Piedra refractaria, resistencia, termostato, motor de amasadora/divisora, correa y temporizador (Moretti Forni, GGF, Bongard, Italforni, Prismafood...). Incluye guía de identificación por referencia.",
   "id": "pieza-panaderia-pizzeria",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/pieza-panaderia-pizzeria.png",
   "nombre": "Pieza de panadería y pizzería",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -759,7 +759,7 @@
   "categoria": "repuestos-horeca",
   "descripcion": "G9 halógeno alta temperatura, lámpara para vitrina caliente, tubo para cámara frigorífica, lámpara de microondas y de salamandra. Incluye asesoría de identificación por modelo de equipo + guía. Mismo modelo que la bombilla de horno.",
   "id": "lampara-tubo-especial-horeca",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/lampara-tubo-especial-horeca.png",
   "nombre": "Lámpara / tubo especial para hostelería",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -768,7 +768,7 @@
   "categoria": "repuestos-horeca",
   "descripcion": "Cuchilla de Robot-Coupe/cutter, correa de trancheuse, junta de batidora/licuadora profesional y cuchilla de picadora. Incluye guía de identificación por modelo.",
   "id": "pieza-preparacion-horeca",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/pieza-preparacion-horeca.png",
   "nombre": "Pieza de preparación (cuchilla, correa, junta)",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -777,7 +777,7 @@
   "categoria": "repuestos-horeca",
   "descripcion": "Cartucho filtrante y descalcificador para máquina de café y horno mixto (Brita, BWT y compatibles). Se cambia cada 3–6 meses; sin filtro, la cal mata la máquina. Incluye guía de sustitución por modelo. PENDIENTE confirmar antes de facturar que no se clasifique como consumible de limpieza: es pieza del equipo, como un filtro de aire.",
   "id": "filtro-agua-cartucho-horeca",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/filtro-agua-cartucho-horeca.png",
   "nombre": "Filtro de agua / cartucho para cafetera y horno mixto",
   "precio_minorista": null,
   "unidad": "1 unidad"
