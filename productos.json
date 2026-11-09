@@ -417,7 +417,7 @@
   "categoria": "herramientas-tecnica",
   "descripcion": "Iluminación portátil para obra, garaje y taller, con batería recargable. Incluye guía de uso.",
   "id": "luz-trabajo-led-recargable",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/luz-trabajo-led-recargable.png",
   "nombre": "Luz de trabajo LED recargable",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -426,7 +426,7 @@
   "categoria": "herramientas-tecnica",
   "descripcion": "Mide distancias y superficies al instante: reformas, inmobiliarias y mediciones. Incluye guía de uso.",
   "id": "medidor-laser-distancia",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/medidor-laser-distancia.png",
   "nombre": "Medidor láser de distancia",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -435,7 +435,7 @@
   "categoria": "herramientas-tecnica",
   "descripcion": "Ve dentro de tuberías, muros y motores: para fontaneros, electricistas y mecánicos. Incluye guía de uso.",
   "id": "camara-inspeccion-endoscopica",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/camara-inspeccion-endoscopica.png",
   "nombre": "Cámara de inspección endoscópica",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -444,7 +444,7 @@
   "categoria": "herramientas-tecnica",
   "descripcion": "Para makers, prototipos y repuestos: imprime piezas en casa. Incluye asesoría de modelo y filamento, y guía de inicio.",
   "id": "impresora-3d",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/impresora-3d.png",
   "nombre": "Impresora 3D",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -453,7 +453,7 @@
   "categoria": "herramientas-tecnica",
   "descripcion": "Temperatura, humedad, lluvia y viento en casa y jardín, con app. Incluye guía de configuración.",
   "id": "estacion-meteorologica-smart",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/estacion-meteorologica-smart.png",
   "nombre": "Estación meteorológica smart",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -462,7 +462,7 @@
   "categoria": "herramientas-tecnica",
   "descripcion": "Luces solares para jardín y terraza: se clavan y listo, sin cableado. Incluye guía de colocación.",
   "id": "iluminacion-solar-jardin",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/iluminacion-solar-jardin.png",
   "nombre": "Iluminación solar de jardín",
   "precio_minorista": null,
   "unidad": "1 kit"
@@ -471,7 +471,7 @@
   "categoria": "herramientas-tecnica",
   "descripcion": "Detector de humo y monóxido de carbono a batería, con WiFi y aviso al móvil. Incluye guía de instalación.",
   "id": "detector-humo-co-smart",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/detector-humo-co-smart.png",
   "nombre": "Detector de humo y CO smart",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -480,7 +480,7 @@
   "categoria": "herramientas-tecnica",
   "descripcion": "Carga el coche eléctrico desde un enchufe normal, sin instalar wallbox. El wallbox fijo no entra. Incluye asesoría de compatibilidad y guía de uso.",
   "id": "cargador-ev-portatil",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/cargador-ev-portatil.png",
   "nombre": "Cargador EV portátil",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -489,7 +489,7 @@
   "categoria": "herramientas-tecnica",
   "descripcion": "Comunicación en eventos, obras y rodajes. Material técnico de eventos. Incluye guía de uso.",
   "id": "walkie-talkies-eventos",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/walkie-talkies-eventos.png",
   "nombre": "Walkie-talkies / radios para eventos",
   "precio_minorista": null,
   "unidad": "1 pack (2 unidades)"
@@ -498,7 +498,7 @@
   "categoria": "herramientas-tecnica",
   "descripcion": "Protege ordenador y router en cortes de luz: respaldo para oficina y casa. Incluye asesoría de autonomía y guía de uso.",
   "id": "ups-respaldo",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/ups-respaldo.png",
   "nombre": "UPS / batería de respaldo",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -507,7 +507,7 @@
   "categoria": "herramientas-tecnica",
   "descripcion": "Destornilladores y herramientas de precisión para reparar móviles y ordenadores. Incluye guía de uso.",
   "id": "kit-herramientas-precision-electronica",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/kit-herramientas-precision-electronica.png",
   "nombre": "Kit de herramientas de precisión para electrónica",
   "precio_minorista": null,
   "unidad": "1 kit"
@@ -516,7 +516,7 @@
   "categoria": "herramientas-tecnica",
   "descripcion": "Venta del soporte + guía. El montaje con taladro lo hace el cliente o un tercero, no Welux.",
   "id": "soporte-brazo-monitor-tv",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/soporte-brazo-monitor-tv.png",
   "nombre": "Soporte / brazo articulado para monitor y TV",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -525,7 +525,7 @@
   "categoria": "herramientas-tecnica",
   "descripcion": "Power bank con panel solar para cargar el móvil en camping y emergencias. Incluye guía de uso.",
   "id": "cargador-solar-portatil-usb",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/cargador-solar-portatil-usb.png",
   "nombre": "Cargador solar portátil USB",
   "precio_minorista": null,
   "unidad": "1 unidad"
