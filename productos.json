@@ -39,7 +39,7 @@
   "categoria": "persianas-calefaccion",
   "descripcion": "Motor tubular para persiana enrollable grande (salón). Precedente: Jean Paul Baustert (03/10/2026). Precio de compra en Hornbach 56,45 €; precio de venta a confirmar. Incluye informe de compatibilidad y guía de instalación paso a paso. El cliente o un tercero lo instala.",
   "id": "motor-schellenberg-15nm",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/motor-schellenberg-15nm.png",
   "nombre": "Motor tubular Schellenberg 15 Nm",
   "precio_minorista": null,
   "unidad": "1 motor"
@@ -48,7 +48,7 @@
   "categoria": "persianas-calefaccion",
   "descripcion": "Motor tubular para persiana enrollable (puerta de jardín y grandes ventanales). Incluye informe de compatibilidad y guía de instalación paso a paso. El cliente o un tercero lo instala.",
   "id": "motor-aron-20nm",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/motor-aron-20nm.png",
   "nombre": "Motor tubular ARON 20 Nm",
   "precio_minorista": null,
   "unidad": "1 motor"
@@ -57,7 +57,7 @@
   "categoria": "persianas-calefaccion",
   "descripcion": "Mando o interruptor compatible con motores tubulares de persiana. Plug-and-play. Incluye asesoría de compatibilidad y guía de emparejamiento.",
   "id": "mando-persiana",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/mando-persiana.png",
   "nombre": "Mando a distancia para motor de persiana",
   "precio_minorista": null,
   "unidad": "1 mando"
@@ -66,7 +66,7 @@
   "categoria": "persianas-calefaccion",
   "descripcion": "Calefacción de apoyo en invierno, se enchufa y listo. Solo como material, sin instalación. Incluye cálculo de potencia y guía de colocación.",
   "id": "panel-calefactor-infrarrojo",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/panel-calefactor-infrarrojo.png",
   "nombre": "Panel calefactor infrarrojo plug-and-play",
   "precio_minorista": null,
   "unidad": "1 panel"
@@ -75,7 +75,7 @@
   "categoria": "persianas-calefaccion",
   "descripcion": "Panel calefactor eléctrico enchufable con termostato para una habitación. Solo como material, sin instalación. Incluye cálculo de potencia y guía de colocación.",
   "id": "panel-calefactor-600w",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/panel-calefactor-600w.png",
   "nombre": "Panel calefactor 600 W con termostato",
   "precio_minorista": null,
   "unidad": "1 panel"
