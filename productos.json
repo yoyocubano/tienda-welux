@@ -336,7 +336,7 @@
   "categoria": "limpieza-profesional",
   "descripcion": "Limpieza a presión de terrazas, fachadas, coches y patios (Kärcher o similar). Incluye asesoría de boquillas y presión, y guía de uso.",
   "id": "hidrolimpiadora",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/hidrolimpiadora.png",
   "nombre": "Hidrolimpiadora (Kärcher o similar)",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -345,7 +345,7 @@
   "categoria": "limpieza-profesional",
   "descripcion": "Limpieza profunda de alfombras, sofás, colchones e interiores de coche (Kärcher Puzzi, Bissell o similar). Incluye asesoría de uso y guía de limpieza profunda.",
   "id": "extractor-alfombras-tapiceria",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/extractor-alfombras-tapiceria.png",
   "nombre": "Extractor / limpiador de alfombras y tapicería",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -354,7 +354,7 @@
   "categoria": "limpieza-profesional",
   "descripcion": "Limpia suelos, baños y cocinas con vapor, sin químicos. Incluye asesoría de accesorios y guía de uso.",
   "id": "limpiador-vapor",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/limpiador-vapor.png",
   "nombre": "Limpiador a vapor",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -363,7 +363,7 @@
   "categoria": "limpieza-profesional",
   "descripcion": "Para obra, garaje y taller: aspira polvo, serrín y líquidos. Incluye asesoría de filtros y guía de uso.",
   "id": "aspiradora-industrial-humedo-seco",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/aspiradora-industrial-humedo-seco.png",
   "nombre": "Aspiradora industrial húmedo/seco",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -372,7 +372,7 @@
   "categoria": "limpieza-profesional",
   "descripcion": "Pule y abrillanta suelos duros. Incluye asesoría de discos y guía de uso.",
   "id": "pulidora-suelos",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/pulidora-suelos.png",
   "nombre": "Pulidora / abrillantadora de suelos",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -381,7 +381,7 @@
   "categoria": "limpieza-profesional",
   "descripcion": "Pulido de carrocería para quitar marcas y devolver el brillo. Equipo de detailing, sin químicos. Incluye asesoría de pads y guía de pulido.",
   "id": "pulidora-orbital-auto",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/pulidora-orbital-auto.png",
   "nombre": "Pulidora orbital para detailing de coche",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -390,7 +390,7 @@
   "categoria": "limpieza-profesional",
   "descripcion": "Limpieza interior del coche: asientos, alfombrillas y maletero. Incluye asesoría de boquillas y guía de uso.",
   "id": "aspiradora-coche",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/aspiradora-coche.png",
   "nombre": "Aspiradora de coche para detailing",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -399,7 +399,7 @@
   "categoria": "limpieza-profesional",
   "descripcion": "Espuma de prelavado para el coche, se acopla a la hidrolimpiadora. Equipo, sin químicos. Incluye guía de uso.",
   "id": "lanza-espuma-hidrolimpiadora",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/lanza-espuma-hidrolimpiadora.png",
   "nombre": "Lanza de espuma para hidrolimpiadora",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -408,7 +408,7 @@
   "categoria": "limpieza-profesional",
   "descripcion": "Para estufas, chimeneas y barbacoas: aspira ceniza fría sin ensuciar. Incluye guía de uso.",
   "id": "aspiradora-cenizas",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/aspiradora-cenizas.png",
   "nombre": "Aspiradora de cenizas",
   "precio_minorista": null,
   "unidad": "1 unidad"
@@ -570,7 +570,7 @@
   "categoria": "limpieza-profesional",
   "descripcion": "ALQUILER por día o fin de semana + guía de uso y boquillas + depósito. En Luxemburgo nadie alquila estos equipos a particulares. Solo alquiler de material técnico; Welux no presta el servicio de limpieza.",
   "id": "alquiler-hidrolimpiadora",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/alquiler-hidrolimpiadora.png",
   "nombre": "Alquiler hidrolimpiadora — por día",
   "precio_minorista": null,
   "unidad": "1 día"
@@ -579,7 +579,7 @@
   "categoria": "limpieza-profesional",
   "descripcion": "ALQUILER por día o fin de semana + guía de uso + depósito. Limpieza profunda de alfombras, sofás, colchones e interiores de coche. Solo alquiler de material técnico; Welux no presta el servicio de limpieza.",
   "id": "alquiler-extractor-alfombras",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/alquiler-extractor-alfombras.png",
   "nombre": "Alquiler extractor de alfombras — por día",
   "precio_minorista": null,
   "unidad": "1 día"
@@ -588,7 +588,7 @@
   "categoria": "limpieza-profesional",
   "descripcion": "ALQUILER por día o fin de semana + guía de uso y accesorios + depósito. Limpia suelos, baños y cocinas con vapor, sin químicos. Solo alquiler de material técnico; Welux no presta el servicio de limpieza.",
   "id": "alquiler-limpiador-vapor",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/alquiler-limpiador-vapor.png",
   "nombre": "Alquiler limpiador a vapor — por día",
   "precio_minorista": null,
   "unidad": "1 día"
@@ -597,7 +597,7 @@
   "categoria": "limpieza-profesional",
   "descripcion": "ALQUILER por día o fin de semana + guía de uso y discos + depósito. Pule y abrillanta suelos duros. Solo alquiler de material técnico; Welux no presta el servicio de limpieza.",
   "id": "alquiler-pulidora-suelos",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/alquiler-pulidora-suelos.png",
   "nombre": "Alquiler pulidora de suelos — por día",
   "precio_minorista": null,
   "unidad": "1 día"
@@ -660,7 +660,7 @@
   "categoria": "limpieza-profesional",
   "descripcion": "Pulidora orbital + aspiradora de coche + lanza de espuma para hidrolimpiadora + guía de detailing paso a paso. Equipo, sin químicos. Nadie vende este pack en LU.",
   "id": "pack-detailing-auto",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/pack-detailing-auto.png",
   "nombre": "Pack detailing de auto (pulidora + aspiradora + lanza de espuma)",
   "precio_minorista": null,
   "unidad": "1 pack"
