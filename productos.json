@@ -291,7 +291,7 @@
   "categoria": "jardin",
   "descripcion": "Controlador de riego a batería + sensor de humedad del suelo: programa el riego desde la app. Plug-and-play, sin obra. Incluye asesoría y guía de instalación.",
   "id": "riego-smart-jardin",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/riego-smart-jardin.png",
   "nombre": "Riego smart de jardín",
   "precio_minorista": null,
   "unidad": "1 kit"
@@ -669,7 +669,7 @@
   "categoria": "jardin",
   "descripcion": "Controlador de riego a batería + sensor de humedad + estación meteorológica + luces solares + guía de instalación sin cableado. Nadie arma este pack en LU.",
   "id": "pack-jardin-smart",
-  "imagen": "./img/placeholder.svg",
+  "imagen": "./img/pack-jardin-smart.png",
   "nombre": "Pack jardín smart (riego + estación meteo + iluminación solar)",
   "precio_minorista": null,
   "unidad": "1 pack"
