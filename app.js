@@ -4,9 +4,10 @@
 // puesto (no se publica ningún teléfono). Rellena WHATSAPP_NUMERO con el
 // número de WhatsApp de Welux en formato internacional SIN '+' (p. ej.
 // '352621XXXXXX'). Mientras esté vacío, el pedido sale por correo a
-// info@weluxhub.com. El pago con tarjeta (Stripe) solo funciona cuando el
-// dueño configure STRIPE_SECRET_KEY en el proyecto de Pages; sin ella, el
-// checkout deriva al respaldo (WhatsApp o correo). Nada de modo live aquí.
+// info@weluxhub.com. El pago con tarjeta (Stripe) y el pago con Revolut
+// solo funcionan cuando el dueño configure STRIPE_SECRET_KEY y
+// REVOLUT_MERCHANT_SECRET en el proyecto de Pages; sin ellas, el checkout
+// deriva al respaldo (WhatsApp o correo). Nada de modo live aquí.
 //
 // Idiomas (i18n, 09/11/2026): EN (por defecto), FR, ES, PT. Todas las
 // traducciones viven en i18n.json (interfaz + productos por id); este archivo
@@ -133,6 +134,39 @@ function enviarRespaldo(numero){
     window.open('https://wa.me/' + WHATSAPP_NUMERO + '?text=' + encodeURIComponent(texto), '_blank');
   } else {
     location.href = 'mailto:' + CONTACTO_EMAIL + '?subject=' + encodeURIComponent(t('order_subject', {num: numero})) + '&body=' + encodeURIComponent(texto);
+  }
+}
+// Respaldo del pedido cuando el pago en línea no está disponible (sin
+// clave configurada, sin precio confirmado, o error de red): guarda el
+// pedido en el backend (Worker) y lo envía por WhatsApp o correo.
+// Compartido por los dos botones de pago (tarjeta y Revolut): el mismo
+// código, ningún pedido se pierde.
+async function enviarPedidoRespaldo(){
+  const numero = 'WLX-' + String(pedidos.length+1).padStart(3,'0');
+  const resumen = carrito.map(i=>`${i.cantidad} × ${cartNombre(i)} (${tu(i.unidad)})`).join(', ');
+  // Pedido por el backend (Worker): lo guarda y lo envía por correo a
+  // Welux. Si el backend no está configurado (503) o no responde, se sigue
+  // por el respaldo mailto de siempre: ningún pedido se pierde.
+  let pedidoBackend = null;
+  try{
+    const pr = await fetch('./api/pedido', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({items: carrito.map(i=>({id:i.id, cantidad:i.cantidad})), nombre: (usuario && usuario.nombre) || null, telefono: (usuario && usuario.telefono) || null})});
+    if(pr.ok){ pedidoBackend = await pr.json(); }
+  }catch(e){ /* backend no disponible: se sigue por el respaldo */ }
+  // El pedido llega a Welux por WhatsApp (si está configurado) o por
+  // correo a info@weluxhub.com, con el resumen y el total.
+  const numeroFinal = (pedidoBackend && pedidoBackend.numero) || numero;
+  pedidos.unshift({numero: numeroFinal, fecha:new Date().toLocaleDateString(LOCALES[LANG] || 'en-GB'), items:resumen}); save('welux-orders', pedidos);
+  if(modo==='cliente' && usuario){ usuario.puntos = (usuario.puntos||0) + carrito.reduce((a,i)=>a+i.cantidad,0); save('welux-user', usuario); }
+  carrito=[]; save('welux-cart', carrito); render(); renderCarrito();
+  if(pedidoBackend && pedidoBackend.numero){
+    alert(t('alert_order_registered', {num: pedidoBackend.numero}));
+  } else {
+    // Respaldo: se intenta abrir el correo Y se muestra el panel de
+    // confirmación con el pedido listo para copiar (por si el correo no
+    // se abre, el pedido nunca se pierde).
+    const texto = mensajePedido(numero);
+    enviarRespaldo(numero);
+    mostrarFallback(texto, t('order_subject', {num: numero}));
   }
 }
 // --- Formulario de pedido (solo productos BigBuy) ---
@@ -339,8 +373,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
   document.getElementById('checkout').onclick = async ()=>{
     if(!carrito.length) return alert(t('alert_cart_empty'));
     const checkoutBtn = document.getElementById('checkout');
-    const numero = 'WLX-' + String(pedidos.length+1).padStart(3,'0');
-    const resumen = carrito.map(i=>`${i.cantidad} × ${cartNombre(i)} (${tu(i.unidad)})`).join(', ');
     // 1) Pago en línea (Stripe Checkout): el servidor crea la sesión con los
     //    precios del catálogo publicado. Solo procede si TODOS los productos
     //    del carrito tienen precio confirmado; si falta alguno, responde 422.
@@ -355,30 +387,26 @@ document.addEventListener('DOMContentLoaded', ()=>{
       }
     }catch(e){ /* pago en línea no disponible: se sigue por el respaldo */ }
     checkoutBtn.disabled = false;
-    // 1b) Pedido por el backend (Worker): lo guarda y lo envía por correo a
-    // Welux. Si el backend no está configurado (503) o no responde, se sigue
-    // por el respaldo mailto de siempre: ningún pedido se pierde.
-    let pedidoBackend = null;
+    await enviarPedidoRespaldo();
+  };
+  document.getElementById('checkoutRevolut').onclick = async ()=>{
+    if(!carrito.length) return alert(t('alert_cart_empty'));
+    const revolutBtn = document.getElementById('checkoutRevolut');
+    // 1) Pago en línea (Revolut Merchant): el servidor crea la orden con
+    //    los precios del catálogo publicado, igual que Stripe. Solo procede
+    //    si TODOS los productos del carrito tienen precio confirmado (422
+    //    si falta alguno). Sin REVOLUT_MERCHANT_SECRET responde 503. En
+    //    ambos casos se deriva al mismo respaldo (WhatsApp o correo).
+    revolutBtn.disabled = true;
     try{
-      const pr = await fetch('./api/pedido', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({items: carrito.map(i=>({id:i.id, cantidad:i.cantidad})), nombre: (usuario && usuario.nombre) || null, telefono: (usuario && usuario.telefono) || null})});
-      if(pr.ok){ pedidoBackend = await pr.json(); }
-    }catch(e){ /* backend no disponible: se sigue por el respaldo */ }
-    // 2) Respaldo: el pedido llega a Welux por WhatsApp (si está configurado)
-    //    o por correo a info@weluxhub.com, con el resumen y el total.
-    const numeroFinal = (pedidoBackend && pedidoBackend.numero) || numero;
-    pedidos.unshift({numero: numeroFinal, fecha:new Date().toLocaleDateString(LOCALES[LANG] || 'en-GB'), items:resumen}); save('welux-orders', pedidos);
-    if(modo==='cliente' && usuario){ usuario.puntos = (usuario.puntos||0) + carrito.reduce((a,i)=>a+i.cantidad,0); save('welux-user', usuario); }
-    carrito=[]; save('welux-cart', carrito); render(); renderCarrito();
-    if(pedidoBackend && pedidoBackend.numero){
-      alert(t('alert_order_registered', {num: pedidoBackend.numero}));
-    } else {
-      // Respaldo: se intenta abrir el correo Y se muestra el panel de
-      // confirmación con el pedido listo para copiar (por si el correo no
-      // se abre, el pedido nunca se pierde).
-      const texto = mensajePedido(numero);
-      enviarRespaldo(numero);
-      mostrarFallback(texto, t('order_subject', {num: numero}));
-    }
+      const r = await fetch('./api/revolut-checkout', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({items: carrito.map(i=>({id:i.id, cantidad:i.cantidad}))})});
+      if(r.ok){
+        const d = await r.json();
+        if(d.url){ location.href = d.url; return; } // a pagar a Revolut; la cesta se vacía en gracias.html
+      }
+    }catch(e){ /* pago en línea no disponible: se sigue por el respaldo */ }
+    revolutBtn.disabled = false;
+    await enviarPedidoRespaldo();
   };
   document.getElementById('closeAccount').onclick = ()=>document.getElementById('accountDrawer').classList.remove('open');
   document.getElementById('saveUser').onclick = ()=>{

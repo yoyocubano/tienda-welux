@@ -11,6 +11,11 @@
 //     422 { error: 'sin_precio', ids }      -> la web deriva al respaldo
 //     503 { error: 'pagos_no_configurados' }-> falta STRIPE_SECRET_KEY (mismo respaldo)
 //     400 carrito vacio / producto desconocido - 502 error de Stripe
+//   POST /api/revolut-checkout  como /api/checkout pero con Revolut
+//     Merchant (Revolut Pay, tarjeta, Apple Pay): 200 { url, id } ->
+//     el cliente paga en checkout.revolut.com; 422 sin_precio, 503
+//     pagos_no_configurados sin REVOLUT_MERCHANT_SECRET, 400 carrito
+//     vacio / producto desconocido, 502 error de Revolut.
 //   GET  /api/productos  sirve el catalogo publicado (productos.json).
 //   POST /api/pedido     recibe un pedido y lo guarda (KV PEDIDOS, si existe
 //     el binding) y/o lo envia por correo a info@weluxhub.com y
@@ -22,14 +27,15 @@
 //     exista BIGBUY_API_KEY. Base por defecto: el sandbox de BigBuy
 //     (https://api.sandbox.bigbuy.eu). La clave nunca se devuelve.
 //
-// ESTADO (09/11/2026): sin configurar. No hay ninguna clave Stripe, ni de
-// BigBuy, ni de Resend en este codigo ni en este proyecto. El dueño pondra
-// STRIPE_SECRET_KEY (cuenta Stripe de Welux) en el proyecto de Pages cuando
-// decida activar el cobro — los pagos son LO ULTIMO, no se conectan ahora.
-// Sin ese secreto, /api/checkout responde 503 y la web deriva el pedido a
-// WhatsApp (si el numero esta configurado en app.js) o a correo
-// (info@weluxhub.com). Moneda: EUR. No hay modo live ni test activo aqui:
-// nada cobra de verdad.
+// ESTADO (12/11/2026): sin configurar. No hay ninguna clave Stripe, ni de
+// BigBuy, ni de Resend, ni de Revolut Merchant en este codigo ni en este
+// proyecto. El dueño pondra STRIPE_SECRET_KEY (cuenta Stripe de Welux) y
+// REVOLUT_MERCHANT_SECRET (cuenta Revolut Merchant de Welux) en el proyecto
+// de Pages cuando decida activar el cobro — los pagos son LO ULTIMO, no se
+// conectan ahora. Sin esos secretos, /api/checkout y /api/revolut-checkout
+// responden 503 y la web deriva el pedido a WhatsApp (si el numero esta
+// configurado en app.js) o a correo (info@weluxhub.com). Moneda: EUR. No
+// hay modo live ni test activo aqui: nada cobra de verdad.
 
 function json(obj, status = 200) {
   return new Response(JSON.stringify(obj), {
@@ -246,12 +252,97 @@ async function handleCheckout(request, env) {
   return json({ url: session.url, id: session.id });
 }
 
+// Pago con Revolut Merchant: espejo de handleCheckout con la misma
+// validacion del carrito contra el catalogo publicado (producto
+// desconocido 400, carrito vacio 400, sin_precio 422). Crea una orden en
+// https://merchant.revolut.com/api/orders y devuelve su checkout_url.
+// El secreto se lee SOLO de env.REVOLUT_MERCHANT_SECRET: nunca va en
+// codigo ni en ningun archivo. Sin el, 503 pagos_no_configurados y la
+// web deriva al respaldo (pedido por WhatsApp o correo), igual que con
+// Stripe. Tras pagar, Revolut redirige a /gracias.html?revolut=1, que
+// vacia la cesta como ya hace hoy.
+async function handleRevolutCheckout(request, env) {
+  let body;
+  try {
+    body = await request.json();
+  } catch {
+    return json({ error: "json_invalido" }, 400);
+  }
+  const items = Array.isArray(body?.items) ? body.items : [];
+  if (!items.length) return json({ error: "carrito_vacio" }, 400);
+  if (!env.REVOLUT_MERCHANT_SECRET) return json({ error: "pagos_no_configurados" }, 503);
+
+  let catalogo;
+  try {
+    catalogo = await cargarCatalogo(request, env);
+  } catch {
+    return json({ error: "catalogo_no_disponible" }, 500);
+  }
+  const porId = new Map(catalogo.map((p) => [p.id, p]));
+
+  const sinPrecio = [];
+  const resumen = [];
+  let totalCentimos = 0;
+  for (const it of items) {
+    const prod = porId.get(it?.id);
+    if (!prod) return json({ error: "producto_desconocido", id: it?.id ?? null }, 400);
+    const qty = Math.max(1, Math.min(99, parseInt(it.cantidad, 10) || 1));
+    if (prod.precio_minorista == null) {
+      sinPrecio.push(prod.id);
+      continue;
+    }
+    totalCentimos += Math.round(prod.precio_minorista * 100) * qty;
+    resumen.push(`${qty} x ${prod.nombre}`);
+  }
+  if (sinPrecio.length) return json({ error: "sin_precio", ids: sinPrecio }, 422);
+  if (!totalCentimos) return json({ error: "carrito_vacio" }, 400);
+
+  const origin = new URL(request.url).origin;
+  const ordenRevolut = {
+    amount: totalCentimos,
+    currency: "EUR",
+    description: ("Tienda Welux — " + resumen.join(", ")).slice(0, 255),
+    redirect_url: `${origin}/gracias.html?revolut=1`,
+  };
+  // Email del cliente si la web lo envia (opcional en la API de Revolut).
+  if (typeof body?.email === "string" && body.email.includes("@")) {
+    ordenRevolut.customer = { email: body.email.slice(0, 120) };
+  }
+
+  let orden;
+  try {
+    const revRes = await fetch("https://merchant.revolut.com/api/orders", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${env.REVOLUT_MERCHANT_SECRET}`,
+        "Revolut-Api-Version": "2026-08-17",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(ordenRevolut),
+    });
+    orden = await revRes.json().catch(() => ({}));
+    if (!revRes.ok || !orden.checkout_url) {
+      return json(
+        { error: "revolut_error", detalle: String(orden?.message || orden?.error || "desconocido").slice(0, 200) },
+        502
+      );
+    }
+  } catch {
+    return json({ error: "revolut_inaccesible" }, 502);
+  }
+  return json({ url: orden.checkout_url, id: orden.id });
+}
+
 
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (url.pathname === "/api/checkout") {
       if (request.method === "POST") return handleCheckout(request, env);
+      return json({ error: "usa POST" }, 405);
+    }
+    if (url.pathname === "/api/revolut-checkout") {
+      if (request.method === "POST") return handleRevolutCheckout(request, env);
       return json({ error: "usa POST" }, 405);
     }
     if (url.pathname === "/api/productos") {
