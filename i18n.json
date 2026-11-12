@@ -439,6 +439,18 @@
       "es": "Confirmar pedido",
       "pt": "Confirmar encomenda"
     },
+    "checkout_stripe": {
+      "en": "Pay by card",
+      "fr": "Payer par carte",
+      "es": "Pagar con tarjeta",
+      "pt": "Pagar com cartão"
+    },
+    "checkout_revolut": {
+      "en": "Pay with Revolut",
+      "fr": "Payer avec Revolut",
+      "es": "Pagar con Revolut",
+      "pt": "Pagar com Revolut"
+    },
     "clear_cart": {
       "en": "Empty basket",
       "fr": "Vider le panier",
@@ -452,10 +464,10 @@
       "pt": "Fechar"
     },
     "cart_note": {
-      "en": "When you confirm, pay online by card (Stripe) if the price is confirmed, or send the order by WhatsApp or email so we can confirm the price for you. No spam.",
-      "fr": "En confirmant, payez en ligne par carte (Stripe) si le prix est confirmé, ou envoyez la commande par WhatsApp ou par e-mail pour que nous confirmions le prix. Pas de spam.",
-      "es": "Al confirmar, pagas en línea con tarjeta (Stripe) si el precio está confirmado, o envías el pedido por WhatsApp o correo para que te confirmamos el precio. Sin pasar por correo no deseado.",
-      "pt": "Ao confirmar, pague online por cartão (Stripe) se o preço estiver confirmado, ou envie a encomenda por WhatsApp ou e-mail para confirmarmos o preço. Sem spam."
+      "en": "When you confirm, pay online by card (Stripe) or with Revolut if the price is confirmed, or send the order by WhatsApp or email so we can confirm the price for you. No spam.",
+      "fr": "En confirmant, payez en ligne par carte (Stripe) ou avec Revolut si le prix est confirmé, ou envoyez la commande par WhatsApp ou par e-mail pour que nous confirmions le prix. Pas de spam.",
+      "es": "Al confirmar, pagas en línea con tarjeta (Stripe) o con Revolut si el precio está confirmado, o envías el pedido por WhatsApp o correo para que te confirmemos el precio. Sin spam.",
+      "pt": "Ao confirmar, pague online por cartão (Stripe) ou com Revolut se o preço estiver confirmado, ou envie a encomenda por WhatsApp ou e-mail para confirmarmos o preço. Sem spam."
     },
     "account_title": {
       "en": "Welux customer access",
