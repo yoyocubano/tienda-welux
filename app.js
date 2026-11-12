@@ -147,11 +147,21 @@ async function enviarPedidoRespaldo(){
   // Pedido por el backend (Worker): lo guarda y lo envía por correo a
   // Welux. Si el backend no está configurado (503) o no responde, se sigue
   // por el respaldo mailto de siempre: ningún pedido se pierde.
+  // Clave de idempotencia: un UUID por envío; si la respuesta se pierde
+  // y el envío se repite, el servidor devuelve el mismo número sin crear
+  // otro pedido ni otro correo.
+  var claveIdem = '';
+  try { claveIdem = sessionStorage.getItem('welux-pedido-clave') || ''; } catch(e) {}
+  if (!claveIdem) {
+    claveIdem = (typeof crypto !== 'undefined' && crypto.randomUUID) ? crypto.randomUUID() : ('k-' + Date.now() + '-' + Math.random().toString(36).slice(2));
+    try { sessionStorage.setItem('welux-pedido-clave', claveIdem); } catch(e) {}
+  }
   let pedidoBackend = null;
   try{
-    const pr = await fetch('./api/pedido', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({items: carrito.map(i=>({id:i.id, cantidad:i.cantidad})), nombre: (usuario && usuario.nombre) || null, telefono: (usuario && usuario.telefono) || null})});
+    const pr = await fetch('./api/pedido', {method:'POST', headers:{'Content-Type':'application/json', 'Idempotency-Key': claveIdem}, body: JSON.stringify({items: carrito.map(i=>({id:i.id, cantidad:i.cantidad})), nombre: (usuario && usuario.nombre) || null, telefono: (usuario && usuario.telefono) || null})});
     if(pr.ok){ pedidoBackend = await pr.json(); }
   }catch(e){ /* backend no disponible: se sigue por el respaldo */ }
+  try { sessionStorage.removeItem('welux-pedido-clave'); } catch(e) {}
   // El pedido llega a Welux por WhatsApp (si está configurado) o por
   // correo a info@weluxhub.com, con el resumen y el total.
   const numeroFinal = (pedidoBackend && pedidoBackend.numero) || numero;
@@ -383,7 +393,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
       const r = await fetch('./api/checkout', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({items: carrito.map(i=>({id:i.id, cantidad:i.cantidad}))})});
       if(r.ok){
         const d = await r.json();
-        if(d.url){ location.href = d.url; return; } // a pagar a Stripe; la cesta se vacía en gracias.html
+        if(d.url){ location.href = d.url; return; } // a pagar a Stripe; la cesta se vacía en gracias.html solo si el pago se confirma
       }
     }catch(e){ /* pago en línea no disponible: se sigue por el respaldo */ }
     checkoutBtn.disabled = false;
@@ -402,7 +412,12 @@ document.addEventListener('DOMContentLoaded', ()=>{
       const r = await fetch('./api/revolut-checkout', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({items: carrito.map(i=>({id:i.id, cantidad:i.cantidad}))})});
       if(r.ok){
         const d = await r.json();
-        if(d.url){ location.href = d.url; return; } // a pagar a Revolut; la cesta se vacía en gracias.html
+        if(d.url){
+          /* Guardar el id de la orden: gracias.html lo usa para verificar
+             el pago en el servidor antes de afirmar que se recibio. */
+          try { sessionStorage.setItem('welux-revolut-order-id', d.id || ''); } catch(e) {}
+          location.href = d.url; return; // a pagar a Revolut; la cesta se vacía en gracias.html solo si el pago se confirma
+        }
       }
     }catch(e){ /* pago en línea no disponible: se sigue por el respaldo */ }
     revolutBtn.disabled = false;

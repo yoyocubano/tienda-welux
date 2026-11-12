@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>¡Gracias por tu compra! — Tienda Welux</title>
-<meta name="description" content="Tienda Welux: gracias por tu compra. Te contactaremos para coordinar la entrega en Luxemburgo.">
+<title>Verificando tu pago — Tienda Welux</title>
+<meta name="description" content="Tienda Welux: estamos verificando tu pago. Te contactaremos para coordinar la entrega en Luxemburgo.">
 <link rel="icon" type="image/svg+xml" href="./img/logo-welux.svg">
 <!-- Google Analytics 4 — Welux (G-NB3PES4ZGQ) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NB3PES4ZGQ"></script>
@@ -14,34 +14,67 @@
 <body>
 <main style="max-width:640px;margin:0 auto;padding:48px 20px;text-align:center">
   <img src="./img/logo-welux.svg" alt="Welux Digital Services" style="width:180px;object-fit:contain">
-  <h1 id="thxTitle">¡Gracias por tu compra!</h1>
-  <p id="thxP1">Tu pago se completó en línea. Te contactaremos por el teléfono que dejaste
-     en el pago para coordinar la entrega en Luxemburgo.</p>
+  <h1 id="thxTitle">Verificando tu pago…</h1>
+  <p id="thxP1">Estamos verificando tu pago con el proveedor de pago. Esta página lo confirmará en cuanto se complete la verificación.</p>
   <p id="thxP2">Si necesitas cualquier cosa, escríbenos a
      <a href="mailto:info@weluxhub.com">info@weluxhub.com</a>.</p>
   <p style="margin-top:32px"><a href="./" id="thxBack">Volver a la tienda</a></p>
 </main>
 <script>
-  // La compra ya se pagó: la cesta queda vacía para la próxima visita.
-  try { localStorage.removeItem('welux-cart'); } catch (e) {}
-  // Página de gracias en el idioma de la tienda (EN/FR/ES/PT).
+  // Verificacion del pago (auditoria 12/11): esta pagina NUNCA afirma el
+  // pago sin comprobarlo en el servidor (GET /api/pago-estado). Sin
+  // parametros, o sin confirmacion, muestra "pago no confirmado" y
+  // conserva la cesta. Solo con pagado=true muestra el recibo y vacia
+  // la cesta. Una URL manipulada (?session_id=falso, ?revolut=1 sin
+  // orden guardada) nunca da el recibo.
   (function(){
     var T = {
-      en: {title: "Thank you for your purchase!", p1: "Your payment was completed online. We will contact you on the phone you left at checkout to arrange delivery in Luxembourg.", p2: "If you need anything, write to us at ", back: "Back to the store", docTitle: "Thank you for your purchase! — Welux Store"},
-      fr: {title: "Merci pour votre achat !", p1: "Votre paiement a été effectué en ligne. Nous vous contacterons au numéro indiqué lors du paiement pour organiser la livraison au Luxembourg.", p2: "Pour toute question, écrivez-nous à ", back: "Retour à la boutique", docTitle: "Merci pour votre achat ! — Boutique Welux"},
-      es: {title: "¡Gracias por tu compra!", p1: "Tu pago se completó en línea. Te contactaremos por el teléfono que dejaste en el pago para coordinar la entrega en Luxemburgo.", p2: "Si necesitas cualquier cosa, escríbenos a ", back: "Volver a la tienda", docTitle: "¡Gracias por tu compra! — Tienda Welux"},
-      pt: {title: "Obrigado pela sua compra!", p1: "O seu pagamento foi concluído online. Entraremos em contacto através do telefone indicado no pagamento para combinar a entrega no Luxemburgo.", p2: "Se precisar de alguma coisa, escreva-nos para ", back: "Voltar à loja", docTitle: "Obrigado pela sua compra! — Loja Welux"}
+      en: {title: "Thank you for your purchase!", p1: "Your payment was completed online. We will contact you on the phone you left at checkout to arrange delivery in Luxembourg.", verifyingTitle: "Verifying your payment…", verifyingP1: "We are checking your payment with the payment provider. This page will confirm it as soon as the check completes.", notConfirmedTitle: "Payment not confirmed", notConfirmedP1: 'We could not confirm this payment. If you already paid, wait a few minutes and reload this page; if the problem persists, write to us at <a href="mailto:info@weluxhub.com">info@weluxhub.com</a> and we will check your payment.', p2: "If you need anything, write to us at ", back: "Back to the store", docTitle: "Thank you for your purchase! — Welux Store", docTitleVerifying: "Verifying your payment — Welux Store", docTitleNotConfirmed: "Payment not confirmed — Welux Store"},
+      fr: {title: "Merci pour votre achat !", p1: "Votre paiement a été effectué en ligne. Nous vous contacterons au numéro indiqué lors du paiement pour organiser la livraison au Luxembourg.", verifyingTitle: "Vérification de votre paiement…", verifyingP1: "Nous vérifions votre paiement auprès du prestataire. Cette page confirmera sa réception dès que la vérification aboutira.", notConfirmedTitle: "Paiement non confirmé", notConfirmedP1: 'Nous n’avons pas pu confirmer ce paiement. Si vous avez déjà payé, attendez quelques minutes puis rechargez cette page ; si le problème persiste, écrivez-nous à <a href="mailto:info@weluxhub.com">info@weluxhub.com</a> et nous vérifierons votre paiement.', p2: "Pour toute question, écrivez-nous à ", back: "Retour à la boutique", docTitle: "Merci pour votre achat ! — Boutique Welux", docTitleVerifying: "Vérification de votre paiement — Boutique Welux", docTitleNotConfirmed: "Paiement non confirmé — Boutique Welux"},
+      es: {title: "¡Gracias por tu compra!", p1: "Tu pago se completó en línea. Te contactaremos por el teléfono que dejaste en el pago para coordinar la entrega en Luxemburgo.", verifyingTitle: "Verificando tu pago…", verifyingP1: "Estamos verificando tu pago con el proveedor de pago. Esta página lo confirmará en cuanto se complete la verificación.", notConfirmedTitle: "Pago no confirmado", notConfirmedP1: 'No pudimos confirmar este pago. Si ya pagaste, espera unos minutos y vuelve a cargar esta página; si el problema continúa, escríbenos a <a href="mailto:info@weluxhub.com">info@weluxhub.com</a> y revisaremos tu pago.', p2: "Si necesitas cualquier cosa, escríbenos a ", back: "Volver a la tienda", docTitle: "¡Gracias por tu compra! — Tienda Welux", docTitleVerifying: "Verificando tu pago — Tienda Welux", docTitleNotConfirmed: "Pago no confirmado — Tienda Welux"},
+      pt: {title: "Obrigado pela sua compra!", p1: "O seu pagamento foi concluído online. Entraremos em contacto através do telefone indicado no pagamento para combinar a entrega no Luxemburgo.", verifyingTitle: "A verificar o seu pagamento…", verifyingP1: "Estamos a verificar o seu pagamento junto do fornecedor de pagamento. Esta página irá confirmá-lo assim que a verificação estiver concluída.", notConfirmedTitle: "Pagamento não confirmado", notConfirmedP1: 'Não conseguimos confirmar este pagamento. Se já pagou, aguarde alguns minutos e recarregue esta página; se o problema persistir, escreva-nos para <a href="mailto:info@weluxhub.com">info@weluxhub.com</a> e verificaremos o seu pagamento.', p2: "Se precisar de alguma coisa, escreva-nos para ", back: "Voltar à loja", docTitle: "Obrigado pela sua compra! — Loja Welux", docTitleVerifying: "A verificar o seu pagamento — Loja Welux", docTitleNotConfirmed: "Pagamento não confirmado — Loja Welux"}
     };
     var lang = 'es';
     try { var l = localStorage.getItem('welux-lang'); if (l && T[l]) lang = l; } catch (e) {}
     var t = T[lang];
     document.documentElement.lang = lang;
-    document.title = t.docTitle;
-    var h = document.getElementById('thxTitle'); if (h) h.textContent = t.title;
-    var p1 = document.getElementById('thxP1'); if (p1) p1.textContent = t.p1;
+    var h = document.getElementById('thxTitle');
+    var p1 = document.getElementById('thxP1');
     var p2 = document.getElementById('thxP2');
-    if (p2) { p2.childNodes[0].textContent = t.p2; }
-    var b = document.getElementById('thxBack'); if (b) b.textContent = t.back;
+    var b = document.getElementById('thxBack');
+    if (p2) { try { p2.childNodes[0].textContent = t.p2; } catch (e) {} }
+    if (b) b.textContent = t.back;
+    function mostrar(estado){
+      if (estado === 'pagado') {
+        document.title = t.docTitle;
+        if (h) h.textContent = t.title;
+        if (p1) p1.textContent = t.p1;
+        try { localStorage.removeItem('welux-cart'); } catch (e) {}
+      } else if (estado === 'verificando') {
+        document.title = t.docTitleVerifying;
+        if (h) h.textContent = t.verifyingTitle;
+        if (p1) p1.textContent = t.verifyingP1;
+      } else {
+        document.title = t.docTitleNotConfirmed;
+        if (h) h.textContent = t.notConfirmedTitle;
+        if (p1) p1.innerHTML = t.notConfirmedP1;
+      }
+    }
+    var params = new URLSearchParams(location.search);
+    var sessionId = params.get('session_id') || '';
+    var orderId = '';
+    if (params.get('revolut') === '1') {
+      try { orderId = sessionStorage.getItem('welux-revolut-order-id') || ''; } catch (e) {}
+    }
+    var consulta = '';
+    if (sessionId) consulta = './api/pago-estado?session_id=' + encodeURIComponent(sessionId);
+    else if (orderId) consulta = './api/pago-estado?order_id=' + encodeURIComponent(orderId);
+    if (!consulta) { mostrar('no-confirmado'); return; }
+    mostrar('verificando');
+    fetch(consulta)
+      .then(function(r){ return r.json(); })
+      .then(function(d){ mostrar(d && d.pagado === true ? 'pagado' : 'no-confirmado'); })
+      .catch(function(){ mostrar('no-confirmado'); });
   })();
 </script>
 </body>
