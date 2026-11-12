@@ -471,7 +471,31 @@ async function handleRevolutCheckout(request, env) {
    estado 'completed' cuenta ('authorised' es autorizado pero no
    cobrado). Sin el secreto del metodo pedido responde 503 (pendiente,
    nunca afirmado). Solo devuelve { ok, pagado, estado, metodo }: nada
-   de PII ni de datos del pedido. */
+   de PII ni de datos del pedido. Cuando el pago SI esta confirmado,
+   anade `recibo` (referencia, fecha, moneda, total y articulos): es lo
+   que gracias.html usa para mostrar la factura. Sin pagar, nunca se
+   devuelve el recibo. El recibo no lleva email ni telefono. */
+
+/* Lineas de una sesion de Stripe (lo cobrado de verdad): descripcion,
+   cantidad y precio unitario. Si falla, se devuelve lista vacia y la
+   factura muestra el total verificado sin desglose. */
+async function lineItemsStripe(env, sessionId) {
+  try {
+    const res = await fetch(`${STRIPE_API_BASE}/v1/checkout/sessions/${encodeURIComponent(sessionId)}/line_items?limit=100`, {
+      headers: { Authorization: `Bearer ${env.STRIPE_SECRET_KEY}` },
+    });
+    if (!res.ok) return [];
+    const d = await res.json().catch(() => ({}));
+    return (Array.isArray(d.data) ? d.data : []).map((li) => ({
+      nombre: String(li.description || "").slice(0, 200),
+      cantidad: Math.max(1, parseInt(li.quantity, 10) || 1),
+      precio_minor: Math.max(0, parseInt(li.price && li.price.unit_amount, 10) || 0),
+    })).filter((a) => a.nombre);
+  } catch {
+    return [];
+  }
+}
+
 async function handlePagoEstado(request, env) {
   const ip = ipDe(request);
   if (limited(ip, "pago-estado")) return json({ error: "demasiados_envios" }, 429);
@@ -493,7 +517,19 @@ async function handlePagoEstado(request, env) {
     }
     const pagado = sesion.payment_status === "paid";
     if (pagado) await registrarPagoVerificado(env, "stripe", sessionId);
-    return json({ ok: true, pagado, estado: String(sesion.payment_status || "desconocido"), metodo: "stripe" });
+    const respuesta = { ok: true, pagado, estado: String(sesion.payment_status || "desconocido"), metodo: "stripe" };
+    if (pagado) {
+      respuesta.recibo = {
+        metodo: "stripe",
+        referencia: sessionId,
+        fecha: sesion.created ? new Date(sesion.created * 1000).toISOString() : new Date().toISOString(),
+        moneda: String(sesion.currency || "eur").toUpperCase(),
+        total_minor: Math.max(0, parseInt(sesion.amount_total, 10) || 0),
+        nombre: sesion.customer_details && sesion.customer_details.name ? String(sesion.customer_details.name).slice(0, 200) : null,
+        articulos: await lineItemsStripe(env, sessionId),
+      };
+    }
+    return json(respuesta);
   }
   if (orderId) {
     if (!env.REVOLUT_MERCHANT_SECRET) return json({ error: "pagos_no_configurados" }, 503);
@@ -514,7 +550,24 @@ async function handlePagoEstado(request, env) {
     const estado = String(orden.state || "").toLowerCase();
     const pagado = estado === "completed";
     if (pagado) await registrarPagoVerificado(env, "revolut", orderId);
-    return json({ ok: true, pagado, estado: estado || "desconocido", metodo: "revolut" });
+    const respuesta = { ok: true, pagado, estado: estado || "desconocido", metodo: "revolut" };
+    if (pagado) {
+      /* Revolut no trae lineas estructuradas: el importe, la moneda, la
+         descripcion (la lista "2 x Articulo, ...") y las fechas vienen de
+         la orden. Los articulos los pone gracias.html desde la cesta
+         guardada; si no esta, usa la descripcion como respaldo. */
+      respuesta.recibo = {
+        metodo: "revolut",
+        referencia: orderId,
+        fecha: orden.completed_date || orden.created_date || new Date().toISOString(),
+        moneda: String(orden.currency || "EUR").toUpperCase(),
+        total_minor: Math.max(0, parseInt(orden.amount, 10) || 0),
+        nombre: null,
+        descripcion: String(orden.description || "").slice(0, 255),
+        articulos: null,
+      };
+    }
+    return json(respuesta);
   }
   return json({ error: "falta_session_id_o_order_id" }, 400);
 }
