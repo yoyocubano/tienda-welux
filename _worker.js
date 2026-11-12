@@ -270,7 +270,6 @@ async function handleRevolutCheckout(request, env) {
   }
   const items = Array.isArray(body?.items) ? body.items : [];
   if (!items.length) return json({ error: "carrito_vacio" }, 400);
-  if (!env.REVOLUT_MERCHANT_SECRET) return json({ error: "pagos_no_configurados" }, 503);
 
   let catalogo;
   try {
@@ -296,6 +295,10 @@ async function handleRevolutCheckout(request, env) {
   }
   if (sinPrecio.length) return json({ error: "sin_precio", ids: sinPrecio }, 422);
   if (!totalCentimos) return json({ error: "carrito_vacio" }, 400);
+  // La validación del carrito va antes: un pedido inválido se rechaza
+  // aunque el cobro no esté configurado (igual que un 400/422 no depende
+  // de la clave). Sin el secreto, 503 y la web deriva al respaldo.
+  if (!env.REVOLUT_MERCHANT_SECRET) return json({ error: "pagos_no_configurados" }, 503);
 
   const origin = new URL(request.url).origin;
   const ordenRevolut = {
