@@ -423,6 +423,14 @@ document.addEventListener('DOMContentLoaded', ()=>{
     revolutBtn.disabled = false;
     await enviarPedidoRespaldo();
   };
+  /* Al volver de Revolut o Stripe sin pagar, el navegador restaura la pagina
+     desde la cache (bfcache) con los botones de pago desactivados y nada los
+     reactiva: el boton se queda muerto hasta recargar. Reactivarlos siempre
+     que la pagina se muestra. */
+  window.addEventListener('pageshow', ()=>{
+    const rb = document.getElementById('checkoutRevolut'); if (rb) rb.disabled = false;
+    const cb = document.getElementById('checkout'); if (cb) cb.disabled = false;
+  });
   document.getElementById('closeAccount').onclick = ()=>document.getElementById('accountDrawer').classList.remove('open');
   document.getElementById('saveUser').onclick = ()=>{
     const nombre = document.getElementById('userName').value.trim(); if(!nombre) return alert(t('alert_name_required'));
